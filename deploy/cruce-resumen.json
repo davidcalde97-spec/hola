@@ -1,0 +1,2014 @@
+{
+  "skus_dropbox_total": 391,
+  "skus_dropbox_en_shopify": 349,
+  "skus_dropbox_sin_producto_shopify": [
+    "78193ML",
+    "78285ML",
+    "78330ML",
+    "78343ML",
+    "78344ML",
+    "78434ML",
+    "78581ML",
+    "78582ML",
+    "78589ML",
+    "78590ML",
+    "78596ML",
+    "78604ML",
+    "78617ML",
+    "78622ML",
+    "78629ML",
+    "78642ML",
+    "79266ML",
+    "79267ML",
+    "79268ML",
+    "79269ML",
+    "79270ML",
+    "79271ML",
+    "79273ML",
+    "79275ML",
+    "79276ML",
+    "79302ML",
+    "79303ML",
+    "79304ML",
+    "79315ML",
+    "79613ML",
+    "79633ML",
+    "79635ML",
+    "80196ML",
+    "80882ML",
+    "80936ML",
+    "80937ML",
+    "80938ML",
+    "80948ML",
+    "80967ML",
+    "81117ML",
+    "81158ML",
+    "81159ML"
+  ],
+  "variantes_shopify_total": 587,
+  "variantes_con_sku": 518,
+  "variantes_sin_sku": 69,
+  "variantes_shopify_sin_fotos_en_dropbox": [
+    {
+      "sku": "79670ML",
+      "producto_titulo": "Pulso Torsal Hueco Oro Italiano 10k, Calibre 1.9mm"
+    },
+    {
+      "sku": "79136ML",
+      "producto_titulo": "Pulso Torsal Hueco Oro Italiano 10k, Calibre 1.9mm"
+    },
+    {
+      "sku": "79605ML",
+      "producto_titulo": "Set Para Mujer De Cadena, Pulsera Y Aretes De Oro De 14k"
+    },
+    {
+      "sku": "79603ML",
+      "producto_titulo": "Aretes Para Mujer De Oro De 14k, 42 Mm Con Piedra Zirconia"
+    },
+    {
+      "sku": "79642ML",
+      "producto_titulo": "Arete Arracada Con Tubos Lisos Torcidos De Oro 10k, 35Mm"
+    },
+    {
+      "sku": "79602ML",
+      "producto_titulo": "Pulsera Para Mujer De Oro De 14k Con Piedra De 18cm"
+    },
+    {
+      "sku": "79876ML",
+      "producto_titulo": "Arracadas con tubos torcidos de Oro Amarillo y Blanco de 14K"
+    },
+    {
+      "sku": "79877ML",
+      "producto_titulo": "Arracadas con tubos torcidos de Oro Amarillo y Blanco de 14K"
+    },
+    {
+      "sku": "79878ML",
+      "producto_titulo": "Arracadas con tubos torcidos de Oro Amarillo y Blanco de 14K"
+    },
+    {
+      "sku": "79607ML",
+      "producto_titulo": "Pulsera Italiana Cubana Hueca De 10 Quilates 4.5mm, 18.5 Cm"
+    },
+    {
+      "sku": "64586ML",
+      "producto_titulo": "Pulsera Esclava De Plata Ley 925 Para Niña"
+    },
+    {
+      "sku": "79604ML",
+      "producto_titulo": "Collar Para Mujer De Oro De 14k Con Piedra De 45 Cm, 1mm"
+    },
+    {
+      "sku": "79045ML",
+      "producto_titulo": "Medalla De Virgen Italiana De Oro De 14k Dije De Oro Mujer"
+    },
+    {
+      "sku": "78415ML",
+      "producto_titulo": "Cadena Ancla Italiana De 14k Medida 55 Cm"
+    },
+    {
+      "sku": "78615ML",
+      "producto_titulo": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita"
+    },
+    {
+      "sku": "78614ML",
+      "producto_titulo": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita"
+    },
+    {
+      "sku": "78612ML",
+      "producto_titulo": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita"
+    },
+    {
+      "sku": "78613ML",
+      "producto_titulo": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita"
+    },
+    {
+      "sku": "78284ML",
+      "producto_titulo": "Dije De San Judas En Oro De 10k Con Piedra Zirconita"
+    },
+    {
+      "sku": "78361ML",
+      "producto_titulo": "Dije De La Santa Muerte En Oro De 14k De 2.7 Cm"
+    },
+    {
+      "sku": "78609ML",
+      "producto_titulo": "Pulsera De Plata 925 Estilo Petatillo Para Mujer Con Medalla"
+    },
+    {
+      "sku": "79054ML",
+      "producto_titulo": "Medalla De Bautizo Italiana De Oro De 14k"
+    },
+    {
+      "sku": "78178ML",
+      "producto_titulo": "Rosario De Plata Ley 925 Con Bola Diamantada"
+    },
+    {
+      "sku": "78180ML",
+      "producto_titulo": "Rosario De Plata Ley 925 Con Bola Diamantada"
+    },
+    {
+      "sku": "78182ML",
+      "producto_titulo": "Rosario De Plata Ley 925 Con Bola Diamantada"
+    },
+    {
+      "sku": "78184ML",
+      "producto_titulo": "Rosario De Plata Ley 925 Con Bola Diamantada"
+    },
+    {
+      "sku": "78179ML",
+      "producto_titulo": "Rosario De Plata Ley 925 Con Bola Diamantada"
+    },
+    {
+      "sku": "78187ML",
+      "producto_titulo": "Rosario De Plata Ley 925 Con Bola Diamantada"
+    },
+    {
+      "sku": "78181ML",
+      "producto_titulo": "Rosario De Plata Ley 925 Con Bola Diamantada"
+    },
+    {
+      "sku": "78189ML",
+      "producto_titulo": "Rosario De Plata Ley 925 Con Bola Diamantada"
+    },
+    {
+      "sku": "78186ML",
+      "producto_titulo": "Rosario De Plata Ley 925 Con Bola Diamantada"
+    },
+    {
+      "sku": "78637ML",
+      "producto_titulo": "Cadena De Plata 925 Con Dije De Cruz Collar Mujer Brillante"
+    },
+    {
+      "sku": "78429ML",
+      "producto_titulo": "Collar Viviana De Oro De 14k De 50 Cm Con Bola 2.5mm"
+    },
+    {
+      "sku": "78183ML",
+      "producto_titulo": "Cadena De Plata 925 Dije De La Santa Muerte Collar Hombre"
+    },
+    {
+      "sku": "78632ML",
+      "producto_titulo": "Arete Arracada Diamantada De Plata Ley 925 Para Mujer Candy 55 mm"
+    },
+    {
+      "sku": "79088ML",
+      "producto_titulo": "Arete Arracada Para Mujer De Oro Puro De 14k Medida 20mm"
+    },
+    {
+      "sku": "79225ML",
+      "producto_titulo": "Arete Arracada Torsida De Oro De 10 Quilates En Tres Colores"
+    },
+    {
+      "sku": "79161ML",
+      "producto_titulo": "Pulsera De Plata 925 Cubana Calibre 10.7mm Italiana"
+    },
+    {
+      "sku": "81180ML",
+      "producto_titulo": "Pulsera De Plata 925 Cubana Calibre 10.7mm Italiana"
+    },
+    {
+      "sku": "78226ML",
+      "producto_titulo": "Dije De La Santa Muerte En Oro De 10k"
+    },
+    {
+      "sku": "78225ML",
+      "producto_titulo": "Dije De La Santa Muerte En Oro De 10k"
+    },
+    {
+      "sku": "78224ML",
+      "producto_titulo": "Dije De La Santa Muerte En Oro De 10k"
+    },
+    {
+      "sku": "79668ML",
+      "producto_titulo": "Cadena De Plata 925 Estilo 3x1 Figaro De 60 Cm Calibre 4.1mm"
+    },
+    {
+      "sku": "79669ML",
+      "producto_titulo": "Cadena De Plata 925 Estilo 3x1 Figaro De 60 Cm Calibre 4.1mm"
+    },
+    {
+      "sku": "79667ML",
+      "producto_titulo": "Cadena De Plata 925 Estilo 3x1 Figaro De 60 Cm Calibre 4.1mm"
+    },
+    {
+      "sku": "78673ML",
+      "producto_titulo": "Dije De Santa Muerte De Plata 925"
+    },
+    {
+      "sku": "78672ML",
+      "producto_titulo": "Dije De Santa Muerte De Plata 925"
+    },
+    {
+      "sku": "78611ML",
+      "producto_titulo": "Dije De Santa Muerte De Plata 925"
+    },
+    {
+      "sku": "79028ML",
+      "producto_titulo": "Collar Con Medalla De Bautizo Italiana De Oro De 14k"
+    },
+    {
+      "sku": "78280ML",
+      "producto_titulo": "Arete Arracada Diamantada De Oro 10k Estilo Dominó"
+    },
+    {
+      "sku": "78281ML",
+      "producto_titulo": "Arete Arracada Diamantada De Oro 10k Estilo Dominó"
+    },
+    {
+      "sku": "78340ML",
+      "producto_titulo": "Collar Viviana De Oro De 10k Con Bola 2.5mm"
+    },
+    {
+      "sku": "78341ML",
+      "producto_titulo": "Collar Viviana De Oro De 10k Con Bola 2.5mm"
+    },
+    {
+      "sku": "78351ML",
+      "producto_titulo": "Collar De Medalla Nacional De Rostro De La Virgen De Oro 10k"
+    },
+    {
+      "sku": "78207ML",
+      "producto_titulo": "Cadena De Plata 925 Torsal Figaro 3x1 De 55cm Calibre 7.5mm"
+    },
+    {
+      "sku": "78208ML",
+      "producto_titulo": "Cadena De Plata 925 Torsal Figaro 3x1 De 55cm Calibre 7.5mm"
+    },
+    {
+      "sku": "78398ML",
+      "producto_titulo": "Rosario De Oro De 14 Quilates Con Bola 3 De 50cm"
+    },
+    {
+      "sku": "Amarillo",
+      "producto_titulo": "Rosario De Oro De 14 Quilates Con Bola 3 De 50cm"
+    },
+    {
+      "sku": "79038ML",
+      "producto_titulo": "Dije De Oro 10k La Santa Muerte Con Piedra Ónix"
+    },
+    {
+      "sku": "79051ML",
+      "producto_titulo": "Dije De Oro 10k La Santa Muerte Con Piedra Ónix"
+    },
+    {
+      "sku": "79224ML",
+      "producto_titulo": "Arracada Ovalada De Oro De 10k Lisa De 37mm"
+    },
+    {
+      "sku": "78405ML",
+      "producto_titulo": "Cadena Italiana De 14k, Estilo Cubana, Calibre 2mm"
+    },
+    {
+      "sku": "78406ML",
+      "producto_titulo": "Cadena Italiana De 14k, Estilo Cubana, Calibre 2mm"
+    },
+    {
+      "sku": "78407ML",
+      "producto_titulo": "Cadena Italiana De 14k, Estilo Cubana, Calibre 2mm"
+    },
+    {
+      "sku": "79056ML",
+      "producto_titulo": "Cadena Italiana De 14k, Estilo Cubana, Calibre 2mm"
+    },
+    {
+      "sku": "78408ML",
+      "producto_titulo": "Cadena Italiana De 14k, Estilo Cubana, Calibre 2mm"
+    },
+    {
+      "sku": "78433ML",
+      "producto_titulo": "Collar De Medalla Nacional De Rostro De La Virgen De Oro 14k"
+    },
+    {
+      "sku": "78599ML",
+      "producto_titulo": "Arete Arracada Diamantado Domino Plata 925 Para Mujer"
+    },
+    {
+      "sku": "79036ML",
+      "producto_titulo": "Collar Con Medalla De Bautizo Italiana De Oro De 10k"
+    },
+    {
+      "sku": "78370ML",
+      "producto_titulo": "Arete Arracada De Oro De 14k Diamantada Estilo Torsal"
+    },
+    {
+      "sku": "78630ML",
+      "producto_titulo": "Pulsera De Plata 0.925 Con Piedra Oval Semi-preciosas"
+    },
+    {
+      "sku": "78631ML",
+      "producto_titulo": "Pulsera De Plata 0.925 Con Piedra Oval Semi-preciosas"
+    },
+    {
+      "sku": "78603ML",
+      "producto_titulo": "Arete Arracada De Plata Ley 925 Para Mujer con tubo Ovalado"
+    },
+    {
+      "sku": "78428ML",
+      "producto_titulo": "Esclava Viviana De Oro De 14k De 18 Cm Con Bola 2.5mm Color Dorado Diámetro 57   Largo 18 144.8 Cm 45.7 Cm"
+    },
+    {
+      "sku": "81773ML",
+      "producto_titulo": "Arracada De Oro De 10k Lisa"
+    },
+    {
+      "sku": "79309ML",
+      "producto_titulo": "Cadena De Plata 925 Estilo Barbada De 55 Cm Calibre 3.2mm Color Plateado"
+    },
+    {
+      "sku": "79322ML",
+      "producto_titulo": "Cadena De Plata 925 Estilo Barbada De 55 Cm Calibre 3.2mm Color Plateado"
+    },
+    {
+      "sku": "79310ML",
+      "producto_titulo": "Cadena De Plata 925 Estilo Barbada De 55 Cm Calibre 3.2mm Color Plateado"
+    },
+    {
+      "sku": "79323ML",
+      "producto_titulo": "Cadena De Plata 925 Estilo Barbada De 55 Cm Calibre 3.2mm Color Plateado"
+    },
+    {
+      "sku": "79312ML",
+      "producto_titulo": "Cadena De Plata 925 Estilo Barbada De 55 Cm Calibre 3.2mm Color Plateado"
+    },
+    {
+      "sku": "79325ML",
+      "producto_titulo": "Cadena De Plata 925 Estilo Barbada De 55 Cm Calibre 3.2mm Color Plateado"
+    },
+    {
+      "sku": "79311ML",
+      "producto_titulo": "Cadena De Plata 925 Estilo Barbada De 55 Cm Calibre 3.2mm Color Plateado"
+    },
+    {
+      "sku": "79324ML",
+      "producto_titulo": "Cadena De Plata 925 Estilo Barbada De 55 Cm Calibre 3.2mm Color Plateado"
+    },
+    {
+      "sku": "78345ML",
+      "producto_titulo": "Cadena de Oro 10K Valentino 55cm | Collar de Oro Italiano 2.3mm con Broche de Argolla | Joyería Fina"
+    },
+    {
+      "sku": "78394ML",
+      "producto_titulo": "Cadena Torsal Hueca De Oro Italiano 14k, Calibre 3.2mm"
+    },
+    {
+      "sku": "78395ML",
+      "producto_titulo": "Cadena Torsal Hueca De Oro Italiano 14k, Calibre 3.2mm"
+    },
+    {
+      "sku": "78400ML",
+      "producto_titulo": "Rosario Italiano De Oro De 14k De 60 Cm"
+    },
+    {
+      "sku": "78229ML",
+      "producto_titulo": "Arete Arracada De Oro 10k Con Diamantado Cordon Blue De 12mm"
+    },
+    {
+      "sku": "78364ML",
+      "producto_titulo": "Arete Arracada De Oro 10k Con Diamantado Cordon Blue De 12mm"
+    },
+    {
+      "sku": "79043ML",
+      "producto_titulo": "Medalla De Sagrado Corazon Italiana De Oro De 10k"
+    },
+    {
+      "sku": "78430ML",
+      "producto_titulo": "Collar Con Medalla De Virgen Italiana De Oro De 14k"
+    },
+    {
+      "sku": "78188ML",
+      "producto_titulo": "Collar De Plata 925 Con Dije De San Judas 4.9 Cm"
+    },
+    {
+      "sku": "78336ML",
+      "producto_titulo": "Medalla De Bautizo Italiana De Oro De 10k"
+    },
+    {
+      "sku": "79037ML",
+      "producto_titulo": "Medalla De Oro De 10k Nacional De Rostro De La Virgen Dije"
+    },
+    {
+      "sku": "79219ML",
+      "producto_titulo": "Pulsera Turca De Ojitos De 10 Quilates 0.6mm, 18 Cm"
+    },
+    {
+      "sku": "78335ML",
+      "producto_titulo": "Medalla Laser De Oro De 10k Con Sagrado Corazón De Jesús"
+    },
+    {
+      "sku": "79039ML",
+      "producto_titulo": "San Judas En Oro De 10k Con Piedra Zirconita"
+    },
+    {
+      "sku": "78185ML",
+      "producto_titulo": "Dije De Plata 925 Figura San Judas 7.8 Cm Para Collar Hombre"
+    },
+    {
+      "sku": "79026ML",
+      "producto_titulo": "Dije de Oro 14K Medalla Religiosa Sagrado Caliz| Dije Oro Italiano 12mm | Joyería Fina"
+    },
+    {
+      "sku": "78352ML",
+      "producto_titulo": "Medalla De La Virgen De Oro De 10k"
+    },
+    {
+      "sku": "79639ML",
+      "producto_titulo": "Arracada Bangle De Oro 10k Diamantado De Rombo"
+    },
+    {
+      "sku": "80887ML",
+      "producto_titulo": "Arracada Bangle De Oro 10k Diamantado De Rombo"
+    },
+    {
+      "sku": "80888ML",
+      "producto_titulo": "Arracada Bangle De Oro 10k Diamantado De Rombo"
+    },
+    {
+      "sku": "79024ML",
+      "producto_titulo": "Dije De Oro De 10k San Judas Con Manto Verde De Zirconita"
+    },
+    {
+      "sku": "78372ML",
+      "producto_titulo": "Arete Arracada Diamantada De Oro 14k Estilo Dominó, 20mm"
+    },
+    {
+      "sku": "78373ML",
+      "producto_titulo": "Arete Arracada Diamantada De Oro 14k Estilo Dominó, 20mm"
+    },
+    {
+      "sku": "78646ML",
+      "producto_titulo": "Dije De Plata 925 San Judas Con Piedra Zirconia Verde 7.5cm"
+    },
+    {
+      "sku": "78378ML",
+      "producto_titulo": "Cadena Figaro Sólida De Oro 14k Para Hombre O Mujer, 40 Cm Dorado"
+    },
+    {
+      "sku": "79049ML",
+      "producto_titulo": "Collar De Plata 925 Con Dije De San Judas Y Cadena Torsal"
+    },
+    {
+      "sku": "79027ML",
+      "producto_titulo": "Medalla Laser De Oro De 14k Con Sagrado Corazón De Jesús"
+    },
+    {
+      "sku": "78435ML",
+      "producto_titulo": "Cadena de Oro 14K Valentino 45cm | Collar de Oro Italiano con Broche de Argolla | Joyería Fina"
+    },
+    {
+      "sku": "78659ML",
+      "producto_titulo": "Arete Arracada De Oro 14k Con Diamantado Estilo Panal 15mm"
+    },
+    {
+      "sku": "78660ML",
+      "producto_titulo": "Arete Arracada De Oro 14k Con Diamantado Estilo Panal 15mm"
+    },
+    {
+      "sku": "78661ML",
+      "producto_titulo": "Arete Arracada De Oro 14k Con Diamantado Estilo Panal 15mm"
+    },
+    {
+      "sku": "78436ML",
+      "producto_titulo": "Cadena Torsal De Oro Italiano 14k, Calibre 2.1mm, 50 Cm"
+    },
+    {
+      "sku": "78437ML",
+      "producto_titulo": "Cadena Torsal De Oro Italiano 14k, Calibre 2.1mm, 50 Cm"
+    },
+    {
+      "sku": "78197ML",
+      "producto_titulo": "Cadena De Plata 925 Torsal De 50cm Calibre 2.8 Mm, 4 Colores"
+    },
+    {
+      "sku": "78221ML",
+      "producto_titulo": "Aretes De Oro 10k Mujer 15mm Diamantados Panal Elegantes"
+    },
+    {
+      "sku": "78232ML",
+      "producto_titulo": "Aretes De Oro 10k Mujer 15mm Diamantados Panal Elegantes"
+    },
+    {
+      "sku": "78233ML",
+      "producto_titulo": "Aretes De Oro 10k Mujer 15mm Diamantados Panal Elegantes"
+    },
+    {
+      "sku": "79226ML",
+      "producto_titulo": "Arracada Tubo Rectangular De Oro De 10k En Tres Colores"
+    },
+    {
+      "sku": "79227ML",
+      "producto_titulo": "Arracada Tubo Rectangular De Oro De 10k En Tres Colores"
+    },
+    {
+      "sku": "79048ML",
+      "producto_titulo": "Collar De Plata 925 Con Dije De San Judas Y Cadena Italiana"
+    },
+    {
+      "sku": "78616ML",
+      "producto_titulo": "Dije De San Judas De Plata 925 Con Zirconita 5.5cm"
+    },
+    {
+      "sku": "78381ML",
+      "producto_titulo": "Cadena De Oro Hombre Italiana Figaro 14k 50cm Calibre 2.6 Mm"
+    },
+    {
+      "sku": "80923ML",
+      "producto_titulo": "Arete Con Figura De Corazones Entrelazados 10k 1.60 Gr"
+    },
+    {
+      "sku": "80953ML",
+      "producto_titulo": "Arete De Tubo Cuadrado De Plata 925 Con Gravado De 12 Mm"
+    },
+    {
+      "sku": "80952ML",
+      "producto_titulo": "Arete Arracada Liso con Malla De Plata 925 Con Malla De 15 Mm"
+    },
+    {
+      "sku": "80955ML",
+      "producto_titulo": "Arete Arracada De Plata 925, 25mm"
+    },
+    {
+      "sku": "80934ML",
+      "producto_titulo": "Collar De Corazon De Plata 925 Con Bola Diamantada De 45 Cm"
+    },
+    {
+      "sku": "81103ML",
+      "producto_titulo": "Arete De Serpiente De Plata 925 Con Zirconia Blanca Y Azul"
+    },
+    {
+      "sku": "81253ML",
+      "producto_titulo": "Arracada Bangle Diamantada De Oro 10k Rombo"
+    },
+    {
+      "sku": "80886ML",
+      "producto_titulo": "Arracada Bangle Diamantada De Oro 10k Rombo"
+    },
+    {
+      "sku": "80921ML",
+      "producto_titulo": "Aretes De Luna En Oro De 10k Con De Zirconia Y Perla"
+    },
+    {
+      "sku": "80961ML",
+      "producto_titulo": "Arete Huggie De Plata 925 Dijes de Cruz y Zirconia"
+    },
+    {
+      "sku": "80964ML",
+      "producto_titulo": "Arete Ovalado De Tubo Triangular De Plata 925 Liso De 22 Mm"
+    },
+    {
+      "sku": "80951ML",
+      "producto_titulo": "Arete Huggie De Plata 925 Con Colgate De Luna Y zirconias"
+    },
+    {
+      "sku": "80966ML",
+      "producto_titulo": "Arete De Plata Ovalado De Tubo Cuadarado Diamantado De 25mm"
+    },
+    {
+      "sku": "80950ML",
+      "producto_titulo": "Arete De Tubo Triangular Diamantado De Plata 925 De 12mm"
+    },
+    {
+      "sku": "80968ML",
+      "producto_titulo": "Arete Ovalado De Tubo Cuadarado De Plata 925 Liso De 20 Mm"
+    },
+    {
+      "sku": "80922ML",
+      "producto_titulo": "Arete broquel Colibrí con Flor en Oro de 10K"
+    },
+    {
+      "sku": "80883Ml",
+      "producto_titulo": "Aretes Huggies Oro 10k con Zirconia"
+    },
+    {
+      "sku": "80878ML",
+      "producto_titulo": "Pulsera De Oro 10k Ojos Multicolor 4 Mm, 18cm"
+    },
+    {
+      "sku": "81792ML",
+      "producto_titulo": "Pulsera De Plata 925 Figaro 3x1 de 21 Cm Calibre 2.5 Mm"
+    },
+    {
+      "sku": "81780ML",
+      "producto_titulo": "Cadena De Plata 925 Barbada Diamantada 50 Cm Calibre 3.6 Mm"
+    },
+    {
+      "sku": "81782ML",
+      "producto_titulo": "Cadena De Plata 925 Barbada Diamantada 50 Cm Calibre 3.6 Mm"
+    },
+    {
+      "sku": "81779ML",
+      "producto_titulo": "Pulsera De Plata 925 Barbada Diamantada 21 Cm Calibre 3.6 Mm"
+    },
+    {
+      "sku": "78383ML_29235957_D_UPLICATED",
+      "producto_titulo": "Pulsera Italiana 3x1 Serpentina De 14 Quilates 2.6mm, 18.5cm"
+    },
+    {
+      "sku": "80662ML",
+      "producto_titulo": "Cadena Valentino De Oro Italiano Oro 14k, Calibre 1.2 Mm"
+    },
+    {
+      "sku": "78418ML",
+      "producto_titulo": "Cadena Valentino De Oro Italiano Oro 14k, Calibre 1.2 Mm"
+    },
+    {
+      "sku": "81795ML",
+      "producto_titulo": "Cadena De plata 925 Bizantina de 55 Cm Calibre 2.50 Mm"
+    },
+    {
+      "sku": "81782ML",
+      "producto_titulo": "Cadena De Plata 925 Barbada Diamantada 60 Cm Calibre 3.6 Mm"
+    },
+    {
+      "sku": "80886ML",
+      "producto_titulo": "Arracada Bangle Oro 10k Diamantado Rombo , 15X6 Mm"
+    },
+    {
+      "sku": "80214ML",
+      "producto_titulo": "Dije de Cruz Caravaca Plata 925 de 2.3 cm de alto"
+    },
+    {
+      "sku": "81788ML",
+      "producto_titulo": "Cadena De Plata 925 Torsal de 45 Cm Calibre 1.30 Mm"
+    },
+    {
+      "sku": "79671ML",
+      "producto_titulo": "Rosario De Plata Ley 925 Con Bola Diamantada De 45 Cm"
+    },
+    {
+      "sku": "39448ML",
+      "producto_titulo": "Arete Arracada Diamantada De Plata 925 Para Mujer Cordon Blue"
+    },
+    {
+      "sku": "78586ML",
+      "producto_titulo": "Arete Arracada Diamantada De Plata 925 Para Mujer Cordon Blue"
+    },
+    {
+      "sku": "78181ML",
+      "producto_titulo": "Rosario De Plata Ley 925 Con Bola Diamantada De 60 Cm"
+    },
+    {
+      "sku": "78189ML",
+      "producto_titulo": "Rosario De Plata Ley 925 Con Bola Diamantada De 65 Cm"
+    },
+    {
+      "sku": "78612ML",
+      "producto_titulo": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita 5.2cm"
+    },
+    {
+      "sku": "79136ML",
+      "producto_titulo": "Pulso Torsal Hueco Oro Italiano 10k, Calibre 1.9mm, 18.5cm"
+    },
+    {
+      "sku": "78613ML",
+      "producto_titulo": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita 6.2cm"
+    },
+    {
+      "sku": "78614ML",
+      "producto_titulo": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita 4.2cm"
+    }
+  ],
+  "productos_shopify_total": 259,
+  "productos_sin_ninguna_foto_en_dropbox": [
+    {
+      "producto_id": "gid://shopify/Product/8013524074682",
+      "titulo": "Pulso Torsal Hueco Oro Italiano 10k, Calibre 1.9mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013524140218",
+      "titulo": "Set Para Mujer De Cadena, Pulsera Y Aretes De Oro De 14k"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013524205754",
+      "titulo": "Aretes Para Mujer De Oro De 14k, 42 Mm Con Piedra Zirconia"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013524238522",
+      "titulo": "Arete Arracada Con Tubos Lisos Torcidos De Oro 10k, 35Mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013524533434",
+      "titulo": "Pulsera Para Mujer De Oro De 14k Con Piedra De 18cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013524664506",
+      "titulo": "Arracadas con tubos torcidos de Oro Amarillo y Blanco de 14K"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013524828346",
+      "titulo": "Pulsera Italiana Cubana Hueca De 10 Quilates 4.5mm, 18.5 Cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013525024954",
+      "titulo": "Pulsera Esclava De Plata Ley 925 Para Niña"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013525385402",
+      "titulo": "Collar Para Mujer De Oro De 14k Con Piedra De 45 Cm, 1mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013525549242",
+      "titulo": "Medalla De Virgen Italiana De Oro De 14k Dije De Oro Mujer"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013525582010",
+      "titulo": "Cadena Ancla Italiana De 14k Medida 55 Cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013525713082",
+      "titulo": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013526237370",
+      "titulo": "Dije De San Judas En Oro De 10k Con Piedra Zirconita"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013526270138",
+      "titulo": "Dije De La Santa Muerte En Oro De 14k De 2.7 Cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013526335674",
+      "titulo": "Pulsera De Plata 925 Estilo Petatillo Para Mujer Con Medalla"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013526401210",
+      "titulo": "Medalla De Bautizo Italiana De Oro De 14k"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013526433978",
+      "titulo": "Rosario De Plata Ley 925 Con Bola Diamantada"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013526565050",
+      "titulo": "Cadena De Plata 925 Con Dije De Cruz Collar Mujer Brillante"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013526597818",
+      "titulo": "Collar Viviana De Oro De 14k De 50 Cm Con Bola 2.5mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013526859962",
+      "titulo": "Cadena De Plata 925 Dije De La Santa Muerte Collar Hombre"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013526892730",
+      "titulo": "Arete Arracada Diamantada De Plata Ley 925 Para Mujer Candy 55 mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013527384250",
+      "titulo": "Arete Arracada Torsida De Oro De 10 Quilates En Tres Colores"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013527515322",
+      "titulo": "Pulsera De Plata 925 Cubana Calibre 10.7mm Italiana"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013527580858",
+      "titulo": "Dije De La Santa Muerte En Oro De 10k"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013527843002",
+      "titulo": "Dije De Santa Muerte De Plata 925"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013527974074",
+      "titulo": "Collar Con Medalla De Bautizo Italiana De Oro De 14k"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013528531130",
+      "titulo": "Collar Viviana De Oro De 10k Con Bola 2.5mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013528563898",
+      "titulo": "Collar De Medalla Nacional De Rostro De La Virgen De Oro 10k"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013528694970",
+      "titulo": "Rosario De Oro De 14 Quilates Con Bola 3 De 50cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013528858810",
+      "titulo": "Dije De Oro 10k La Santa Muerte Con Piedra Ónix"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013528957114",
+      "titulo": "Arracada Ovalada De Oro De 10k Lisa De 37mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013529055418",
+      "titulo": "Cadena Italiana De 14k, Estilo Cubana, Calibre 2mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013529186490",
+      "titulo": "Collar De Medalla Nacional De Rostro De La Virgen De Oro 14k"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013529678010",
+      "titulo": "Collar Con Medalla De Bautizo Italiana De Oro De 10k"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013530235066",
+      "titulo": "Pulsera De Plata 0.925 Con Piedra Oval Semi-preciosas"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013530464442",
+      "titulo": "Arete Arracada De Plata Ley 925 Para Mujer con tubo Ovalado"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013531119802",
+      "titulo": "Cadena de Oro 10K Valentino 55cm | Collar de Oro Italiano 2.3mm con Broche de Argolla | Joyería Fina"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013531185338",
+      "titulo": "Cadena Torsal Hueca De Oro Italiano 14k, Calibre 3.2mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013531513018",
+      "titulo": "Rosario Italiano De Oro De 14k De 60 Cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013532004538",
+      "titulo": "Medalla De Sagrado Corazon Italiana De Oro De 10k"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013532463290",
+      "titulo": "Collar Con Medalla De Virgen Italiana De Oro De 14k"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013532922042",
+      "titulo": "Collar De Plata 925 Con Dije De San Judas 4.9 Cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013533348026",
+      "titulo": "Medalla De Bautizo Italiana De Oro De 10k"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013533446330",
+      "titulo": "Medalla De Oro De 10k Nacional De Rostro De La Virgen Dije"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013533872314",
+      "titulo": "Pulsera Turca De Ojitos De 10 Quilates 0.6mm, 18 Cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013533905082",
+      "titulo": "Medalla Laser De Oro De 10k Con Sagrado Corazón De Jesús"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013534003386",
+      "titulo": "San Judas En Oro De 10k Con Piedra Zirconita"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013534036154",
+      "titulo": "Dije De Plata 925 Figura San Judas 7.8 Cm Para Collar Hombre"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013534101690",
+      "titulo": "Dije de Oro 14K Medalla Religiosa Sagrado Caliz| Dije Oro Italiano 12mm | Joyería Fina"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013534134458",
+      "titulo": "Medalla De La Virgen De Oro De 10k"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013534265530",
+      "titulo": "Arracada Bangle De Oro 10k Diamantado De Rombo"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013534331066",
+      "titulo": "Dije De Oro De 10k San Judas Con Manto Verde De Zirconita"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013534691514",
+      "titulo": "Dije De Plata 925 San Judas Con Piedra Zirconia Verde 7.5cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013535215802",
+      "titulo": "Collar De Plata 925 Con Dije De San Judas Y Cadena Torsal"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013535248570",
+      "titulo": "Medalla Laser De Oro De 14k Con Sagrado Corazón De Jesús"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013535477946",
+      "titulo": "Cadena de Oro 14K Valentino 45cm | Collar de Oro Italiano con Broche de Argolla | Joyería Fina"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013536919738",
+      "titulo": "Arracada Tubo Rectangular De Oro De 10k En Tres Colores"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013536985274",
+      "titulo": "Collar De Plata 925 Con Dije De San Judas Y Cadena Italiana"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8013537050810",
+      "titulo": "Dije De San Judas De Plata 925 Con Zirconita 5.5cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114662473914",
+      "titulo": "Arete Con Figura De Corazones Entrelazados 10k 1.60 Gr"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114662703290",
+      "titulo": "Arete De Tubo Cuadrado De Plata 925 Con Gravado De 12 Mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114662834362",
+      "titulo": "Arete Arracada Liso con Malla De Plata 925 Con Malla De 15 Mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114662899898",
+      "titulo": "Arete Arracada De Plata 925, 25mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114663358650",
+      "titulo": "Collar De Corazon De Plata 925 Con Bola Diamantada De 45 Cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114663555258",
+      "titulo": "Arete De Serpiente De Plata 925 Con Zirconia Blanca Y Azul"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114663588026",
+      "titulo": "Arracada Bangle Diamantada De Oro 10k Rombo"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114663686330",
+      "titulo": "Aretes De Luna En Oro De 10k Con De Zirconia Y Perla"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114663981242",
+      "titulo": "Arete Huggie De Plata 925 Dijes de Cruz y Zirconia"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114665029818",
+      "titulo": "Arete Ovalado De Tubo Triangular De Plata 925 Liso De 22 Mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114665128122",
+      "titulo": "Arete Huggie De Plata 925 Con Colgate De Luna Y zirconias"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114665980090",
+      "titulo": "Arete De Plata Ovalado De Tubo Cuadarado Diamantado De 25mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114666504378",
+      "titulo": "Arete De Tubo Triangular Diamantado De Plata 925 De 12mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114666766522",
+      "titulo": "Arete Ovalado De Tubo Cuadarado De Plata 925 Liso De 20 Mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8114666995898",
+      "titulo": "Arete broquel Colibrí con Flor en Oro de 10K"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8127051497658",
+      "titulo": "Cadena Italiana De 10k, Estilo Cubana, Calibre 2mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8127051530426",
+      "titulo": "Pulsera De Plata Ley 925 Armada A Mano Para Mujer"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8311718936762",
+      "titulo": "Aretes Huggies Oro 10k con Zirconia"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8311719035066",
+      "titulo": "Pulsera De Oro 10k Ojos Multicolor 4 Mm, 18cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8311720083642",
+      "titulo": "Pulsera De Plata 925 Figaro 3x1 de 21 Cm Calibre 2.5 Mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8311721230522",
+      "titulo": "Pulsera De Plata 925 Barbada Diamantada 21 Cm Calibre 3.6 Mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8311721394362",
+      "titulo": "Pulsera Italiana 3x1 Serpentina De 14 Quilates 2.6mm, 18.5cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8311721459898",
+      "titulo": "Cadena Valentino De Oro Italiano Oro 14k, Calibre 1.2 Mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8465637408954",
+      "titulo": "Cadena De plata 925 Bizantina de 55 Cm Calibre 2.50 Mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8465637769402",
+      "titulo": "Cadena De Plata 925 Barbada Diamantada 60 Cm Calibre 3.6 Mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8465638555834",
+      "titulo": "Arracada Bangle Oro 10k Diamantado Rombo , 15X6 Mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8465638686906",
+      "titulo": "Dije de Cruz Caravaca Plata 925 de 2.3 cm de alto"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8465638949050",
+      "titulo": "Cadena De Plata 925 Torsal de 45 Cm Calibre 1.30 Mm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8465639538874",
+      "titulo": "Cadena De Plata 925 Italiana Torsal Calibre 1.9mm en 4 colores (Backup)"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8465641373882",
+      "titulo": "Rosario De Plata Ley 925 Con Bola Diamantada De 45 Cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8465645469882",
+      "titulo": "Rosario De Plata Ley 925 Con Bola Diamantada De 60 Cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8465646616762",
+      "titulo": "Rosario De Plata Ley 925 Con Bola Diamantada De 65 Cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8465647009978",
+      "titulo": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita 5.2cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8465647501498",
+      "titulo": "Pulso Torsal Hueco Oro Italiano 10k, Calibre 1.9mm, 18.5cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8465648582842",
+      "titulo": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita 6.2cm"
+    },
+    {
+      "producto_id": "gid://shopify/Product/8465649729722",
+      "titulo": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita 4.2cm"
+    }
+  ],
+  "productos_cubiertos_parcialmente": [
+    {
+      "titulo": "Arete Arracada Para Mujer De Oro Puro De 14k Medida 20mm",
+      "variantes_con": [
+        "79083ML",
+        "79084ML"
+      ],
+      "variantes_sin": [
+        "79088ML"
+      ]
+    },
+    {
+      "titulo": "Cadena De Plata 925 Estilo 3x1 Figaro De 60 Cm Calibre 4.1mm",
+      "variantes_con": [
+        "78200ML",
+        "78201ML",
+        "78198ML",
+        "78202ML",
+        "79283ML",
+        "79284ML",
+        "79282ML",
+        "79285ML"
+      ],
+      "variantes_sin": [
+        "79668ML",
+        "79669ML",
+        "79667ML"
+      ]
+    },
+    {
+      "titulo": "Arete Arracada Diamantada De Oro 10k Estilo Dominó",
+      "variantes_con": [
+        "78279ML",
+        "78282ML",
+        "78283ML"
+      ],
+      "variantes_sin": [
+        "78280ML",
+        "78281ML"
+      ]
+    },
+    {
+      "titulo": "Cadena De Plata 925 Torsal Figaro 3x1 De 55cm Calibre 7.5mm",
+      "variantes_con": [
+        "78206ML"
+      ],
+      "variantes_sin": [
+        "78207ML",
+        "78208ML"
+      ]
+    },
+    {
+      "titulo": "Arete Arracada Diamantado Domino Plata 925 Para Mujer",
+      "variantes_con": [
+        "78600ML"
+      ],
+      "variantes_sin": [
+        "78599ML"
+      ]
+    },
+    {
+      "titulo": "Arete Arracada De Oro De 14k Diamantada Estilo Torsal",
+      "variantes_con": [
+        "78366ML",
+        "78367ML",
+        "78368ML",
+        "78369ML"
+      ],
+      "variantes_sin": [
+        "78370ML"
+      ]
+    },
+    {
+      "titulo": "Esclava Viviana De Oro De 14k De 18 Cm Con Bola 2.5mm Color Dorado Diámetro 57   Largo 18 144.8 Cm 45.7 Cm",
+      "variantes_con": [
+        "78427ML"
+      ],
+      "variantes_sin": [
+        "78428ML"
+      ]
+    },
+    {
+      "titulo": "Arracada De Oro De 10k Lisa",
+      "variantes_con": [
+        "79160ML",
+        "81774ML",
+        "78337ML"
+      ],
+      "variantes_sin": [
+        "81773ML"
+      ]
+    },
+    {
+      "titulo": "Cadena De Plata 925 Estilo Barbada De 55 Cm Calibre 3.2mm Color Plateado",
+      "variantes_con": [
+        "78645ML",
+        "78644ML",
+        "78643ML",
+        "79081ML"
+      ],
+      "variantes_sin": [
+        "79309ML",
+        "79322ML",
+        "79310ML",
+        "79323ML",
+        "79312ML",
+        "79325ML",
+        "79311ML",
+        "79324ML"
+      ]
+    },
+    {
+      "titulo": "Arete Arracada De Oro 10k Con Diamantado Cordon Blue De 12mm",
+      "variantes_con": [
+        "78227ML",
+        "78228ML",
+        "78230ML",
+        "78241ML",
+        "78362ML",
+        "78363ML",
+        "78365ML",
+        "78371ML"
+      ],
+      "variantes_sin": [
+        "78229ML",
+        "78364ML"
+      ]
+    },
+    {
+      "titulo": "Arete Arracada Diamantada De Oro 14k Estilo Dominó, 20mm",
+      "variantes_con": [
+        "78374ML",
+        "79085ML",
+        "78375ML"
+      ],
+      "variantes_sin": [
+        "78372ML",
+        "78373ML"
+      ]
+    },
+    {
+      "titulo": "Cadena Figaro Sólida De Oro 14k Para Hombre O Mujer, 40 Cm Dorado",
+      "variantes_con": [
+        "78376ML",
+        "78377ML",
+        "78379ML"
+      ],
+      "variantes_sin": [
+        "78378ML"
+      ]
+    },
+    {
+      "titulo": "Arete Arracada De Oro 14k Con Diamantado Estilo Panal 15mm",
+      "variantes_con": [
+        "79047ML",
+        "79046ML"
+      ],
+      "variantes_sin": [
+        "78659ML",
+        "78660ML",
+        "78661ML"
+      ]
+    },
+    {
+      "titulo": "Cadena Torsal De Oro Italiano 14k, Calibre 2.1mm, 50 Cm",
+      "variantes_con": [
+        "78391ML",
+        "78392ML",
+        "78393ML"
+      ],
+      "variantes_sin": [
+        "78436ML",
+        "78437ML"
+      ]
+    },
+    {
+      "titulo": "Cadena De Plata 925 Torsal De 50cm Calibre 2.8 Mm, 4 Colores",
+      "variantes_con": [
+        "78196ML",
+        "78199ML",
+        "79279ML",
+        "79317ML",
+        "79280ML",
+        "79318ML",
+        "79278ML",
+        "79320ML",
+        "79281ML",
+        "79319ML"
+      ],
+      "variantes_sin": [
+        "78197ML"
+      ]
+    },
+    {
+      "titulo": "Aretes De Oro 10k Mujer 15mm Diamantados Panal Elegantes",
+      "variantes_con": [
+        "78655ML",
+        "78231ML"
+      ],
+      "variantes_sin": [
+        "78221ML",
+        "78232ML",
+        "78233ML"
+      ]
+    },
+    {
+      "titulo": "Cadena De Oro Hombre Italiana Figaro 14k 50cm Calibre 2.6 Mm",
+      "variantes_con": [
+        "78380ML",
+        "78382ML"
+      ],
+      "variantes_sin": [
+        "78381ML"
+      ]
+    },
+    {
+      "titulo": "Cadena De Plata 925 Barbada Diamantada 50 Cm Calibre 3.6 Mm",
+      "variantes_con": [
+        "81781ML"
+      ],
+      "variantes_sin": [
+        "81780ML",
+        "81782ML"
+      ]
+    },
+    {
+      "titulo": "Arete Arracada Diamantada De Plata 925 Para Mujer Cordon Blue",
+      "variantes_con": [
+        "78598ML",
+        "78597ML",
+        "78580ML"
+      ],
+      "variantes_sin": [
+        "39448ML",
+        "78586ML"
+      ]
+    }
+  ],
+  "agrupacion_producto_a_skus": {
+    "Arete De Plata Ley 925 Para Mujer Con Bola Diamantada": [
+      "79864ML"
+    ],
+    "Pulsera Italiana 3x1 Tricolor De 10 Quilates 3.3mm, 18.5cm": [
+      "79629ML"
+    ],
+    "Esclava Italiana Figaro 3x1 De 10 Quilates 3.5mm": [
+      "79624ML",
+      "79623ML",
+      "79625ML"
+    ],
+    "Esclava Viviana Ajustable de Oro 10K con Bola Lisa | Pulsera Elegante de Joyería Fina": [
+      "79645ML"
+    ],
+    "Pulsera Italiana Cubana Hueca De 10 Quilates 3.5mm, 21.5 Cm": [
+      "79612ML"
+    ],
+    "Pulsera De Mujer De Ojos Multicolor De 10 Quilates 3mm, 18cm": [
+      "79644ML"
+    ],
+    "Pulsera de Oro 10K Estilo Fígaro 3x1 Pavé Italiano | Brazalete Sólido de Joyería Fina": [
+      "79626ML"
+    ],
+    "Pulsera Italiana Milano 3x1 De 10 Quilates 3.6mm, 21.5cm": [
+      "79615ML"
+    ],
+    "Pulsera Esclava de Oro 10K Estilo Fígaro 3x1 con Placa | Joyería Italiana": [
+      "79621ML",
+      "79619ML",
+      "79622ML",
+      "79620ML"
+    ],
+    "Pulsera Italiana 3x1 Serpentina De 10 Quilates 2.6mm, 21.5cm Color Dorado Diámetro 7   Largo 21.5 Cm 17.8 Cm": [
+      "79609ML"
+    ],
+    "Pulsera Italiana 3x1 Tricolor De 10 Quilates 2.3mm, 18.5cm Color Dorado Diámetro 7   Largo 18.5 Cm 17.8 Cm": [
+      "79628ML"
+    ],
+    "Cadena De Oro De 10k Rolo De 55 Cm Calibre 0.7mm Dorado": [
+      "79155ML"
+    ],
+    "Cadena Italiana Figaro Hueca De 10k Calibre 3.5mm, 60 Cm": [
+      "80663ML",
+      "79870ML",
+      "79869ML"
+    ],
+    "Dije De Oro 10k Cruz De Tubo Con Cristo Rodinado": [
+      "79646ML",
+      "78219ML",
+      "80618ML"
+    ],
+    "Cadena De Plata 925 Torsal Figaro 3x1 De 50cm Calibre 5.6mm": [
+      "78209ML"
+    ],
+    "Pulsera Italiana Figaro Pave De 10 Quilates 3.2mm": [
+      "79610ML",
+      "79608ML"
+    ],
+    "Anillo De Oro 10k Con Corazón Rodinado": [
+      "78304ML",
+      "78305ML",
+      "78306ML"
+    ],
+    "Medalla De Virgen Italiana De Oro De 10k Dorado": [
+      "78333ML"
+    ],
+    "Arracada Bangle De Oro 10k Diamantado Domino": [
+      "79631ML",
+      "79632ML",
+      "79637ML"
+    ],
+    "Cadena De Oro Hombre Italiano Torsal 10k Calibre 2.4mm 60 Cm": [
+      "79132ML",
+      "79134ML",
+      "79131ML"
+    ],
+    "Arracada Diamantada Bangle De Oro 10k Estilo Panal, 15 X 4mm Dorado": [
+      "79638ML",
+      "79630ML",
+      "79634ML"
+    ],
+    "Pulso Torsal De Oro Italiano 10k, Calibre 4.5mm, 21.5 Cm Dorado 22 Cm 22 Cm": [
+      "79113ML"
+    ],
+    "Arete Arracada Para Mujer De Oro Puro De 14k Medida 20mm": [
+      "79083ML",
+      "79084ML"
+    ],
+    "Collar De Arbol De La Vida De 14k Con Zirconia Dorado": [
+      "78668ML"
+    ],
+    "Collar De Cruz Con Rostro De Cristo De Oro De 10k": [
+      "79453ML"
+    ],
+    "Gargantilla Italiana 10k De Delfin Y Bolas Tricolor": [
+      "78347ML"
+    ],
+    "Cadena De Oro Italiano 10k, Grano De Café, 40 Cm,calibre 1mm": [
+      "78300ML",
+      "78301ML",
+      "78302ML"
+    ],
+    "Pulsera Italiana Figaro Pave De 10 Quilates 2.6mm": [
+      "79611ML",
+      "79614ML",
+      "78359ML"
+    ],
+    "Cadena De Plata 925 Estilo 3x1 Figaro De 60 Cm Calibre 4.1mm": [
+      "78200ML",
+      "78201ML",
+      "78198ML",
+      "78202ML",
+      "79283ML",
+      "79284ML",
+      "79282ML",
+      "79285ML"
+    ],
+    "Cadena De Oro Hombre Italiano Torsal 10k Calibre 1.9mm 50 Cm": [
+      "79130ML",
+      "79135ML",
+      "79137ML"
+    ],
+    "Cadena De Plata 925 Figaro De 50cm Calibre 5.1mm 4 Colores": [
+      "78211ML",
+      "78647ML",
+      "78648ML",
+      "79299ML",
+      "79300ML",
+      "79298ML",
+      "79301ML"
+    ],
+    "Pulsera Italiana Grano De Cafe De 10 Quilates 2.4mm, 18.5 Cm Dorado 6 18.5 Cm 6 Cm 19 Cm": [
+      "79627ML"
+    ],
+    "Gargantilla Italiana 10k De Tres Corazones Inflados Y Aros": [
+      "79218ML"
+    ],
+    "Cadena De Plata 925 Estilo Torsal Calibre 1.9 Mm, 4 Colores": [
+      "78652ML",
+      "78653ML",
+      "79328ML",
+      "79314ML",
+      "79327ML",
+      "79313ML",
+      "79326ML",
+      "79316ML",
+      "79329ML"
+    ],
+    "Arete Arracada Diamantada De Oro 10k Estilo Dominó": [
+      "78279ML",
+      "78282ML",
+      "78283ML"
+    ],
+    "Cadena De Plata 925 Estilo 3x1 Figaro De 50 Cm Calibre 3.2mm": [
+      "78203ML",
+      "78204ML",
+      "78205ML",
+      "79287ML",
+      "79291ML",
+      "79305ML",
+      "79288ML",
+      "79292ML",
+      "79306ML",
+      "79286ML",
+      "79290ML",
+      "79308ML",
+      "79289ML",
+      "79293ML",
+      "79307ML"
+    ],
+    "Cadena Ancla Italiana De 10k Medida 55 Cm": [
+      "78350ML"
+    ],
+    "Gargantilla Con Dije De Árbol De La Vida Plata 925 Plateado": [
+      "78674ML"
+    ],
+    "Cadena De Plata 925 Torsal Figaro 3x1 De 55cm Calibre 7.5mm": [
+      "78206ML"
+    ],
+    "Cadena De Oro 10k Filk Virgen De Guadalupe 40cm Medalla Dorado": [
+      "79041ML"
+    ],
+    "Dije De Cruz Con Forma De Ancla De Plata 925": [
+      "78619ML"
+    ],
+    "Cadena Filk Oro 14k Italiana Con Cruz Y Bolas Tricolor 45cm Dorado": [
+      "78403ML"
+    ],
+    "Pulsera De Oro De 10k Torsal Para Hombre Dorado 68 Cm 215 Cm": [
+      "79111ML",
+      "78354ML"
+    ],
+    "Pulsera Valentino De Oro Italiano 10k, Calibre 1.4mm, 18 Cm": [
+      "78357ML"
+    ],
+    "Gargantilla Italiana 10k De Elefante Y Bolas Tricolor": [
+      "78360ML"
+    ],
+    "Arete Arracada Diamantado Domino Plata 925 Para Mujer": [
+      "78600ML"
+    ],
+    "Cadena De Oro 10k Technigold Estilo Milano Figaro 60cm Dorado": [
+      "78353ML"
+    ],
+    "Pulso Torsal De Oro Italiano 10k, Calibre 2.5mm, 21.5 Cm": [
+      "79159ML"
+    ],
+    "Arete  De Oro 10k En Forma De Gota De 25mm": [
+      "79223ML",
+      "79222ML",
+      "79221ML"
+    ],
+    "Arete Arracada De Oro De 14k Diamantada Estilo Torsal": [
+      "78366ML",
+      "78367ML",
+      "78368ML",
+      "78369ML"
+    ],
+    "Arete Arracada Para Mujer Lisa De Plata Ley 925": [
+      "78587ML",
+      "78588ML",
+      "78625ML",
+      "78593ML",
+      "78592ML"
+    ],
+    "Dije De Cruz Con Rostro De Cristo De Oro De 10k": [
+      "78222ML"
+    ],
+    "Gargantilla Italiana 10k De Cruz Y Bolas Tricolor": [
+      "78355ML"
+    ],
+    "Pulsera De Plata 925 Barbarada 18cm Calibre 3.2mm Italiana": [
+      "78654ML"
+    ],
+    "Cadena De Oro Hombre Italiano Torsal 10k Calibre 2.1mm 50 Cm Dorado": [
+      "78286ML",
+      "78287ML",
+      "78288ML"
+    ],
+    "Cadena De Plata 925 Estilo Barbada De 50 Cm Calibre 3.8mm Color Plateado": [
+      "79103ML"
+    ],
+    "Esclava Viviana De Oro De 14k De 18 Cm Con Bola 2.5mm Color Dorado Diámetro 57   Largo 18 144.8 Cm 45.7 Cm": [
+      "78427ML"
+    ],
+    "Arracada De Oro De 10k Lisa": [
+      "79160ML",
+      "81774ML",
+      "78337ML"
+    ],
+    "Cadena Valentino De Oro Italiano 10k, Calibre 1.5 Mm, 55cm": [
+      "79158ML",
+      "79156ML",
+      "79157ML",
+      "78346ML"
+    ],
+    "Cadena De Plata 925 Estilo Barbada De 55 Cm Calibre 3.2mm Color Plateado": [
+      "78645ML",
+      "78644ML",
+      "78643ML",
+      "79081ML"
+    ],
+    "Pulso Torsal De Oro Italiano 10k, Calibre 3.3mm, 18.5 Cm": [
+      "79115ML"
+    ],
+    "Arracada Bangle De Oro De 14k Lisa De 15x4mm": [
+      "78396ML",
+      "78397ML"
+    ],
+    "Dije De Cruz De Tubo De Oro De 10k Color Dorado": [
+      "78218ML",
+      "79055ML"
+    ],
+    "Cadena Italiana Torsal 3x1 Figaro 14k, 60cm, Calibre 3.0mm": [
+      "78416ML"
+    ],
+    "Cadena De Plata 925 Estilo Torsal Calibre 4.5 Mm": [
+      "78640ML",
+      "78342ML",
+      "78639ML",
+      "78641ML"
+    ],
+    "Arete Arracada Diamantada De Plata Ley 925 Para Mujer": [
+      "78627ML",
+      "78626ML",
+      "78628ML"
+    ],
+    "Cadena De Oro De 10k 3x1 Figaro De 40 Cm Calibre 2.0mm": [
+      "79143ML",
+      "79148ML",
+      "79152ML",
+      "79154ML"
+    ],
+    "Pulsera De Plata 925 3x1 Figaro 18cm Calibre 4.1mm Italiana": [
+      "78212ML"
+    ],
+    "Cadena De Oro Italiano 14k, Estilo Grano De Café, 40 Cm": [
+      "78412ML",
+      "78413ML",
+      "78414ML"
+    ],
+    "Arete Arracada Diamantada De Plata Ley 925 Tipo Bangle": [
+      "78601ML"
+    ],
+    "Pulsera de Oro 10K Estilo Torsal Italiano | Brazalete Elegante de Joyería Fina": [
+      "78354ML"
+    ],
+    "Arete Arracada De Oro 10k Con Diamantado Cordon Blue De 12mm": [
+      "78227ML",
+      "78228ML",
+      "78230ML",
+      "78241ML",
+      "78362ML",
+      "78363ML",
+      "78365ML",
+      "78371ML"
+    ],
+    "Collar De Cruz De Tubo De Oro De 10k": [
+      "79034ML"
+    ],
+    "Pulsera Italiana Figaro Solida De 10 Quilates 4.3mm, 21.5 Cm": [
+      "79617ML"
+    ],
+    "Cadena De Oro Mujer Italiana 10k Gargantilla Corazón Inflado Dorado": [
+      "78399ML",
+      "78356ML"
+    ],
+    "Cadena Italiana Hueca Solida De 14 Quilates 2.6 Mm, 40 Cm Color Dorado": [
+      "78385ML",
+      "78386ML",
+      "78387ML",
+      "78388ML"
+    ],
+    "Pulsera Esclava Italiana Figaro Oro 14k Filk 2.6mm 16cm Amarillo 5 Cm 40.6 Cm": [
+      "78671ML"
+    ],
+    "Anillo De Compromiso De Oro 10k Con Piedras Zirconia": [
+      "78308ML",
+      "78317ML",
+      "78309ML",
+      "78318ML",
+      "78310ML",
+      "78319ML"
+    ],
+    "Anillo De Oro 14k Con Corazón Rodinado": [
+      "78663ML",
+      "78664ML",
+      "78666ML"
+    ],
+    "Cadena De Plata 925 Estilo 3x1 Figaro De 55 Cm Calibre 6.1mm": [
+      "79050ML",
+      "78649ML",
+      "78650ML",
+      "78651ML"
+    ],
+    "Arracada Bangle Diamantada De Oro 10k Estilo Panal 6mm": [
+      "79636ML",
+      "78223ML"
+    ],
+    "Arete Arracada De Oro De 10k Diamantada Estilo Torsal 12mm": [
+      "78234ML",
+      "78235ML",
+      "78236ML",
+      "78237ML",
+      "78238ML"
+    ],
+    "Arete De Plata 925 Para Mujer Con Diamantado Cb De 30mm": [
+      "78606ML",
+      "78605ML"
+    ],
+    "Arete De Plata 925 Para Mujer Con Diamantado Torsal": [
+      "78633ML",
+      "78621ML",
+      "78610ML",
+      "78607ML"
+    ],
+    "Cadena Torsal Hueca De Oro Italiano 10k, Calibre 3.8mm, 60cm": [
+      "79112ML"
+    ],
+    "Pulsera Italiana Figaro Solida De 10 Quilates 5.3mm, 21.5 Cm": [
+      "79618ML"
+    ],
+    "Pulsera Italiana Figaro Solida De 10 Quilates 3.5mm, 18.5 Cm": [
+      "79616ML"
+    ],
+    "Cadena Torsal Hueca De Oro Italiano 10k, Calibre 3.2mm, 60cm": [
+      "78656ML",
+      "78289ML"
+    ],
+    "Dije de Oro 14K Medalla Religiosa Sagrado Caliz | Dije Oro Italiano 12mm | Joyería Fina": [
+      "78431ML"
+    ],
+    "Cadena De Oro Mujer Italiana 10k Gargantilla Aros Tricolor": [
+      "78331ML",
+      "78420ML"
+    ],
+    "Pulsera Oro 10k Imperial Jewelry Rolo Italiana 18cm Bola Tricolor Dorada Dorado 144.8 Cm 45.72 Cm": [
+      "78338ML",
+      "78339ML"
+    ],
+    "Collar De Cruz De Tubo Y Cristo Rodinado De Oro De 14k": [
+      "78425ML"
+    ],
+    "Arete Arracada Diamantada De Oro 14k Estilo Dominó, 20mm": [
+      "78374ML",
+      "79085ML",
+      "78375ML"
+    ],
+    "Pulso Torsal Hueco De Oro Italiano 14k, Calibre 3.8mm,21.5cm Dorado 6.8 Cm 21.5 Cm": [
+      "79086ML"
+    ],
+    "Cadena Figaro Sólida De Oro 14k Para Hombre O Mujer, 40 Cm Dorado": [
+      "78376ML",
+      "78377ML",
+      "78379ML"
+    ],
+    "Pulsera Torsal Oro 14k Filk 18cm Joyería Italiana Dorada Dorado 12.7 Cm 18 Cm": [
+      "78389ML",
+      "78390ML"
+    ],
+    "Cadena De Oro Italiano 10k, Figaro 3x1 Hueca, 50 Cm, 2.6mm": [
+      "78323ML",
+      "78324ML",
+      "78299ML"
+    ],
+    "Anillo De Compromiso De Oro 10k Con Piedra Zirconia": [
+      "78657ML",
+      "78314ML",
+      "78312ML",
+      "78315ML",
+      "78313ML",
+      "78316ML"
+    ],
+    "Arracada Bangle De Oro 10k Diamantado Diagonal": [
+      "79640ML",
+      "79641ML"
+    ],
+    "Arete Arracada De Oro 14k Con Diamantado Estilo Panal 15mm": [
+      "79047ML",
+      "79046ML"
+    ],
+    "Cadena Italiana Figaro Solida De 10 Quilates 2.6mm, 50 Cm Dorado": [
+      "78293ML",
+      "78294ML",
+      "78295ML"
+    ],
+    "Arracada Bangle De Oro De 14k Lisa De 15mm Calibre 6mm": [
+      "78667ML"
+    ],
+    "Cadena Torsal De Oro Italiano 14k, Calibre 2.1mm, 50 Cm": [
+      "78391ML",
+      "78392ML",
+      "78393ML"
+    ],
+    "Cadena De Plata 925 Torsal De 50cm Calibre 2.8 Mm, 4 Colores": [
+      "78196ML",
+      "78199ML",
+      "79279ML",
+      "79317ML",
+      "79280ML",
+      "79318ML",
+      "79278ML",
+      "79320ML",
+      "79281ML",
+      "79319ML"
+    ],
+    "Gargantilla Italiana 14k De Delfin Y Bolas Tricolor": [
+      "78402ML"
+    ],
+    "Gargantilla Italiana 14k De Elefante Y Bolas Tricolor": [
+      "78404ML"
+    ],
+    "Arracada Bangle De Oro De 10k Lisa De 15mm": [
+      "78240ML",
+      "78320ML"
+    ],
+    "Pulsera Italiana Figaro Hueca De 10 Quilates 2.0mm, 21.5 Cm": [
+      "79151ML",
+      "79138ML"
+    ],
+    "Medalla Del Caliz Italiana De Oro De 10k": [
+      "79042ML"
+    ],
+    "Cadena De Oro Italiano 14k, Grano De Café, 40 Cm,calibre 1mm": [
+      "78409ML",
+      "78410ML",
+      "78411ML"
+    ],
+    "Cadena De Oro Italiano 10k, Estilo Grano De Café, 40 Cm Color Dorado": [
+      "78296ML",
+      "78297ML",
+      "78298ML",
+      "79871ML"
+    ],
+    "Aretes De Oro 10k Mujer 15mm Diamantados Panal Elegantes": [
+      "78655ML",
+      "78231ML"
+    ],
+    "Cadena De Oro Italiano 10k Figaro 3x1 Pave 50 Cm 2.3mm": [
+      "79153ML"
+    ],
+    "Arracada Bangle Para Mujer De Plata 925 Lisa De 18mm": [
+      "78602ML"
+    ],
+    "Medalla Láser En Oro Italiano De 10k Con Imagen De Copa": [
+      "78334ML"
+    ],
+    "Pulsera Italiana Figaro Hueca De 10 Quilates 2.6mm, 18 Cm": [
+      "78322ML",
+      "78384ML",
+      "78321ML",
+      "78383ML"
+    ],
+    "Cadena De Oro Hombre Italiana Figaro 14k 50cm Calibre 2.6 Mm": [
+      "78380ML",
+      "78382ML"
+    ],
+    "Collar De Cruz De Tubo Y Cristo Rodinado De Oro De 10k": [
+      "79035ML"
+    ],
+    "Collar De Corazon Inflado De Plata 925 Con Bola De 45 Cm": [
+      "80942ML"
+    ],
+    "Collar Para Mujer De Oro De 10k De Cruz": [
+      "80198ML"
+    ],
+    "Dije De Oro De 10k De Estrella De David": [
+      "80199ML"
+    ],
+    "Cadena Torsal De Plata Ley 925 Diamantada De 2mm": [
+      "81098ML",
+      "81099ML"
+    ],
+    "Collar Para Mujer De Oro De 10k De La Madonna Dorado": [
+      "80202ML"
+    ],
+    "Pulsera De Oro 14k Figaro Solida De 18.5 Cm Calibre 2mm": [
+      "81175ML"
+    ],
+    "Pulsera Italiana Figaro Pave De 10 Quilates 3.6mm, 18.5 Cm Color Plateado Diámetro 6 Cm": [
+      "80411ML"
+    ],
+    "Cadena De Plata 925 Estilo Torsal Calibre 3.3 Mm": [
+      "78210ML",
+      "79295ML",
+      "79296ML",
+      "79294ML",
+      "79297ML",
+      "78194ML",
+      "79277ML",
+      "78195ML"
+    ],
+    "Pulsera Italiana De Plata 925 Estilo Barbada De 21cm, 4.1mm": [
+      "81101ML"
+    ],
+    "Cadena De Oro Mujer 10k Gargantilla Aro Tricolor 2.3 Grm": [
+      "80920ML"
+    ],
+    "Gargantilla De Oro De 14k De Tres Corazones Inflados Y Aros Dorado": [
+      "79447ML"
+    ],
+    "Dije De Oro De 10k De La Madona Dorado": [
+      "80201ML"
+    ],
+    "Dije De Oro De 10k De Cruz": [
+      "80197ML"
+    ],
+    "Collar De Cruz De Plata 925 Con Bola Diamantada De 45 Cm": [
+      "80945ML"
+    ],
+    "Pulsera Italiana 3x1 Serpentina De 10 Quilates 2mm, 21.5cm": [
+      "80204ML"
+    ],
+    "Dije De Oro De 10k De Cruz Dorado": [
+      "80195ML"
+    ],
+    "Collar Para Mujer De Oro De 10k De La Estrella De David Dorado": [
+      "80200ML"
+    ],
+    "Anillo De Compromiso Promesa De Plata Con Moissanita": [
+      "82201ML",
+      "82202ML",
+      "82203ML",
+      "82204ML"
+    ],
+    "Pulso Torsal De Oro Italiano 10k, Calibre 2.6mm, 21.5 Cm Dorado 7 21.5 Cm 22 Cm": [
+      "79110ML"
+    ],
+    "Pulsera Bizmark De Plata 925 Mujer 18 Cm 2.2 G Elegante Plateado 6 Cm 18 Cm": [
+      "81783ML"
+    ],
+    "Dije De Oro 10k Cruz De Tubo 1.5 Mm": [
+      "80620ML"
+    ],
+    "Gargantilla De Plata 925 De Cruz Plateado": [
+      "81797ML"
+    ],
+    "Cadena De Plata 925 Bizantina Calibre 2.4 Mm": [
+      "81784ML",
+      "81778ML",
+      "81777ML"
+    ],
+    "Cadena De Plata 925 Torsal Calibre 3.8 Mm": [
+      "81793ML",
+      "81794ML"
+    ],
+    "Cadena De Plata 925 Torsal De 45 Cm Calibre 1.30 Mm": [
+      "81790ML"
+    ],
+    "Medalla Del Caliz Italiana De Oro De 14k Para Mujer": [
+      "78431ML"
+    ],
+    "Cadena De Plata 925 Barbada Diamantada 50 Cm Calibre 3.6 Mm": [
+      "81781ML"
+    ],
+    "Cadena De Plata 925 Figaro 3x1 de 50 Cm Calibre 2.5 Mm": [
+      "81791ML"
+    ],
+    "Cadena De Plata 925 Barbada De 55 Cm Calibre 6.4 Mm": [
+      "80973ML",
+      "80972ML",
+      "80971ML"
+    ],
+    "Gargantilla Italiana 10k De Corazón Inflado Y Bolas Tricolor": [
+      "80617ML"
+    ],
+    "Anillo Con Diamantes De Oro De 14k De Corazón Para Mujer": [
+      "83375ML",
+      "83376ML"
+    ],
+    "Cadena De Plata 925 Torsal Calibre 3.2 Mm, 4 Colores": [
+      "78190ML",
+      "79272ML",
+      "79274ML"
+    ],
+    "Cadena Italiana Figaro Solida De 10 Quilates 2mm": [
+      "78290ML",
+      "78291ML"
+    ],
+    "Cadena Figaro Oro 10k 2mm 50cm Dorado Clásica Diseño Italiano": [
+      "78292ML"
+    ],
+    "Cadena Valentino De Oro Italiano 14k, Calibre 2.6 Mm, 55cm": [
+      "78417ML"
+    ],
+    "Arete De Plata 925 Para Mujer Con Diamantado Panal De 12mm": [
+      "78634ML"
+    ],
+    "Cadena De Oro Hombre Italiano Torsal 10k Calibre 3.2mm 55 Cm": [
+      "79133ML"
+    ],
+    "Cadena Valentino De Oro Italiano 14k De 40 Cm Calibre 1.5 Mm": [
+      "80416ML"
+    ],
+    "Cadena Figaro 3x1 Hueca Oro 10k, 1.50 Mm": [
+      "82147ML",
+      "82148ML",
+      "82149ML"
+    ],
+    "Pulsera Serpentina 3x1 Diamantada Oro 10k": [
+      "82150ML"
+    ],
+    "Cadena De Oro De 10k Grano De Café De 40 Cm De 2.3 Mm 1.5 Gr": [
+      "84727ML"
+    ],
+    "Dije de Oro 10k Cruz de Tubo 2.0 Mm con Cristo Rodinado": [
+      "80618ML"
+    ],
+    "Cadena De Plata 925 Barbada Diamantada 60 Cm": [
+      "81787ML"
+    ],
+    "Arracada De Oro De 10k Lisa Italiana de 15 Mm": [
+      "81774ML"
+    ],
+    "Cadena De plata 925 Bizantina de 55 Cm Calibre 2.4 Mm": [
+      "81777ML"
+    ],
+    "Arete Arracada Diamantada De Plata 925 Para Mujer Cordon Blue": [
+      "78598ML",
+      "78597ML",
+      "78580ML"
+    ]
+  }
+}
