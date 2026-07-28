@@ -1,21 +1,24 @@
 {{ 'section-imperial.css' | asset_url | stylesheet_tag }}
 
 {%- liquid
-  assign img = section.settings.image_url | default: 'https://cdn.shopify.com/s/files/1/0667/4785/9130/files/020_78285_00005_d7gem8.jpg'
+  assign img = section.settings.image_url
   assign overlay = section.settings.overlay_opacity | divided_by: 100.0
+  assign img_alt = section.settings.image_alt | default: section.settings.heading
 -%}
 
 <div class="imperial-hero imperial-hero--{{ section.settings.height }} color-{{ section.settings.color_scheme }}" style="--imp-overlay: {{ overlay }};">
-  <div class="imperial-hero__media">
-    <img
-      src="{{ img }}"
-      alt="{{ section.settings.heading | escape }}"
-      loading="eager"
-      fetchpriority="high"
-      width="1600"
-      height="900"
-    >
-  </div>
+  {%- if img != blank -%}
+    <div class="imperial-hero__media">
+      <img
+        src="{{ img }}"
+        alt="{{ img_alt | escape }}"
+        loading="eager"
+        fetchpriority="high"
+        width="1600"
+        height="900"
+      >
+    </div>
+  {%- endif -%}
   <div class="imperial-hero__inner page-width">
     <div class="imperial-hero__content imperial-hero__content--{{ section.settings.text_alignment }}">
       {%- if section.settings.eyebrow != blank -%}
@@ -41,24 +44,30 @@
 
 {% schema %}
 {
-  "name": "Hero Imperial",
+  "name": "t:sections.hero-imperial.name",
   "tag": "section",
   "class": "section imperial-hero-section",
   "settings": [
     {
       "type": "text",
       "id": "image_url",
-      "label": "URL de la imagen de fondo",
-      "info": "Pega la URL de una foto (por defecto usa una foto de tu catálogo Aurart en el CDN de Shopify)."
+      "label": "t:sections.hero-imperial.settings.image_url.label",
+      "info": "t:sections.hero-imperial.settings.image_url.info"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "t:sections.hero-imperial.settings.image_alt.label",
+      "info": "t:sections.hero-imperial.settings.image_alt.info"
     },
     {
       "type": "select",
       "id": "height",
-      "label": "Altura",
+      "label": "t:sections.hero-imperial.settings.height.label",
       "options": [
-        { "value": "small", "label": "Pequeña" },
-        { "value": "medium", "label": "Mediana" },
-        { "value": "large", "label": "Grande" }
+        { "value": "small", "label": "t:sections.hero-imperial.settings.height.options__1.label" },
+        { "value": "medium", "label": "t:sections.hero-imperial.settings.height.options__2.label" },
+        { "value": "large", "label": "t:sections.hero-imperial.settings.height.options__3.label" }
       ],
       "default": "large"
     },
@@ -69,75 +78,75 @@
       "max": 90,
       "step": 5,
       "unit": "%",
-      "label": "Opacidad del velo azul",
+      "label": "t:sections.hero-imperial.settings.overlay_opacity.label",
       "default": 45
     },
     {
       "type": "select",
       "id": "text_alignment",
-      "label": "Alineación del texto",
+      "label": "t:sections.hero-imperial.settings.text_alignment.label",
       "options": [
-        { "value": "left", "label": "Izquierda" },
-        { "value": "center", "label": "Centro" }
+        { "value": "left", "label": "t:sections.hero-imperial.settings.text_alignment.options__1.label" },
+        { "value": "center", "label": "t:sections.hero-imperial.settings.text_alignment.options__2.label" }
       ],
       "default": "center"
     },
     {
       "type": "select",
       "id": "color_scheme",
-      "label": "Esquema de color del texto",
+      "label": "t:sections.hero-imperial.settings.color_scheme.label",
       "default": "scheme-3",
       "options": [
-        { "value": "scheme-1", "label": "Claro" },
-        { "value": "scheme-3", "label": "Azul imperial" },
-        { "value": "scheme-4", "label": "Oro" },
-        { "value": "scheme-5", "label": "Negro" }
+        { "value": "scheme-1", "label": "t:sections.hero-imperial.settings.color_scheme.options__1.label" },
+        { "value": "scheme-3", "label": "t:sections.hero-imperial.settings.color_scheme.options__2.label" },
+        { "value": "scheme-4", "label": "t:sections.hero-imperial.settings.color_scheme.options__3.label" },
+        { "value": "scheme-5", "label": "t:sections.hero-imperial.settings.color_scheme.options__4.label" }
       ]
     },
     {
       "type": "text",
       "id": "eyebrow",
-      "label": "Texto superior",
-      "default": "IMPERIAL JEWELRY · MÉXICO"
+      "label": "t:sections.hero-imperial.settings.eyebrow.label",
+      "default": "t:sections.hero-imperial.settings.eyebrow.default"
     },
     {
       "type": "text",
       "id": "heading",
-      "label": "Título",
-      "default": "Joyería fina en oro y plata"
+      "label": "t:sections.hero-imperial.settings.heading.label",
+      "default": "t:sections.hero-imperial.settings.heading.default"
     },
     {
       "type": "richtext",
       "id": "subheading",
-      "label": "Subtítulo",
-      "default": "<p>Oro 10k y 14k y plata Ley .925 con garantía de autenticidad. Envíos asegurados a todo México.</p>"
+      "label": "t:sections.hero-imperial.settings.subheading.label",
+      "default": "t:sections.hero-imperial.settings.subheading.default"
     },
     {
       "type": "text",
       "id": "button_label_1",
-      "label": "Botón 1 · texto",
-      "default": "Ver catálogo"
+      "label": "t:sections.hero-imperial.settings.button_label_1.label",
+      "default": "t:sections.hero-imperial.settings.button_label_1.default"
     },
     {
       "type": "url",
       "id": "button_link_1",
-      "label": "Botón 1 · enlace"
+      "label": "t:sections.hero-imperial.settings.button_link_1.label"
     },
     {
       "type": "text",
       "id": "button_label_2",
-      "label": "Botón 2 · texto",
-      "default": "Novedades en oro"
+      "label": "t:sections.hero-imperial.settings.button_label_2.label",
+      "default": "t:sections.hero-imperial.settings.button_label_2.default"
     },
     {
       "type": "url",
       "id": "button_link_2",
-      "label": "Botón 2 · enlace"
+      "label": "t:sections.hero-imperial.settings.button_link_2.label"
     }
   ],
   "presets": [
     {
-      "name": "Hero Imperial"
+      "name": "t:sections.hero-imperial.presets.name"
     }
   ]
 }

@@ -8,29 +8,29 @@
     "theme_support_url": "https://support.shopify.com/"
   },
   {
-    "name": "Imperial Jewelry",
+    "name": "t:settings_schema.imperial.name",
     "settings": [
       {
         "type": "header",
-        "content": "WhatsApp"
+        "content": "t:settings_schema.imperial.settings.header_whatsapp.content"
       },
       {
         "type": "checkbox",
         "id": "whatsapp_enabled",
-        "label": "Mostrar botón flotante de WhatsApp",
+        "label": "t:settings_schema.imperial.settings.whatsapp_enabled.label",
         "default": true
       },
       {
         "type": "text",
         "id": "whatsapp_number",
-        "label": "Número de WhatsApp",
-        "info": "Con código de país, sin espacios ni signos. Ejemplo para México: 5215512345678. El botón solo aparece cuando este campo tiene un número."
+        "label": "t:settings_schema.imperial.settings.whatsapp_number.label",
+        "info": "t:settings_schema.imperial.settings.whatsapp_number.info"
       },
       {
         "type": "text",
         "id": "whatsapp_message",
-        "label": "Mensaje predefinido",
-        "default": "¡Hola! Vi su joyería en la tienda y me gustaría más información."
+        "label": "t:settings_schema.imperial.settings.whatsapp_message.label",
+        "default": "t:settings_schema.imperial.settings.whatsapp_message.default"
       }
     ]
   },

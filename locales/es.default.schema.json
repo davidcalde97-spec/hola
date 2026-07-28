@@ -361,6 +361,25 @@
           }
         }
       }
+    },
+    "imperial": {
+      "name": "Imperial Jewelry",
+      "settings": {
+        "header_whatsapp": {
+          "content": "WhatsApp"
+        },
+        "whatsapp_enabled": {
+          "label": "Mostrar el botón flotante de WhatsApp"
+        },
+        "whatsapp_number": {
+          "label": "Número de WhatsApp",
+          "info": "Con clave de país y sin espacios ni signos. Ejemplo para México: 5215512345678. El botón solo aparece cuando este campo tiene un número."
+        },
+        "whatsapp_message": {
+          "label": "Mensaje predefinido",
+          "default": "¡Hola! Vi su joyería en la tienda y me gustaría más información."
+        }
+      }
     }
   },
   "sections": {
@@ -3408,6 +3427,165 @@
         },
         "open_by_default": {
           "label": "Abrir de forma predeterminada"
+        }
+      }
+    },
+    "hero-imperial": {
+      "name": "Portada Imperial",
+      "settings": {
+        "image_url": {
+          "label": "Liga de la imagen de fondo",
+          "info": "Pega la liga de una foto de tu catálogo. Usa material de la carpeta “fotos meli” ya subido a Shopify."
+        },
+        "image_alt": {
+          "label": "Texto alternativo de la imagen",
+          "info": "Describe la joya en español: tipo de pieza, material y acabado. Ejemplo: “Cadena de plata esterlina .925 tejido figaro 3x1 sobre fondo azul”."
+        },
+        "height": {
+          "label": "Altura",
+          "options__1": {
+            "label": "Chica"
+          },
+          "options__2": {
+            "label": "Mediana"
+          },
+          "options__3": {
+            "label": "Grande"
+          }
+        },
+        "overlay_opacity": {
+          "label": "Intensidad del velo azul"
+        },
+        "text_alignment": {
+          "label": "Alineación del texto",
+          "options__1": {
+            "label": "Izquierda"
+          },
+          "options__2": {
+            "label": "Centrada"
+          }
+        },
+        "color_scheme": {
+          "label": "Colores del texto",
+          "options__1": {
+            "label": "Claro"
+          },
+          "options__2": {
+            "label": "Azul imperial"
+          },
+          "options__3": {
+            "label": "Oro"
+          },
+          "options__4": {
+            "label": "Negro"
+          }
+        },
+        "eyebrow": {
+          "label": "Texto superior",
+          "default": "IMPERIAL JEWELRY · MÉXICO"
+        },
+        "heading": {
+          "label": "Título",
+          "default": "Joyería fina en oro y plata"
+        },
+        "subheading": {
+          "label": "Subtítulo",
+          "default": "<p>Oro amarillo de 10k y 14k y plata esterlina .925 con garantía de autenticidad. Envíos asegurados a todo México y meses sin intereses.</p>"
+        },
+        "button_label_1": {
+          "label": "Botón 1 · texto",
+          "default": "Ver catálogo"
+        },
+        "button_link_1": {
+          "label": "Botón 1 · liga"
+        },
+        "button_label_2": {
+          "label": "Botón 2 · texto",
+          "default": "Novedades en oro"
+        },
+        "button_link_2": {
+          "label": "Botón 2 · liga"
+        }
+      },
+      "presets": {
+        "name": "Portada Imperial"
+      }
+    },
+    "trust-bar": {
+      "name": "Barra de confianza",
+      "settings": {
+        "heading": {
+          "label": "Título (opcional)"
+        },
+        "color_scheme": {
+          "label": "Colores",
+          "options__1": {
+            "label": "Blanco"
+          },
+          "options__2": {
+            "label": "Marfil"
+          },
+          "options__3": {
+            "label": "Azul imperial"
+          },
+          "options__4": {
+            "label": "Oro"
+          }
+        }
+      },
+      "blocks": {
+        "item": {
+          "name": "Beneficio",
+          "settings": {
+            "icon": {
+              "label": "Icono",
+              "options__1": {
+                "label": "Escudo (garantía)"
+              },
+              "options__2": {
+                "label": "Lingote (oro y plata)"
+              },
+              "options__3": {
+                "label": "Camión (envío)"
+              },
+              "options__4": {
+                "label": "Chat (WhatsApp)"
+              },
+              "options__5": {
+                "label": "Cambios y devoluciones"
+              },
+              "options__6": {
+                "label": "Pago"
+              }
+            },
+            "title": {
+              "label": "Título"
+            },
+            "text": {
+              "label": "Descripción"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Barra de confianza",
+        "blocks": {
+          "oro": {
+            "title": "Oro y plata de verdad",
+            "text": "Oro de 10k y 14k y plata esterlina .925 con garantía de autenticidad."
+          },
+          "envio": {
+            "title": "Envío gratis y asegurado",
+            "text": "A todo México, con número de rastreo."
+          },
+          "pago": {
+            "title": "Compra protegida",
+            "text": "Pago seguro y meses sin intereses."
+          },
+          "whatsapp": {
+            "title": "Te atendemos por WhatsApp",
+            "text": "Te asesoramos antes y después de tu compra."
+          }
         }
       }
     }

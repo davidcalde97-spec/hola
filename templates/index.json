@@ -8,9 +8,10 @@
         "overlay_opacity": 45,
         "text_alignment": "center",
         "color_scheme": "scheme-3",
+        "image_alt": "Cadena de oro amarillo de Imperial Jewelry sobre fondo azul imperial",
         "eyebrow": "IMPERIAL JEWELRY · MÉXICO",
         "heading": "Joyería fina en oro y plata",
-        "subheading": "<p>Oro 10k y 14k y plata Ley .925 con garantía de autenticidad. Envíos asegurados a todo México.</p>",
+        "subheading": "<p>Oro amarillo de 10k y 14k y plata esterlina .925 con garantía de autenticidad. Envío gratis a todo México y meses sin intereses.</p>",
         "button_label_1": "Ver catálogo",
         "button_link_1": "/collections/oro-nuevo",
         "button_label_2": "Novedades en plata",
@@ -20,10 +21,10 @@
     "trust": {
       "type": "trust-bar",
       "blocks": {
-        "b1": { "type": "item", "settings": { "icon": "gold", "title": "Oro y plata reales", "text": "Oro 10k/14k y plata Ley .925 con garantía de autenticidad." } },
-        "b2": { "type": "item", "settings": { "icon": "truck", "title": "Envío asegurado", "text": "A todo México, con guía y seguimiento." } },
-        "b3": { "type": "item", "settings": { "icon": "card", "title": "Compra protegida", "text": "Pago seguro y meses sin intereses disponibles." } },
-        "b4": { "type": "item", "settings": { "icon": "chat", "title": "Atención por WhatsApp", "text": "Te asesoramos antes y después de tu compra." } }
+        "b1": { "type": "item", "settings": { "icon": "gold", "title": "Oro y plata de verdad", "text": "Oro amarillo de 10k y 14k y plata esterlina .925 con garantía de autenticidad." } },
+        "b2": { "type": "item", "settings": { "icon": "truck", "title": "Envío gratis y asegurado", "text": "A todo México, con número de rastreo." } },
+        "b3": { "type": "item", "settings": { "icon": "card", "title": "Meses sin intereses", "text": "Pago seguro y meses sin intereses con tarjetas participantes." } },
+        "b4": { "type": "item", "settings": { "icon": "chat", "title": "Te atendemos por WhatsApp", "text": "Te asesoramos antes y después de tu compra." } }
       },
       "block_order": ["b1", "b2", "b3", "b4"],
       "settings": {
@@ -85,7 +86,7 @@
       "type": "rich-text",
       "blocks": {
         "h": { "type": "heading", "settings": { "heading": "Elegancia que perdura", "heading_size": "h1" } },
-        "t": { "type": "text", "settings": { "text": "<p>En Imperial Jewelry seleccionamos cada pieza para que luzcas joyería auténtica que conserva su valor. Oro y plata reales, acabados finos y el respaldo de miles de clientes en todo México.</p>" } },
+        "t": { "type": "text", "settings": { "text": "<p>En Imperial Jewelry elegimos pieza por pieza para que luzcas joyería auténtica que conserva su valor. Oro amarillo y plata esterlina .925, acabados finos y el respaldo de miles de clientes en todo México.</p>" } },
         "b": { "type": "button", "settings": { "button_label": "Conócenos", "button_link": "/pages/nosotros", "button_style_secondary": false } }
       },
       "block_order": ["h", "t", "b"],
@@ -101,7 +102,7 @@
     "novedades_plata": {
       "type": "featured-collection",
       "settings": {
-        "title": "Plata Ley .925",
+        "title": "Plata esterlina .925",
         "heading_size": "h1",
         "description": "",
         "collection": "plata-nuevo",
@@ -127,10 +128,10 @@
     "faq": {
       "type": "collapsible-content",
       "blocks": {
-        "f1": { "type": "collapsible_row", "settings": { "heading": "¿El oro y la plata son auténticos?", "row_content": "<p>Sí. Trabajamos oro de 10k y 14k y plata Ley .925 con garantía de autenticidad. Cada pieza está cuidadosamente seleccionada.</p>" } },
-        "f2": { "type": "collapsible_row", "settings": { "heading": "¿Cómo son los envíos?", "row_content": "<p>Enviamos a todo México con guía y número de seguimiento. Tu pedido viaja asegurado y protegido.</p>" } },
-        "f3": { "type": "collapsible_row", "settings": { "heading": "¿Puedo pagar a meses?", "row_content": "<p>Sí, aceptamos tarjetas y meses sin intereses en las compras que aplican. Verás las opciones al finalizar tu compra.</p>" } },
-        "f4": { "type": "collapsible_row", "settings": { "heading": "¿Tienen cambios y devoluciones?", "row_content": "<p>Contáctanos por WhatsApp y con gusto te ayudamos con cambios o cualquier duda sobre tu pedido.</p>" } }
+        "f1": { "type": "collapsible_row", "settings": { "heading": "¿El oro y la plata son auténticos?", "row_content": "<p>Sí. Trabajamos oro amarillo de 10k y 14k y plata esterlina .925 con garantía de autenticidad. Cada pieza pasa por revisión antes de enviarse.</p>" } },
+        "f2": { "type": "collapsible_row", "settings": { "heading": "¿Cómo son los envíos?", "row_content": "<p>Enviamos a todo México con número de rastreo. Tu pedido viaja asegurado y te avisamos en cuanto sale.</p>" } },
+        "f3": { "type": "collapsible_row", "settings": { "heading": "¿Puedo pagar a meses sin intereses?", "row_content": "<p>Sí. Aceptamos tarjetas de crédito y débito, y hay meses sin intereses con tarjetas participantes. Verás los métodos de pago disponibles al finalizar la compra.</p>" } },
+        "f4": { "type": "collapsible_row", "settings": { "heading": "¿Hacen cambios y devoluciones?", "row_content": "<p>Sí. Escríbenos por WhatsApp y con gusto te ayudamos con cambios, devoluciones o cualquier duda sobre tu pedido.</p>" } }
       },
       "block_order": ["f1", "f2", "f3", "f4"],
       "settings": {
