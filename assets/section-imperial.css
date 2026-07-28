@@ -1,0 +1,161 @@
+/* ============================================================
+   Imperial Jewelry — custom sections (hero + trust bar)
+   ============================================================ */
+
+/* ---------- Hero ---------- */
+.imperial-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  color: rgb(var(--color-foreground));
+}
+
+.imperial-hero--small { min-height: 46vh; }
+.imperial-hero--medium { min-height: 62vh; }
+.imperial-hero--large { min-height: 82vh; }
+
+.imperial-hero__media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.imperial-hero__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.imperial-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(180deg, rgba(42, 56, 113, calc(var(--imp-overlay) * 0.6)) 0%, rgba(42, 56, 113, var(--imp-overlay)) 100%);
+}
+
+.imperial-hero__inner {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.imperial-hero__content { max-width: 62rem; }
+.imperial-hero__content--center {
+  margin-inline: auto;
+  text-align: center;
+}
+.imperial-hero__content--left { text-align: left; }
+
+.imperial-hero__eyebrow {
+  font-size: 1.3rem;
+  letter-spacing: 0.35rem;
+  text-transform: uppercase;
+  margin: 0 0 1.6rem;
+  opacity: 0.9;
+}
+
+.imperial-hero__heading {
+  font-size: clamp(3.4rem, 6vw, 6.4rem);
+  line-height: 1.05;
+  margin: 0 0 1.8rem;
+  letter-spacing: 0.05rem;
+}
+
+.imperial-hero__text {
+  font-size: 1.7rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  opacity: 0.95;
+}
+
+.imperial-hero__buttons {
+  display: flex;
+  gap: 1.4rem;
+  flex-wrap: wrap;
+}
+.imperial-hero__content--center .imperial-hero__buttons { justify-content: center; }
+
+.imperial-hero .button { min-width: 20rem; }
+
+/* Gold-accented secondary button on the hero */
+.imperial-hero__button-alt.button--secondary {
+  --color-button: var(--color-foreground);
+  box-shadow: 0 0 0 0.1rem rgba(217, 191, 85, 0.9) inset;
+}
+
+@media screen and (max-width: 749px) {
+  .imperial-hero--large,
+  .imperial-hero--medium { min-height: 70vh; }
+  .imperial-hero .button { min-width: 100%; }
+}
+
+/* ---------- Trust bar ---------- */
+.imperial-trust {
+  padding: 4.5rem 0;
+  background-color: rgb(var(--color-background));
+  color: rgb(var(--color-foreground));
+}
+
+.imperial-trust__title {
+  text-align: center;
+  margin: 0 0 3rem;
+  font-size: clamp(2rem, 3vw, 2.8rem);
+}
+
+.imperial-trust__grid {
+  display: grid;
+  grid-template-columns: repeat(var(--cols, 4), minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.imperial-trust__item {
+  text-align: center;
+  padding: 1rem 1.4rem;
+  position: relative;
+}
+.imperial-trust__item + .imperial-trust__item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15%;
+  height: 70%;
+  width: 1px;
+  background: rgba(217, 191, 85, 0.5);
+}
+
+.imperial-trust__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 5.4rem;
+  height: 5.4rem;
+  margin-bottom: 1.4rem;
+  border-radius: 50%;
+  color: #d9bf55;
+  background: rgba(217, 191, 85, 0.12);
+}
+.imperial-trust__icon svg { width: 2.8rem; height: 2.8rem; }
+
+.imperial-trust__item-title {
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  font-size: 1.6rem;
+}
+.imperial-trust__item-text {
+  margin: 0;
+  font-size: 1.35rem;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 749px) {
+  .imperial-trust__grid { grid-template-columns: repeat(2, 1fr); gap: 2.6rem 1rem; }
+  .imperial-trust__item + .imperial-trust__item::before { display: none; }
+}

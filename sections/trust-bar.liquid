@@ -1,0 +1,138 @@
+{{ 'section-imperial.css' | asset_url | stylesheet_tag }}
+
+<div class="imperial-trust color-{{ section.settings.color_scheme }} isolate">
+  <div class="page-width">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="imperial-trust__title">{{ section.settings.heading }}</h2>
+    {%- endif -%}
+    <div class="imperial-trust__grid" style="--cols: {{ section.blocks.size }};">
+      {%- for block in section.blocks -%}
+        <div class="imperial-trust__item" {{ block.shopify_attributes }}>
+          <span class="imperial-trust__icon">
+            {%- case block.settings.icon -%}
+              {%- when 'shield' -%}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 8.5-8 11-4.5-2.5-8-6-8-11V5l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
+              {%- when 'gold' -%}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 17l4-8h10l4 8z"/><path d="M7 9l2-4h6l2 4"/></svg>
+              {%- when 'truck' -%}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 6h12v10H2z"/><path d="M14 9h4l3 3v4h-7z"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg>
+              {%- when 'chat' -%}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.5 7.5L3 21l2-5.5A8.5 8.5 0 1 1 21 11.5z"/></svg>
+              {%- when 'return' -%}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
+              {%- when 'card' -%}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>
+              {%- else -%}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg>
+            {%- endcase -%}
+          </span>
+          {%- if block.settings.title != blank -%}
+            <p class="imperial-trust__item-title">{{ block.settings.title }}</p>
+          {%- endif -%}
+          {%- if block.settings.text != blank -%}
+            <p class="imperial-trust__item-text">{{ block.settings.text }}</p>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Barra de confianza",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Título (opcional)"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Esquema de color",
+      "default": "scheme-2",
+      "options": [
+        { "value": "scheme-1", "label": "Blanco" },
+        { "value": "scheme-2", "label": "Marfil" },
+        { "value": "scheme-3", "label": "Azul imperial" },
+        { "value": "scheme-4", "label": "Oro" }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Beneficio",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icono",
+          "default": "shield",
+          "options": [
+            { "value": "shield", "label": "Escudo (garantía)" },
+            { "value": "gold", "label": "Lingote (oro/plata)" },
+            { "value": "truck", "label": "Camión (envío)" },
+            { "value": "chat", "label": "Chat (WhatsApp)" },
+            { "value": "return", "label": "Devolución" },
+            { "value": "card", "label": "Pago" }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Título"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Descripción"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 4,
+  "presets": [
+    {
+      "name": "Barra de confianza",
+      "blocks": [
+        {
+          "type": "item",
+          "settings": {
+            "icon": "gold",
+            "title": "Oro y plata reales",
+            "text": "Oro 10k/14k y plata Ley .925 con garantía de autenticidad."
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "title": "Envío asegurado",
+            "text": "A todo México, con guía y seguimiento."
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "icon": "card",
+            "title": "Compra protegida",
+            "text": "Pago seguro y meses sin intereses disponibles."
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "icon": "chat",
+            "title": "Atención por WhatsApp",
+            "text": "Te asesoramos antes y después de tu compra."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

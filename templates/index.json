@@ -1,0 +1,174 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-imperial",
+      "settings": {
+        "image_url": "https://cdn.shopify.com/s/files/1/0667/4785/9130/files/020_78285_00005_d7gem8.jpg",
+        "height": "large",
+        "overlay_opacity": 45,
+        "text_alignment": "center",
+        "color_scheme": "scheme-3",
+        "eyebrow": "IMPERIAL JEWELRY · MÉXICO",
+        "heading": "Joyería fina en oro y plata",
+        "subheading": "<p>Oro 10k y 14k y plata Ley .925 con garantía de autenticidad. Envíos asegurados a todo México.</p>",
+        "button_label_1": "Ver catálogo",
+        "button_link_1": "/collections/oro-nuevo",
+        "button_label_2": "Novedades en plata",
+        "button_link_2": "/collections/plata-nuevo"
+      }
+    },
+    "trust": {
+      "type": "trust-bar",
+      "blocks": {
+        "b1": { "type": "item", "settings": { "icon": "gold", "title": "Oro y plata reales", "text": "Oro 10k/14k y plata Ley .925 con garantía de autenticidad." } },
+        "b2": { "type": "item", "settings": { "icon": "truck", "title": "Envío asegurado", "text": "A todo México, con guía y seguimiento." } },
+        "b3": { "type": "item", "settings": { "icon": "card", "title": "Compra protegida", "text": "Pago seguro y meses sin intereses disponibles." } },
+        "b4": { "type": "item", "settings": { "icon": "chat", "title": "Atención por WhatsApp", "text": "Te asesoramos antes y después de tu compra." } }
+      },
+      "block_order": ["b1", "b2", "b3", "b4"],
+      "settings": {
+        "heading": "",
+        "color_scheme": "scheme-2"
+      }
+    },
+    "categorias": {
+      "type": "collection-list",
+      "blocks": {
+        "c1": { "type": "featured_collection", "settings": { "collection": "aretes-onw" } },
+        "c2": { "type": "featured_collection", "settings": { "collection": "pulseras-owd" } },
+        "c3": { "type": "featured_collection", "settings": { "collection": "collares-owd" } },
+        "c4": { "type": "featured_collection", "settings": { "collection": "dijes-owd" } },
+        "c5": { "type": "featured_collection", "settings": { "collection": "anillos-onw" } },
+        "c6": { "type": "featured_collection", "settings": { "collection": "sets-owd" } }
+      },
+      "block_order": ["c1", "c2", "c3", "c4", "c5", "c6"],
+      "settings": {
+        "title": "Compra por categoría",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 28
+      }
+    },
+    "novedades_oro": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Novedades en oro",
+        "heading_size": "h1",
+        "description": "",
+        "collection": "oro-nuevo",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "marca": {
+      "type": "rich-text",
+      "blocks": {
+        "h": { "type": "heading", "settings": { "heading": "Elegancia que perdura", "heading_size": "h1" } },
+        "t": { "type": "text", "settings": { "text": "<p>En Imperial Jewelry seleccionamos cada pieza para que luzcas joyería auténtica que conserva su valor. Oro y plata reales, acabados finos y el respaldo de miles de clientes en todo México.</p>" } },
+        "b": { "type": "button", "settings": { "button_label": "Conócenos", "button_link": "/pages/nosotros", "button_style_secondary": false } }
+      },
+      "block_order": ["h", "t", "b"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "novedades_plata": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Plata Ley .925",
+        "heading_size": "h1",
+        "description": "",
+        "collection": "plata-nuevo",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "f1": { "type": "collapsible_row", "settings": { "heading": "¿El oro y la plata son auténticos?", "row_content": "<p>Sí. Trabajamos oro de 10k y 14k y plata Ley .925 con garantía de autenticidad. Cada pieza está cuidadosamente seleccionada.</p>" } },
+        "f2": { "type": "collapsible_row", "settings": { "heading": "¿Cómo son los envíos?", "row_content": "<p>Enviamos a todo México con guía y número de seguimiento. Tu pedido viaja asegurado y protegido.</p>" } },
+        "f3": { "type": "collapsible_row", "settings": { "heading": "¿Puedo pagar a meses?", "row_content": "<p>Sí, aceptamos tarjetas y meses sin intereses en las compras que aplican. Verás las opciones al finalizar tu compra.</p>" } },
+        "f4": { "type": "collapsible_row", "settings": { "heading": "¿Tienen cambios y devoluciones?", "row_content": "<p>Contáctanos por WhatsApp y con gusto te ayudamos con cambios o cualquier duda sobre tu pedido.</p>" } }
+      },
+      "block_order": ["f1", "f2", "f3", "f4"],
+      "settings": {
+        "caption": "",
+        "heading": "Preguntas frecuentes",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-2",
+        "open_first_collapsible_row": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "nh": { "type": "heading", "settings": { "heading": "Únete a Imperial Jewelry" } },
+        "np": { "type": "paragraph", "settings": { "text": "<p>Recibe novedades, ofertas exclusivas y un descuento de bienvenida en tu primera compra.</p>" } },
+        "nf": { "type": "email_form", "settings": {} }
+      },
+      "block_order": ["nh", "np", "nf"],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "scheme-4",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "trust",
+    "categorias",
+    "novedades_oro",
+    "marca",
+    "novedades_plata",
+    "faq",
+    "newsletter"
+  ]
+}

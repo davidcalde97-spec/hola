@@ -1,0 +1,144 @@
+{{ 'section-imperial.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign img = section.settings.image_url | default: 'https://cdn.shopify.com/s/files/1/0667/4785/9130/files/020_78285_00005_d7gem8.jpg'
+  assign overlay = section.settings.overlay_opacity | divided_by: 100.0
+-%}
+
+<div class="imperial-hero imperial-hero--{{ section.settings.height }} color-{{ section.settings.color_scheme }}" style="--imp-overlay: {{ overlay }};">
+  <div class="imperial-hero__media">
+    <img
+      src="{{ img }}"
+      alt="{{ section.settings.heading | escape }}"
+      loading="eager"
+      fetchpriority="high"
+      width="1600"
+      height="900"
+    >
+  </div>
+  <div class="imperial-hero__inner page-width">
+    <div class="imperial-hero__content imperial-hero__content--{{ section.settings.text_alignment }}">
+      {%- if section.settings.eyebrow != blank -%}
+        <p class="imperial-hero__eyebrow">{{ section.settings.eyebrow }}</p>
+      {%- endif -%}
+      {%- if section.settings.heading != blank -%}
+        <h1 class="imperial-hero__heading">{{ section.settings.heading }}</h1>
+      {%- endif -%}
+      {%- if section.settings.subheading != blank -%}
+        <div class="imperial-hero__text rte">{{ section.settings.subheading }}</div>
+      {%- endif -%}
+      <div class="imperial-hero__buttons">
+        {%- if section.settings.button_label_1 != blank -%}
+          <a href="{{ section.settings.button_link_1 | default: '#' }}" class="button button--primary">{{ section.settings.button_label_1 }}</a>
+        {%- endif -%}
+        {%- if section.settings.button_label_2 != blank -%}
+          <a href="{{ section.settings.button_link_2 | default: '#' }}" class="button button--secondary imperial-hero__button-alt">{{ section.settings.button_label_2 }}</a>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Hero Imperial",
+  "tag": "section",
+  "class": "section imperial-hero-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "image_url",
+      "label": "URL de la imagen de fondo",
+      "info": "Pega la URL de una foto (por defecto usa una foto de tu catálogo Aurart en el CDN de Shopify)."
+    },
+    {
+      "type": "select",
+      "id": "height",
+      "label": "Altura",
+      "options": [
+        { "value": "small", "label": "Pequeña" },
+        { "value": "medium", "label": "Mediana" },
+        { "value": "large", "label": "Grande" }
+      ],
+      "default": "large"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 90,
+      "step": 5,
+      "unit": "%",
+      "label": "Opacidad del velo azul",
+      "default": 45
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Alineación del texto",
+      "options": [
+        { "value": "left", "label": "Izquierda" },
+        { "value": "center", "label": "Centro" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Esquema de color del texto",
+      "default": "scheme-3",
+      "options": [
+        { "value": "scheme-1", "label": "Claro" },
+        { "value": "scheme-3", "label": "Azul imperial" },
+        { "value": "scheme-4", "label": "Oro" },
+        { "value": "scheme-5", "label": "Negro" }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Texto superior",
+      "default": "IMPERIAL JEWELRY · MÉXICO"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Título",
+      "default": "Joyería fina en oro y plata"
+    },
+    {
+      "type": "richtext",
+      "id": "subheading",
+      "label": "Subtítulo",
+      "default": "<p>Oro 10k y 14k y plata Ley .925 con garantía de autenticidad. Envíos asegurados a todo México.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label_1",
+      "label": "Botón 1 · texto",
+      "default": "Ver catálogo"
+    },
+    {
+      "type": "url",
+      "id": "button_link_1",
+      "label": "Botón 1 · enlace"
+    },
+    {
+      "type": "text",
+      "id": "button_label_2",
+      "label": "Botón 2 · texto",
+      "default": "Novedades en oro"
+    },
+    {
+      "type": "url",
+      "id": "button_link_2",
+      "label": "Botón 2 · enlace"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Imperial"
+    }
+  ]
+}
+{% endschema %}
