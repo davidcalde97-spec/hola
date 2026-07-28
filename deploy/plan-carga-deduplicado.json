@@ -1,0 +1,2727 @@
+{
+  "grupos": [
+    {
+      "sku_representativo": "78190ML",
+      "skus": [
+        "78190ML",
+        "78193ML",
+        "78194ML",
+        "78195ML",
+        "78210ML",
+        "78639ML",
+        "78640ML",
+        "78641ML",
+        "78642ML",
+        "79266ML",
+        "79267ML",
+        "79268ML",
+        "79269ML",
+        "79270ML",
+        "79271ML",
+        "79272ML",
+        "79273ML",
+        "79274ML",
+        "79275ML",
+        "79276ML",
+        "79277ML",
+        "79294ML",
+        "79295ML",
+        "79296ML",
+        "79297ML",
+        "81793ML",
+        "81794ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78190ML_01.jpg",
+        "78190ML_02.jpg",
+        "78190ML_03.jpg",
+        "78190ML_04.jpg",
+        "78190ML_05.jpg",
+        "78190ML_06.jpg",
+        "78190ML_07.jpg",
+        "78190ML_08.jpg",
+        "78190ML_09.jpg",
+        "78190ML_10.jpg",
+        "78190ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78190ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78196ML",
+      "skus": [
+        "78196ML",
+        "78199ML",
+        "78652ML",
+        "78653ML",
+        "79278ML",
+        "79279ML",
+        "79280ML",
+        "79281ML",
+        "79313ML",
+        "79314ML",
+        "79315ML",
+        "79316ML",
+        "79317ML",
+        "79318ML",
+        "79319ML",
+        "79320ML",
+        "79326ML",
+        "79327ML",
+        "79328ML",
+        "79329ML",
+        "81098ML",
+        "81099ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78196ML_01.jpg",
+        "78196ML_02.jpg",
+        "78196ML_03.jpg",
+        "78196ML_04.jpg",
+        "78196ML_05.jpg",
+        "78196ML_06.jpg",
+        "78196ML_07.jpg",
+        "78196ML_08.jpg",
+        "78196ML_09.jpg",
+        "78196ML_10.jpg",
+        "78196ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78196ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78198ML",
+      "skus": [
+        "78198ML",
+        "78200ML",
+        "78201ML",
+        "78202ML",
+        "78203ML",
+        "78204ML",
+        "78205ML",
+        "78211ML",
+        "78647ML",
+        "78648ML",
+        "79282ML",
+        "79283ML",
+        "79284ML",
+        "79285ML",
+        "79286ML",
+        "79287ML",
+        "79288ML",
+        "79289ML",
+        "79290ML",
+        "79291ML",
+        "79292ML",
+        "79293ML",
+        "79298ML",
+        "79299ML",
+        "79300ML",
+        "79301ML",
+        "79305ML",
+        "79306ML",
+        "79307ML",
+        "79308ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78198ML_01.jpg",
+        "78198ML_02.jpg",
+        "78198ML_03.jpg",
+        "78198ML_04.jpg",
+        "78198ML_05.jpg",
+        "78198ML_06.jpg",
+        "78198ML_07.jpg",
+        "78198ML_08.jpg",
+        "78198ML_09.jpg",
+        "78198ML_10.jpg",
+        "78198ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78198ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78206ML",
+      "skus": [
+        "78206ML",
+        "78209ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78206ML_01.jpg",
+        "78206ML_02.jpg",
+        "78206ML_03.jpg",
+        "78206ML_04.jpg",
+        "78206ML_05.jpg",
+        "78206ML_06.jpg",
+        "78206ML_07.jpg",
+        "78206ML_08.jpg",
+        "78206ML_09.jpg",
+        "78206ML_10.jpg",
+        "78206ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78206ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78212ML",
+      "skus": [
+        "78212ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78212ML_01.jpg",
+        "78212ML_02.jpg",
+        "78212ML_03.jpg",
+        "78212ML_04.jpg",
+        "78212ML_05.jpg",
+        "78212ML_06.jpg",
+        "78212ML_07.jpg",
+        "78212ML_08.jpg",
+        "78212ML_09.jpg",
+        "78212ML_10.jpg",
+        "78212ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78212ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78218ML",
+      "skus": [
+        "78218ML",
+        "79034ML",
+        "79055ML",
+        "80620ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78218ML_01.jpg",
+        "78218ML_02.jpg",
+        "78218ML_03.jpg",
+        "78218ML_04.jpg",
+        "78218ML_05.jpg",
+        "78218ML_06.jpg",
+        "78218ML_07.jpg",
+        "78218ML_08.jpg",
+        "78218ML_09.jpg",
+        "78218ML_10.jpg",
+        "78218ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78218ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78219ML",
+      "skus": [
+        "78219ML",
+        "78425ML",
+        "79035ML",
+        "79646ML",
+        "80618ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78219ML_01.jpg",
+        "78219ML_02.jpg",
+        "78219ML_03.jpg",
+        "78219ML_04.jpg",
+        "78219ML_05.jpg",
+        "78219ML_06.jpg",
+        "78219ML_07.jpg",
+        "78219ML_08.jpg",
+        "78219ML_09.jpg",
+        "78219ML_10.jpg",
+        "78219ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78219ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78222ML",
+      "skus": [
+        "78222ML",
+        "79453ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78222ML_01.jpg",
+        "78222ML_02.jpg",
+        "78222ML_03.jpg",
+        "78222ML_04.jpg",
+        "78222ML_05.jpg",
+        "78222ML_06.jpg",
+        "78222ML_07.jpg",
+        "78222ML_08.jpg",
+        "78222ML_09.jpg",
+        "78222ML_10.jpg",
+        "78222ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78222ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78223ML",
+      "skus": [
+        "78223ML",
+        "79636ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78223ML_01.jpg",
+        "78223ML_02.jpg",
+        "78223ML_03.jpg",
+        "78223ML_04.jpg",
+        "78223ML_05.jpg",
+        "78223ML_06.jpg",
+        "78223ML_07.jpg",
+        "78223ML_08.jpg",
+        "78223ML_09.jpg",
+        "78223ML_10.jpg",
+        "78223ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78223ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78227ML",
+      "skus": [
+        "78227ML",
+        "78228ML",
+        "78362ML",
+        "78363ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78227ML_01.jpg",
+        "78227ML_02.jpg",
+        "78227ML_03.jpg",
+        "78227ML_04.jpg",
+        "78227ML_05.jpg",
+        "78227ML_06.jpg",
+        "78227ML_07.jpg",
+        "78227ML_08.jpg",
+        "78227ML_09.jpg",
+        "78227ML_10.jpg",
+        "78227ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78227ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78230ML",
+      "skus": [
+        "78230ML",
+        "78241ML",
+        "78365ML",
+        "78371ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78230ML_01.jpg",
+        "78230ML_02.jpg",
+        "78230ML_03.jpg",
+        "78230ML_04.jpg",
+        "78230ML_05.jpg",
+        "78230ML_06.jpg",
+        "78230ML_07.jpg",
+        "78230ML_08.jpg",
+        "78230ML_09.jpg",
+        "78230ML_10.jpg",
+        "78230ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78230ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78231ML",
+      "skus": [
+        "78231ML",
+        "78655ML",
+        "79046ML",
+        "79047ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78231ML_01.jpg",
+        "78231ML_02.jpg",
+        "78231ML_03.jpg",
+        "78231ML_04.jpg",
+        "78231ML_05.jpg",
+        "78231ML_06.jpg",
+        "78231ML_07.jpg",
+        "78231ML_08.jpg",
+        "78231ML_09.jpg",
+        "78231ML_10.jpg",
+        "78231ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78231ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78234ML",
+      "skus": [
+        "78234ML",
+        "78235ML",
+        "78366ML",
+        "78367ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78234ML_01.jpg",
+        "78234ML_02.jpg",
+        "78234ML_03.jpg",
+        "78234ML_04.jpg",
+        "78234ML_05.jpg",
+        "78234ML_06.jpg",
+        "78234ML_07.jpg",
+        "78234ML_08.jpg",
+        "78234ML_09.jpg",
+        "78234ML_10.jpg",
+        "78234ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78234ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78236ML",
+      "skus": [
+        "78236ML",
+        "78237ML",
+        "78238ML",
+        "78368ML",
+        "78369ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78236ML_01.jpg",
+        "78236ML_02.jpg",
+        "78236ML_03.jpg",
+        "78236ML_04.jpg",
+        "78236ML_05.jpg",
+        "78236ML_06.jpg",
+        "78236ML_07.jpg",
+        "78236ML_08.jpg",
+        "78236ML_09.jpg",
+        "78236ML_10.jpg",
+        "78236ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78236ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78240ML",
+      "skus": [
+        "78240ML",
+        "78320ML",
+        "78396ML",
+        "78397ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78240ML_01.jpg",
+        "78240ML_02.jpg",
+        "78240ML_03.jpg",
+        "78240ML_04.jpg",
+        "78240ML_05.jpg",
+        "78240ML_06.jpg",
+        "78240ML_07.jpg",
+        "78240ML_08.jpg",
+        "78240ML_09.jpg",
+        "78240ML_10.jpg",
+        "78240ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78240ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78279ML",
+      "skus": [
+        "78279ML",
+        "78282ML",
+        "78374ML",
+        "79085ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78279ML_01.jpg",
+        "78279ML_02.jpg",
+        "78279ML_03.jpg",
+        "78279ML_04.jpg",
+        "78279ML_05.jpg",
+        "78279ML_06.jpg",
+        "78279ML_07.jpg",
+        "78279ML_08.jpg",
+        "78279ML_09.jpg",
+        "78279ML_10.jpg",
+        "78279ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78279ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78283ML",
+      "skus": [
+        "78283ML",
+        "78375ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78283ML_01.jpg",
+        "78283ML_02.jpg",
+        "78283ML_03.jpg",
+        "78283ML_04.jpg",
+        "78283ML_05.jpg",
+        "78283ML_06.jpg",
+        "78283ML_07.jpg",
+        "78283ML_08.jpg",
+        "78283ML_09.jpg",
+        "78283ML_10.jpg",
+        "78283ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78283ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78285ML",
+      "skus": [
+        "78285ML",
+        "78330ML",
+        "78389ML",
+        "78390ML",
+        "79110ML",
+        "79159ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78285ML_01.jpg",
+        "78285ML_02.jpg",
+        "78285ML_03.jpg",
+        "78285ML_04.jpg",
+        "78285ML_05.jpg",
+        "78285ML_06.jpg",
+        "78285ML_07.jpg",
+        "78285ML_08.jpg",
+        "78285ML_09.jpg",
+        "78285ML_10.jpg",
+        "78285ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78285ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78286ML",
+      "skus": [
+        "78286ML",
+        "78287ML",
+        "78288ML",
+        "78289ML",
+        "78391ML",
+        "78392ML",
+        "78393ML",
+        "79112ML",
+        "79131ML",
+        "79132ML",
+        "79133ML",
+        "79134ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78286ML_01.jpg",
+        "78286ML_02.jpg",
+        "78286ML_03.jpg",
+        "78286ML_04.jpg",
+        "78286ML_05.jpg",
+        "78286ML_06.jpg",
+        "78286ML_07.jpg",
+        "78286ML_08.jpg",
+        "78286ML_09.jpg",
+        "78286ML_10.jpg",
+        "78286ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78286ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78290ML",
+      "skus": [
+        "78290ML",
+        "78291ML",
+        "78292ML",
+        "78293ML",
+        "78294ML",
+        "78295ML",
+        "78299ML",
+        "78323ML",
+        "78324ML",
+        "78376ML",
+        "78377ML",
+        "78379ML",
+        "78380ML",
+        "78382ML",
+        "78385ML",
+        "78386ML",
+        "78387ML",
+        "78388ML",
+        "79143ML",
+        "79152ML",
+        "79153ML",
+        "79154ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78290ML_01.jpg",
+        "78290ML_02.jpg",
+        "78290ML_03.jpg",
+        "78290ML_04.jpg",
+        "78290ML_05.jpg",
+        "78290ML_06.jpg",
+        "78290ML_07.jpg",
+        "78290ML_08.jpg",
+        "78290ML_09.jpg",
+        "78290ML_10.jpg",
+        "78290ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78290ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78296ML",
+      "skus": [
+        "78296ML",
+        "78297ML",
+        "78298ML",
+        "78300ML",
+        "78301ML",
+        "78409ML",
+        "78410ML",
+        "78411ML",
+        "78412ML",
+        "78413ML",
+        "78414ML",
+        "79871ML",
+        "84727ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78296ML_01.jpg",
+        "78296ML_02.jpg",
+        "78296ML_03.jpg",
+        "78296ML_04.jpg",
+        "78296ML_05.jpg",
+        "78296ML_06.jpg",
+        "78296ML_07.jpg",
+        "78296ML_08.jpg",
+        "78296ML_09.jpg",
+        "78296ML_10.jpg",
+        "78296ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78296ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78302ML",
+      "skus": [
+        "78302ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78302ML_01.jpg",
+        "78302ML_02.jpg",
+        "78302ML_03.jpg",
+        "78302ML_04.jpg",
+        "78302ML_05.jpg",
+        "78302ML_06.jpg",
+        "78302ML_07.jpg",
+        "78302ML_08.jpg",
+        "78302ML_09.jpg",
+        "78302ML_10.jpg",
+        "78302ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78302ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78304ML",
+      "skus": [
+        "78304ML",
+        "78305ML",
+        "78306ML",
+        "78663ML",
+        "78664ML",
+        "78666ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78304ML_01.jpg",
+        "78304ML_02.jpg",
+        "78304ML_03.jpg",
+        "78304ML_04.jpg",
+        "78304ML_05.jpg",
+        "78304ML_06.jpg",
+        "78304ML_07.jpg",
+        "78304ML_08.jpg",
+        "78304ML_09.jpg",
+        "78304ML_10.jpg",
+        "78304ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78304ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78308ML",
+      "skus": [
+        "78308ML",
+        "78309ML",
+        "78310ML",
+        "78317ML",
+        "78318ML",
+        "78319ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78308ML_01.jpg",
+        "78308ML_02.jpg",
+        "78308ML_03.jpg",
+        "78308ML_04.jpg",
+        "78308ML_05.jpg",
+        "78308ML_06.jpg",
+        "78308ML_07.jpg",
+        "78308ML_08.jpg",
+        "78308ML_09.jpg",
+        "78308ML_10.jpg",
+        "78308ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78308ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78312ML",
+      "skus": [
+        "78312ML",
+        "78313ML",
+        "78314ML",
+        "78315ML",
+        "78316ML",
+        "78657ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78312ML_01.jpg",
+        "78312ML_02.jpg",
+        "78312ML_03.jpg",
+        "78312ML_04.jpg",
+        "78312ML_05.jpg",
+        "78312ML_06.jpg",
+        "78312ML_07.jpg",
+        "78312ML_08.jpg",
+        "78312ML_09.jpg",
+        "78312ML_10.jpg",
+        "78312ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78312ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78321ML",
+      "skus": [
+        "78321ML",
+        "78322ML",
+        "78383ML",
+        "78384ML",
+        "79138ML",
+        "79151ML",
+        "79611ML",
+        "79614ML",
+        "79628ML",
+        "81175ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78321ML_01.jpg",
+        "78321ML_02.jpg",
+        "78321ML_03.jpg",
+        "78321ML_04.jpg",
+        "78321ML_05.jpg",
+        "78321ML_06.jpg",
+        "78321ML_07.jpg",
+        "78321ML_08.jpg",
+        "78321ML_09.jpg",
+        "78321ML_10.jpg",
+        "78321ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78321ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78331ML",
+      "skus": [
+        "78331ML",
+        "78420ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78331ML_01.jpg",
+        "78331ML_02.jpg",
+        "78331ML_03.jpg",
+        "78331ML_04.jpg",
+        "78331ML_05.jpg",
+        "78331ML_06.jpg",
+        "78331ML_07.jpg",
+        "78331ML_08.jpg",
+        "78331ML_09.jpg",
+        "78331ML_10.jpg",
+        "78331ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78331ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78333ML",
+      "skus": [
+        "78333ML",
+        "79041ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78333ML_01.jpg",
+        "78333ML_03.jpg",
+        "78333ML_04.jpg",
+        "78333ML_05.jpg",
+        "78333ML_06.jpg",
+        "78333ML_07.jpg",
+        "78333ML_08.jpg",
+        "78333ML_09.jpg",
+        "78333ML_10.jpg",
+        "78333ML_11.jpg",
+        "78333ML_12.jpg"
+      ],
+      "video_sugerido": [
+        "78333ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78334ML",
+      "skus": [
+        "78334ML",
+        "78431ML",
+        "79042ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78334ML_01.jpg",
+        "78334ML_02.jpg",
+        "78334ML_03.jpg",
+        "78334ML_04.jpg",
+        "78334ML_05.jpg",
+        "78334ML_06.jpg",
+        "78334ML_07.jpg",
+        "78334ML_08.jpg",
+        "78334ML_09.jpg",
+        "78334ML_10.jpg",
+        "78334ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78334ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78337ML",
+      "skus": [
+        "78337ML",
+        "78342ML",
+        "81774ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78337ML_01.jpg",
+        "78337ML_02.jpg",
+        "78337ML_03.jpg",
+        "78337ML_04.jpg",
+        "78337ML_05.jpg",
+        "78337ML_06.jpg",
+        "78337ML_07.jpg",
+        "78337ML_08.jpg",
+        "78337ML_09.jpg",
+        "78337ML_10.jpg",
+        "78337ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78337ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78338ML",
+      "skus": [
+        "78338ML",
+        "78339ML",
+        "78427ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78338ML_01.jpg",
+        "78338ML_02.jpg",
+        "78338ML_03.jpg",
+        "78338ML_04.jpg",
+        "78338ML_05.jpg",
+        "78338ML_06.jpg",
+        "78338ML_07.jpg",
+        "78338ML_08.jpg",
+        "78338ML_09.jpg",
+        "78338ML_10.jpg",
+        "78338ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78338ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78343ML",
+      "skus": [
+        "78343ML",
+        "78344ML",
+        "79083ML",
+        "79084ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78343ML_01.jpg",
+        "78343ML_02.jpg",
+        "78343ML_03.jpg",
+        "78343ML_04.jpg",
+        "78343ML_05.jpg",
+        "78343ML_06.jpg",
+        "78343ML_07.jpg",
+        "78343ML_08.jpg",
+        "78343ML_09.jpg",
+        "78343ML_10.jpg",
+        "78343ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78343ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78346ML",
+      "skus": [
+        "78346ML",
+        "78417ML",
+        "78434ML",
+        "79156ML",
+        "79157ML",
+        "79158ML",
+        "80416ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78346ML_01.jpg",
+        "78346ML_02.jpg",
+        "78346ML_03.jpg",
+        "78346ML_04.jpg",
+        "78346ML_05.jpg",
+        "78346ML_06.jpg",
+        "78346ML_07.jpg",
+        "78346ML_08.jpg",
+        "78346ML_09.jpg",
+        "78346ML_10.jpg",
+        "78346ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78346ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78347ML",
+      "skus": [
+        "78347ML",
+        "78402ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78347ML_01.jpg",
+        "78347ML_02.jpg",
+        "78347ML_03.jpg",
+        "78347ML_04.jpg",
+        "78347ML_05.jpg",
+        "78347ML_06.jpg",
+        "78347ML_07.jpg",
+        "78347ML_08.jpg",
+        "78347ML_09.jpg",
+        "78347ML_10.jpg",
+        "78347ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78347ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78350ML",
+      "skus": [
+        "78350ML",
+        "79155ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78350ML_01.jpg",
+        "78350ML_02.jpg",
+        "78350ML_03.jpg",
+        "78350ML_04.jpg",
+        "78350ML_05.jpg",
+        "78350ML_06.jpg",
+        "78350ML_07.jpg",
+        "78350ML_08.jpg",
+        "78350ML_09.jpg",
+        "78350ML_10.jpg",
+        "78350ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78350ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78353ML",
+      "skus": [
+        "78353ML",
+        "78416ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78353ML_01.jpg",
+        "78353ML_02.jpg",
+        "78353ML_03.jpg",
+        "78353ML_04.jpg",
+        "78353ML_05.jpg",
+        "78353ML_06.jpg",
+        "78353ML_07.jpg",
+        "78353ML_08.jpg",
+        "78353ML_09.jpg",
+        "78353ML_10.jpg",
+        "78353ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78353ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78354ML",
+      "skus": [
+        "78354ML",
+        "79086ML",
+        "79111ML",
+        "79113ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78354ML_01.jpg",
+        "78354ML_02.jpg",
+        "78354ML_03.jpg",
+        "78354ML_04.jpg",
+        "78354ML_05.jpg",
+        "78354ML_06.jpg",
+        "78354ML_07.jpg",
+        "78354ML_08.jpg",
+        "78354ML_09.jpg",
+        "78354ML_10.jpg",
+        "78354ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78354ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78355ML",
+      "skus": [
+        "78355ML",
+        "78403ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78355ML_01.jpg",
+        "78355ML_02.jpg",
+        "78355ML_03.jpg",
+        "78355ML_04.jpg",
+        "78355ML_05.jpg",
+        "78355ML_06.jpg",
+        "78355ML_07.jpg",
+        "78355ML_08.jpg",
+        "78355ML_09.jpg",
+        "78355ML_10.jpg",
+        "78355ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78355ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78356ML",
+      "skus": [
+        "78356ML",
+        "78399ML",
+        "80617ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78356ML_01.jpg",
+        "78356ML_02.jpg",
+        "78356ML_03.jpg",
+        "78356ML_04.jpg",
+        "78356ML_05.jpg",
+        "78356ML_06.jpg",
+        "78356ML_07.jpg",
+        "78356ML_08.jpg",
+        "78356ML_09.jpg",
+        "78356ML_10.jpg",
+        "78356ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78356ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78357ML",
+      "skus": [
+        "78357ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78357ML_01.jpg",
+        "78357ML_02.jpg",
+        "78357ML_03.jpg",
+        "78357ML_04.jpg",
+        "78357ML_05.jpg",
+        "78357ML_06.jpg",
+        "78357ML_07.jpg",
+        "78357ML_08.jpg",
+        "78357ML_09.jpg",
+        "78357ML_10.jpg",
+        "78357ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78357ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78359ML",
+      "skus": [
+        "78359ML",
+        "78671ML",
+        "79619ML",
+        "79620ML",
+        "79621ML",
+        "79622ML",
+        "79623ML",
+        "79624ML",
+        "79625ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78359ML_01.jpg",
+        "78359ML_02.jpg",
+        "78359ML_03.jpg",
+        "78359ML_04.jpg",
+        "78359ML_05.jpg",
+        "78359ML_06.jpg",
+        "78359ML_07.jpg",
+        "78359ML_08.jpg",
+        "78359ML_09.jpg",
+        "78359ML_10.jpg",
+        "78359ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78359ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78360ML",
+      "skus": [
+        "78360ML",
+        "78404ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78360ML_01.jpg",
+        "78360ML_02.jpg",
+        "78360ML_03.jpg",
+        "78360ML_04.jpg",
+        "78360ML_05.jpg",
+        "78360ML_06.jpg",
+        "78360ML_07.jpg",
+        "78360ML_08.jpg",
+        "78360ML_09.jpg",
+        "78360ML_10.jpg",
+        "78360ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78360ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78580ML",
+      "skus": [
+        "78580ML",
+        "78597ML",
+        "78605ML",
+        "78606ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78580ML_01.jpg",
+        "78580ML_02.jpg",
+        "78580ML_03.jpg",
+        "78580ML_04.jpg",
+        "78580ML_05.jpg",
+        "78580ML_06.jpg",
+        "78580ML_07.jpg",
+        "78580ML_08.jpg",
+        "78580ML_09.jpg",
+        "78580ML_10.jpg",
+        "78580ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78580ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78581ML",
+      "skus": [
+        "78581ML",
+        "78582ML",
+        "78634ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78581ML_01.jpg",
+        "78581ML_02.jpg",
+        "78581ML_03.jpg",
+        "78581ML_04.jpg",
+        "78581ML_05.jpg",
+        "78581ML_06.jpg",
+        "78581ML_07.jpg",
+        "78581ML_08.jpg",
+        "78581ML_09.jpg",
+        "78581ML_10.jpg",
+        "78581ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78581ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78587ML",
+      "skus": [
+        "78587ML",
+        "78588ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78587ML_01.jpg",
+        "78587ML_02.jpg",
+        "78587ML_03.jpg",
+        "78587ML_04.jpg",
+        "78587ML_05.jpg",
+        "78587ML_06.jpg",
+        "78587ML_07.jpg",
+        "78587ML_08.jpg",
+        "78587ML_09.jpg",
+        "78587ML_10.jpg",
+        "78587ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78587ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78589ML",
+      "skus": [
+        "78589ML",
+        "78590ML",
+        "78592ML",
+        "78593ML",
+        "78622ML",
+        "78625ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78589ML_01.jpg",
+        "78589ML_02.jpg",
+        "78589ML_03.jpg",
+        "78589ML_04.jpg",
+        "78589ML_05.jpg",
+        "78589ML_06.jpg",
+        "78589ML_07.jpg",
+        "78589ML_08.jpg",
+        "78589ML_09.jpg",
+        "78589ML_10.jpg",
+        "78589ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78589ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78596ML",
+      "skus": [
+        "78596ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78596ML_01.jpg",
+        "78596ML_02.jpg",
+        "78596ML_03.jpg",
+        "78596ML_04.jpg",
+        "78596ML_05.jpg",
+        "78596ML_06.jpg",
+        "78596ML_07.jpg",
+        "78596ML_08.jpg",
+        "78596ML_09.jpg",
+        "78596ML_10.jpg",
+        "78596ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78596ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78598ML",
+      "skus": [
+        "78598ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78598ML_01.jpg",
+        "78598ML_02.jpg",
+        "78598ML_03.jpg",
+        "78598ML_04.jpg",
+        "78598ML_05.jpg",
+        "78598ML_06.jpg",
+        "78598ML_07.jpg",
+        "78598ML_08.jpg",
+        "78598ML_09.jpg",
+        "78598ML_10.jpg",
+        "78598ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78598ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78600ML",
+      "skus": [
+        "78600ML",
+        "78604ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78600ML_01.jpg",
+        "78600ML_02.jpg",
+        "78600ML_03.jpg",
+        "78600ML_04.jpg",
+        "78600ML_05.jpg",
+        "78600ML_06.jpg",
+        "78600ML_07.jpg",
+        "78600ML_08.jpg",
+        "78600ML_09.jpg",
+        "78600ML_10.jpg",
+        "78600ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78600ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78601ML",
+      "skus": [
+        "78601ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78601ML_01.jpg",
+        "78601ML_02.jpg",
+        "78601ML_03.jpg",
+        "78601ML_04.jpg",
+        "78601ML_05.jpg",
+        "78601ML_06.jpg",
+        "78601ML_07.jpg",
+        "78601ML_08.jpg",
+        "78601ML_09.jpg",
+        "78601ML_10.jpg",
+        "78601ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78601ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78602ML",
+      "skus": [
+        "78602ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78602ML_01.jpg",
+        "78602ML_02.jpg",
+        "78602ML_03.jpg",
+        "78602ML_04.jpg",
+        "78602ML_05.jpg",
+        "78602ML_06.jpg",
+        "78602ML_07.jpg",
+        "78602ML_08.jpg",
+        "78602ML_09.jpg",
+        "78602ML_10.jpg",
+        "78602ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78602ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78607ML",
+      "skus": [
+        "78607ML",
+        "78610ML",
+        "78621ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78607ML_01.jpg",
+        "78607ML_02.jpg",
+        "78607ML_03.jpg",
+        "78607ML_04.jpg",
+        "78607ML_05.jpg",
+        "78607ML_06.jpg",
+        "78607ML_07.jpg",
+        "78607ML_08.jpg",
+        "78607ML_09.jpg",
+        "78607ML_10.jpg",
+        "78607ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78607ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78617ML",
+      "skus": [
+        "78617ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78617ML_01.jpg",
+        "78617ML_02.jpg",
+        "78617ML_03.jpg",
+        "78617ML_04.jpg",
+        "78617ML_05.jpg",
+        "78617ML_06.jpg",
+        "78617ML_07.jpg",
+        "78617ML_08.jpg",
+        "78617ML_09.jpg",
+        "78617ML_10.jpg",
+        "78617ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78617ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78619ML",
+      "skus": [
+        "78619ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78619ML_01.jpg",
+        "78619ML_02.jpg",
+        "78619ML_03.jpg",
+        "78619ML_04.jpg",
+        "78619ML_05.jpg",
+        "78619ML_06.jpg",
+        "78619ML_07.jpg",
+        "78619ML_08.jpg",
+        "78619ML_09.jpg",
+        "78619ML_10.jpg",
+        "78619ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78619ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78626ML",
+      "skus": [
+        "78626ML",
+        "78627ML",
+        "78628ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78626ML_01.jpg",
+        "78626ML_02.jpg",
+        "78626ML_03.jpg",
+        "78626ML_04.jpg",
+        "78626ML_05.jpg",
+        "78626ML_06.jpg",
+        "78626ML_07.jpg",
+        "78626ML_08.jpg",
+        "78626ML_09.jpg",
+        "78626ML_10.jpg",
+        "78626ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78626ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78629ML",
+      "skus": [
+        "78629ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78629ML_01.jpg",
+        "78629ML_02.jpg",
+        "78629ML_03.jpg",
+        "78629ML_04.jpg",
+        "78629ML_05.jpg",
+        "78629ML_06.jpg",
+        "78629ML_07.jpg",
+        "78629ML_08.jpg",
+        "78629ML_09.jpg",
+        "78629ML_10.jpg",
+        "78629ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78629ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78633ML",
+      "skus": [
+        "78633ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78633ML_01.jpg",
+        "78633ML_02.jpg",
+        "78633ML_03.jpg",
+        "78633ML_04.jpg",
+        "78633ML_05.jpg",
+        "78633ML_06.jpg",
+        "78633ML_07.jpg",
+        "78633ML_08.jpg",
+        "78633ML_09.jpg",
+        "78633ML_10.jpg",
+        "78633ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78633ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78643ML",
+      "skus": [
+        "78643ML",
+        "79081ML",
+        "79103ML",
+        "80971ML",
+        "80972ML",
+        "80973ML",
+        "81781ML",
+        "81787ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78643ML_01.jpg",
+        "78643ML_02.jpg",
+        "78643ML_03.jpg",
+        "78643ML_04.jpg",
+        "78643ML_05.jpg",
+        "78643ML_06.jpg",
+        "78643ML_07.jpg",
+        "78643ML_08.jpg",
+        "78643ML_09.jpg",
+        "78643ML_10.jpg",
+        "78643ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78643ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78644ML",
+      "skus": [
+        "78644ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78644ML_01.jpg",
+        "78644ML_02.jpg",
+        "78644ML_03.jpg",
+        "78644ML_04.jpg",
+        "78644ML_05.jpg",
+        "78644ML_06.jpg",
+        "78644ML_07.jpg",
+        "78644ML_08.jpg",
+        "78644ML_09.jpg",
+        "78644ML_10.jpg",
+        "78644ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78644ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78645ML",
+      "skus": [
+        "78645ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78645ML_01.jpg",
+        "78645ML_02.jpg",
+        "78645ML_03.jpg",
+        "78645ML_04.jpg",
+        "78645ML_05.jpg",
+        "78645ML_06.jpg",
+        "78645ML_07.jpg",
+        "78645ML_08.jpg",
+        "78645ML_09.jpg",
+        "78645ML_10.jpg",
+        "78645ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78645ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78649ML",
+      "skus": [
+        "78649ML",
+        "78650ML",
+        "78651ML",
+        "79050ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78649ML_01.jpg",
+        "78649ML_02.jpg",
+        "78649ML_03.jpg",
+        "78649ML_04.jpg",
+        "78649ML_05.jpg",
+        "78649ML_06.jpg",
+        "78649ML_07.jpg",
+        "78649ML_08.jpg",
+        "78649ML_09.jpg",
+        "78649ML_10.jpg",
+        "78649ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78649ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78654ML",
+      "skus": [
+        "78654ML",
+        "79612ML",
+        "79615ML",
+        "79634ML",
+        "80936ML",
+        "80937ML",
+        "80938ML",
+        "80948ML",
+        "80967ML",
+        "81101ML",
+        "81117ML"
+      ],
+      "n_fotos": 0,
+      "fotos": [],
+      "video_sugerido": [],
+      "tiene_fotos": false
+    },
+    {
+      "sku_representativo": "78656ML",
+      "skus": [
+        "78656ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78656ML_01.jpg",
+        "78656ML_02.jpg",
+        "78656ML_03.jpg",
+        "78656ML_04.jpg",
+        "78656ML_05.jpg",
+        "78656ML_06.jpg",
+        "78656ML_07.jpg",
+        "78656ML_08.jpg",
+        "78656ML_09.jpg",
+        "78656ML_10.jpg",
+        "78656ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78656ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78667ML",
+      "skus": [
+        "78667ML",
+        "79160ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78667ML_01.jpg",
+        "78667ML_02.jpg",
+        "78667ML_03.jpg",
+        "78667ML_04.jpg",
+        "78667ML_05.jpg",
+        "78667ML_06.jpg",
+        "78667ML_07.jpg",
+        "78667ML_08.jpg",
+        "78667ML_09.jpg",
+        "78667ML_10.jpg",
+        "78667ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78667ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78668ML",
+      "skus": [
+        "78668ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78668ML_01.jpg",
+        "78668ML_02.jpg",
+        "78668ML_03.jpg",
+        "78668ML_04.jpg",
+        "78668ML_05.jpg",
+        "78668ML_06.jpg",
+        "78668ML_07.jpg",
+        "78668ML_08.jpg",
+        "78668ML_09.jpg",
+        "78668ML_10.jpg",
+        "78668ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78668ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "78674ML",
+      "skus": [
+        "78674ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "78674ML_01.jpg",
+        "78674ML_02.jpg",
+        "78674ML_03.jpg",
+        "78674ML_04.jpg",
+        "78674ML_05.jpg",
+        "78674ML_06.jpg",
+        "78674ML_07.jpg",
+        "78674ML_08.jpg",
+        "78674ML_09.jpg",
+        "78674ML_10.jpg",
+        "78674ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "78674ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79115ML",
+      "skus": [
+        "79115ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79115ML_01.jpg",
+        "79115ML_02.jpg",
+        "79115ML_03.jpg",
+        "79115ML_04.jpg",
+        "79115ML_05.jpg",
+        "79115ML_06.jpg",
+        "79115ML_07.jpg",
+        "79115ML_08.jpg",
+        "79115ML_09.jpg",
+        "79115ML_10.jpg",
+        "79115ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79115ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79130ML",
+      "skus": [
+        "79130ML",
+        "79135ML",
+        "79137ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79130ML_01.jpg",
+        "79130ML_02.jpg",
+        "79130ML_03.jpg",
+        "79130ML_04.jpg",
+        "79130ML_05.jpg",
+        "79130ML_06.jpg",
+        "79130ML_07.jpg",
+        "79130ML_08.jpg",
+        "79130ML_09.jpg",
+        "79130ML_10.jpg",
+        "79130ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79130ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79148ML",
+      "skus": [
+        "79148ML",
+        "82147ML",
+        "82148ML",
+        "82149ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79148ML_01.jpg",
+        "79148ML_02.jpg",
+        "79148ML_03.jpg",
+        "79148ML_04.jpg",
+        "79148ML_05.jpg",
+        "79148ML_06.jpg",
+        "79148ML_07.jpg",
+        "79148ML_08.jpg",
+        "79148ML_09.jpg",
+        "79148ML_10.jpg",
+        "79148ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79148ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79218ML",
+      "skus": [
+        "79218ML",
+        "79447ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79218ML_01.jpg",
+        "79218ML_02.jpg",
+        "79218ML_03.jpg",
+        "79218ML_04.jpg",
+        "79218ML_05.jpg",
+        "79218ML_06.jpg",
+        "79218ML_07.jpg",
+        "79218ML_08.jpg",
+        "79218ML_09.jpg",
+        "79218ML_10.jpg",
+        "79218ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79218ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79221ML",
+      "skus": [
+        "79221ML",
+        "79222ML",
+        "79223ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79221ML_01.jpg",
+        "79221ML_02.jpg",
+        "79221ML_03.jpg",
+        "79221ML_04.jpg",
+        "79221ML_05.jpg",
+        "79221ML_06.jpg",
+        "79221ML_07.jpg",
+        "79221ML_08.jpg",
+        "79221ML_09.jpg",
+        "79221ML_10.jpg",
+        "79221ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79221ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79302ML",
+      "skus": [
+        "79302ML",
+        "79303ML",
+        "79304ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79302ML_01.jpg",
+        "79302ML_02.jpg",
+        "79302ML_03.jpg",
+        "79302ML_04.jpg",
+        "79302ML_05.jpg",
+        "79302ML_06.jpg",
+        "79302ML_07.jpg",
+        "79302ML_08.jpg",
+        "79302ML_09.jpg",
+        "79302ML_10.jpg",
+        "79302ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79302ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79608ML",
+      "skus": [
+        "79608ML",
+        "79610ML",
+        "79613ML",
+        "79629ML",
+        "80411ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79608ML_01.jpg",
+        "79608ML_02.jpg",
+        "79608ML_03.jpg",
+        "79608ML_04.jpg",
+        "79608ML_05.jpg",
+        "79608ML_06.jpg",
+        "79608ML_07.jpg",
+        "79608ML_08.jpg",
+        "79608ML_09.jpg",
+        "79608ML_10.jpg",
+        "79608ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79608ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79609ML",
+      "skus": [
+        "79609ML",
+        "80204ML",
+        "82150ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79609ML_01.jpg",
+        "79609ML_02.jpg",
+        "79609ML_03.jpg",
+        "79609ML_04.jpg",
+        "79609ML_05.jpg",
+        "79609ML_06.jpg",
+        "79609ML_07.jpg",
+        "79609ML_08.jpg",
+        "79609ML_09.jpg",
+        "79609ML_10.jpg",
+        "79609ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79609ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79616ML",
+      "skus": [
+        "79616ML",
+        "79617ML",
+        "79618ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79616ML_01.jpg",
+        "79616ML_02.jpg",
+        "79616ML_03.jpg",
+        "79616ML_04.jpg",
+        "79616ML_05.jpg",
+        "79616ML_06.jpg",
+        "79616ML_07.jpg",
+        "79616ML_08.jpg",
+        "79616ML_09.jpg",
+        "79616ML_10.jpg",
+        "79616ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79616ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79626ML",
+      "skus": [
+        "79626ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79626ML_01.jpg",
+        "79626ML_02.jpg",
+        "79626ML_03.jpg",
+        "79626ML_04.jpg",
+        "79626ML_05.jpg",
+        "79626ML_06.jpg",
+        "79626ML_07.jpg",
+        "79626ML_08.jpg",
+        "79626ML_09.jpg",
+        "79626ML_10.jpg",
+        "79626ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79626ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79627ML",
+      "skus": [
+        "79627ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79627ML_01.jpg",
+        "79627ML_02.jpg",
+        "79627ML_03.jpg",
+        "79627ML_04.jpg",
+        "79627ML_05.jpg",
+        "79627ML_06.jpg",
+        "79627ML_07.jpg",
+        "79627ML_08.jpg",
+        "79627ML_09.jpg",
+        "79627ML_10.jpg",
+        "79627ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79627ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79630ML",
+      "skus": [
+        "79630ML",
+        "79638ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79630ML_01.jpg",
+        "79630ML_02.jpg",
+        "79630ML_03.jpg",
+        "79630ML_04.jpg",
+        "79630ML_05.jpg",
+        "79630ML_06.jpg",
+        "79630ML_07.jpg",
+        "79630ML_08.jpg",
+        "79630ML_09.jpg",
+        "79630ML_10.jpg",
+        "79630ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79630ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79631ML",
+      "skus": [
+        "79631ML",
+        "79632ML",
+        "79637ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79631ML_01.jpg",
+        "79631ML_03.jpg",
+        "79631ML_04.jpg",
+        "79631ML_05.jpg",
+        "79631ML_06.jpg",
+        "79631ML_07.jpg",
+        "79631ML_08.jpg",
+        "79631ML_09.jpg",
+        "79631ML_10.jpg",
+        "79631ML_11.jpg",
+        "79631ML_12.jpg"
+      ],
+      "video_sugerido": [
+        "79631ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79633ML",
+      "skus": [
+        "79633ML",
+        "79635ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79633ML_01.jpg",
+        "79633ML_03.jpg",
+        "79633ML_04.jpg",
+        "79633ML_05.jpg",
+        "79633ML_06.jpg",
+        "79633ML_07.jpg",
+        "79633ML_08.jpg",
+        "79633ML_09.jpg",
+        "79633ML_10.jpg",
+        "79633ML_11.jpg",
+        "79633ML_12.jpg"
+      ],
+      "video_sugerido": [
+        "79633ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79640ML",
+      "skus": [
+        "79640ML",
+        "79641ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79640ML_01.jpg",
+        "79640ML_02.jpg",
+        "79640ML_03.jpg",
+        "79640ML_04.jpg",
+        "79640ML_05.jpg",
+        "79640ML_06.jpg",
+        "79640ML_07.jpg",
+        "79640ML_08.jpg",
+        "79640ML_09.jpg",
+        "79640ML_10.jpg",
+        "79640ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79640ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79644ML",
+      "skus": [
+        "79644ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79644ML_01.jpg",
+        "79644ML_02.jpg",
+        "79644ML_03.jpg",
+        "79644ML_04.jpg",
+        "79644ML_05.jpg",
+        "79644ML_06.jpg",
+        "79644ML_07.jpg",
+        "79644ML_08.jpg",
+        "79644ML_09.jpg",
+        "79644ML_10.jpg",
+        "79644ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79644ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79645ML",
+      "skus": [
+        "79645ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79645ML_01.jpg",
+        "79645ML_02.jpg",
+        "79645ML_03.jpg",
+        "79645ML_04.jpg",
+        "79645ML_05.jpg",
+        "79645ML_06.jpg",
+        "79645ML_07.jpg",
+        "79645ML_08.jpg",
+        "79645ML_09.jpg",
+        "79645ML_10.jpg",
+        "79645ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79645ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79864ML",
+      "skus": [
+        "79864ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79864ML_01.jpg",
+        "79864ML_02.jpg",
+        "79864ML_03.jpg",
+        "79864ML_04.jpg",
+        "79864ML_05.jpg",
+        "79864ML_06.jpg",
+        "79864ML_07.jpg",
+        "79864ML_08.jpg",
+        "79864ML_09.jpg",
+        "79864ML_10.jpg",
+        "79864ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79864ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "79869ML",
+      "skus": [
+        "79869ML",
+        "79870ML",
+        "80663ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "79869ML_01.jpg",
+        "79869ML_02.jpg",
+        "79869ML_03.jpg",
+        "79869ML_04.jpg",
+        "79869ML_05.jpg",
+        "79869ML_06.jpg",
+        "79869ML_07.jpg",
+        "79869ML_08.jpg",
+        "79869ML_09.jpg",
+        "79869ML_10.jpg",
+        "79869ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "79869ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "80195ML",
+      "skus": [
+        "80195ML",
+        "80196ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "80195ML_01.jpg",
+        "80195ML_02.jpg",
+        "80195ML_03.jpg",
+        "80195ML_04.jpg",
+        "80195ML_05.jpg",
+        "80195ML_06.jpg",
+        "80195ML_07.jpg",
+        "80195ML_08.jpg",
+        "80195ML_09.jpg",
+        "80195ML_10.jpg",
+        "80195ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "80195ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "80197ML",
+      "skus": [
+        "80197ML",
+        "80198ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "80197ML_01.jpg",
+        "80197ML_02.jpg",
+        "80197ML_03.jpg",
+        "80197ML_04.jpg",
+        "80197ML_05.jpg",
+        "80197ML_06.jpg",
+        "80197ML_07.jpg",
+        "80197ML_08.jpg",
+        "80197ML_09.jpg",
+        "80197ML_10.jpg",
+        "80197ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "80197ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "80199ML",
+      "skus": [
+        "80199ML",
+        "80200ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "80199ML_01.jpg",
+        "80199ML_02.jpg",
+        "80199ML_03.jpg",
+        "80199ML_04.jpg",
+        "80199ML_05.jpg",
+        "80199ML_06.jpg",
+        "80199ML_07.jpg",
+        "80199ML_08.jpg",
+        "80199ML_09.jpg",
+        "80199ML_10.jpg",
+        "80199ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "80199ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "80201ML",
+      "skus": [
+        "80201ML",
+        "80202ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "80201ML_01.jpg",
+        "80201ML_02.jpg",
+        "80201ML_03.jpg",
+        "80201ML_04.jpg",
+        "80201ML_05.jpg",
+        "80201ML_06.jpg",
+        "80201ML_07.jpg",
+        "80201ML_08.jpg",
+        "80201ML_09.jpg",
+        "80201ML_10.jpg",
+        "80201ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "80201ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "80882ML",
+      "skus": [
+        "80882ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "80882ML_01.jpg",
+        "80882ML_02.jpg",
+        "80882ML_03.jpg",
+        "80882ML_04.jpg",
+        "80882ML_05.jpg",
+        "80882ML_06.jpg",
+        "80882ML_07.jpg",
+        "80882ML_08.jpg",
+        "80882ML_09.jpg",
+        "80882ML_10.jpg",
+        "80882ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "80882ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "80920ML",
+      "skus": [
+        "80920ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "80920ML_01.jpg",
+        "80920ML_02.jpg",
+        "80920ML_03.jpg",
+        "80920ML_04.jpg",
+        "80920ML_05.jpg",
+        "80920ML_06.jpg",
+        "80920ML_07.jpg",
+        "80920ML_08.jpg",
+        "80920ML_09.jpg",
+        "80920ML_10.jpg",
+        "80920ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "80920ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "80942ML",
+      "skus": [
+        "80942ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "80942ML_01.jpg",
+        "80942ML_02.jpg",
+        "80942ML_03.jpg",
+        "80942ML_04.jpg",
+        "80942ML_05.jpg",
+        "80942ML_06.jpg",
+        "80942ML_07.jpg",
+        "80942ML_08.jpg",
+        "80942ML_09.jpg",
+        "80942ML_10.jpg",
+        "80942ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "80942ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "80945ML",
+      "skus": [
+        "80945ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "80945ML_01.jpg",
+        "80945ML_02.jpg",
+        "80945ML_03.jpg",
+        "80945ML_04.jpg",
+        "80945ML_05.jpg",
+        "80945ML_06.jpg",
+        "80945ML_07.jpg",
+        "80945ML_08.jpg",
+        "80945ML_09.jpg",
+        "80945ML_10.jpg",
+        "80945ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "80945ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "81158ML",
+      "skus": [
+        "81158ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "81158ML_01.jpg",
+        "81158ML_02.jpg",
+        "81158ML_03.jpg",
+        "81158ML_04.jpg",
+        "81158ML_05.jpg",
+        "81158ML_06.jpg",
+        "81158ML_07.jpg",
+        "81158ML_08.jpg",
+        "81158ML_09.jpg",
+        "81158ML_10.jpg",
+        "81158ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "81158ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "81159ML",
+      "skus": [
+        "81159ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "81159ML_01.jpg",
+        "81159ML_02.jpg",
+        "81159ML_03.jpg",
+        "81159ML_04.jpg",
+        "81159ML_05.jpg",
+        "81159ML_06.jpg",
+        "81159ML_07.jpg",
+        "81159ML_08.jpg",
+        "81159ML_09.jpg",
+        "81159ML_10.jpg",
+        "81159ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "81159ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "81777ML",
+      "skus": [
+        "81777ML",
+        "81778ML",
+        "81784ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "81777ML_01.jpg",
+        "81777ML_02.jpg",
+        "81777ML_03.jpg",
+        "81777ML_04.jpg",
+        "81777ML_05.jpg",
+        "81777ML_06.jpg",
+        "81777ML_07.jpg",
+        "81777ML_08.jpg",
+        "81777ML_09.jpg",
+        "81777ML_10.jpg",
+        "81777ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "81777ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "81783ML",
+      "skus": [
+        "81783ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "81783ML_01.jpg",
+        "81783ML_02.jpg",
+        "81783ML_03.jpg",
+        "81783ML_04.jpg",
+        "81783ML_05.jpg",
+        "81783ML_06.jpg",
+        "81783ML_07.jpg",
+        "81783ML_08.jpg",
+        "81783ML_09.jpg",
+        "81783ML_10.jpg",
+        "81783ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "81783ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "81790ML",
+      "skus": [
+        "81790ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "81790ML_01.jpg",
+        "81790ML_02.jpg",
+        "81790ML_03.jpg",
+        "81790ML_04.jpg",
+        "81790ML_05.jpg",
+        "81790ML_06.jpg",
+        "81790ML_07.jpg",
+        "81790ML_08.jpg",
+        "81790ML_09.jpg",
+        "81790ML_10.jpg",
+        "81790ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "81790ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "81791ML",
+      "skus": [
+        "81791ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "81791ML_01.jpg",
+        "81791ML_02.jpg",
+        "81791ML_03.jpg",
+        "81791ML_04.jpg",
+        "81791ML_05.jpg",
+        "81791ML_06.jpg",
+        "81791ML_07.jpg",
+        "81791ML_08.jpg",
+        "81791ML_09.jpg",
+        "81791ML_10.jpg",
+        "81791ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "81791ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "81797ML",
+      "skus": [
+        "81797ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "81797ML_01.jpg",
+        "81797ML_02.jpg",
+        "81797ML_03.jpg",
+        "81797ML_04.jpg",
+        "81797ML_05.jpg",
+        "81797ML_06.jpg",
+        "81797ML_07.jpg",
+        "81797ML_08.jpg",
+        "81797ML_09.jpg",
+        "81797ML_10.jpg",
+        "81797ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "81797ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "82201ML",
+      "skus": [
+        "82201ML",
+        "82202ML",
+        "82203ML",
+        "82204ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "82201ML_01.jpg",
+        "82201ML_02.jpg",
+        "82201ML_03.jpg",
+        "82201ML_04.jpg",
+        "82201ML_05.jpg",
+        "82201ML_06.jpg",
+        "82201ML_07.jpg",
+        "82201ML_08.jpg",
+        "82201ML_09.jpg",
+        "82201ML_10.jpg",
+        "82201ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "82201ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    },
+    {
+      "sku_representativo": "83375ML",
+      "skus": [
+        "83375ML",
+        "83376ML"
+      ],
+      "n_fotos": 11,
+      "fotos": [
+        "83375ML_01.jpg",
+        "83375ML_02.jpg",
+        "83375ML_03.jpg",
+        "83375ML_04.jpg",
+        "83375ML_05.jpg",
+        "83375ML_06.jpg",
+        "83375ML_07.jpg",
+        "83375ML_08.jpg",
+        "83375ML_09.jpg",
+        "83375ML_10.jpg",
+        "83375ML_11.jpg"
+      ],
+      "video_sugerido": [
+        "83375ML_cuadrado_v1.mp4"
+      ],
+      "tiene_fotos": true
+    }
+  ]
+}
