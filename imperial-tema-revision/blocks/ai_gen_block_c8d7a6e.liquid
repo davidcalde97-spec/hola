@@ -520,19 +520,19 @@
         <button
           class="ai-hero-slideshow__dot-{{ ai_gen_id }} {% if forloop.first %}active{% endif %}"
           data-slide="{{ i }}"
-          aria-label="Go to slide {{ i }}"
+          aria-label="{{ 'general.accessibility.go_to_slide' | t: index: i }}"
         ></button>
       {% endif %}
     {% endfor %}
   </div>
 
   <div class="ai-hero-slideshow__arrows-{{ ai_gen_id }}">
-    <button class="ai-hero-slideshow__arrow-{{ ai_gen_id }} ai-hero-slideshow__arrow-prev-{{ ai_gen_id }}" aria-label="Previous slide">
+    <button class="ai-hero-slideshow__arrow-{{ ai_gen_id }} ai-hero-slideshow__arrow-prev-{{ ai_gen_id }}" aria-label="{{ 'general.accessibility.previous_slide' | t }}">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
         <path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </button>
-    <button class="ai-hero-slideshow__arrow-{{ ai_gen_id }} ai-hero-slideshow__arrow-next-{{ ai_gen_id }}" aria-label="Next slide">
+    <button class="ai-hero-slideshow__arrow-{{ ai_gen_id }} ai-hero-slideshow__arrow-next-{{ ai_gen_id }}" aria-label="{{ 'general.accessibility.next_slide' | t }}">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
         <path d="M9 18l6-6-6-6" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>

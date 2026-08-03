@@ -11,7 +11,7 @@
 
     <newsletter-popup
       class="pop-in newsletter-popup color-scheme color-scheme--{{ section.settings.color_scheme.id }}"
-      title="Newsletter popup"
+      title="{{ 'general.newsletter.popup_title' | t }}"
       {% if section.settings.show_only_once %}
         only-once
       {% endif %}

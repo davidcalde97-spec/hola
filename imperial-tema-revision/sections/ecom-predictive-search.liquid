@@ -160,7 +160,7 @@
     {% endif %}
       {%- if predictive_search.resources.queries.size > 0 or predictive_search.resources.collections.size > 0 -%}
         <div>
-          <h2 class="ecom-predictive-search__heading">Suggestions</h2>
+          <h2 class="ecom-predictive-search__heading">{{ 'search.general.suggestions' | t }}</h2>
           <ul class="ecom-predictive-search__results-list">
             {%- for query in predictive_search.resources.queries -%}
               <li class="ecom-predictive-search__list-item">
@@ -185,7 +185,7 @@
       {%- endif -%}
       {%- if predictive_search.resources.pages.size > 0 or predictive_search.resources.articles.size > 0 -%}
         <div class="predictive-search__pages-wrapper predictive-search__pages-wrapper-page">
-          <h2 class="ecom-predictive-search__heading">Pages</h2>
+          <h2 class="ecom-predictive-search__heading">{{ 'search.general.pages' | t }}</h2>
           <ul class="ecom-predictive-search__results-list" role="group">
             {%- for page in predictive_search.resources.pages -%}
               <li class="ecom-predictive-search__list-item" role="option">
@@ -214,7 +214,7 @@
     {%- if predictive_search.resources.products.size > 0 -%}
       <div class="ecom-predictive-search__result-group">
         <div>
-          <h2 class="ecom-predictive-search__heading">Products</h2>
+          <h2 class="ecom-predictive-search__heading">{{ 'search.general.products' | t }}</h2>
           <ul class="ecom-predictive-search__results-list">
             {%- for product in predictive_search.resources.products -%}
               <li class="ecom-predictive-search__list-item">
@@ -235,7 +235,7 @@
     {%- endif -%}
     {%- if predictive_search.resources.pages.size > 0 or predictive_search.resources.articles.size > 0 -%}
         <div class="predictive-search__pages-wrapper predictive-search__pages-wrapper-mobile">
-          <h2 class="ecom-predictive-search__heading">Pages</h2>
+          <h2 class="ecom-predictive-search__heading">{{ 'search.general.pages' | t }}</h2>
           <ul class="ecom-predictive-search__results-list" role="group">
             {%- for page in predictive_search.resources.pages -%}
               <li class="ecom-predictive-search__list-item" role="option">
@@ -269,7 +269,7 @@
         aria-selected="false"
         type="submit"
       >
-        <span class="ecom-predictive-search-search-for-text" data-predictive-search-search-for-text>Search for "{{predictive_search.terms }}"</span>
+        <span class="ecom-predictive-search-search-for-text" data-predictive-search-search-for-text>{{ 'search.general.search_for' | t: terms: predictive_search.terms }}</span>
         <span class="ecom-predictive-search-icon"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M507.3 267.3c6.2-6.2 6.2-16.4 0-22.6l-144-144c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L457.4 240 16 240c-8.8 0-16 7.2-16 16s7.2 16 16 16l441.4 0L340.7 388.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l144-144z"/></svg></span>
       </button>
     </div>

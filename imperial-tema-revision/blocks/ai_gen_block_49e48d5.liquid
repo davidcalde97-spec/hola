@@ -236,7 +236,7 @@
                     {% assign discount = product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price %}
                     -{{ discount }}%
                   {% else %}
-                    Sale
+                    {{ 'product.general.on_sale_badge' | t }}
                   {% endif %}
                 </div>
               {% endif %}
@@ -277,7 +277,7 @@
                       class="ai-featured-collection__add-button-{{ ai_gen_id }}"
                       disabled
                     >
-                      Agotado
+                      {{ 'product.general.sold_out_button' | t }}
                     </button>
                   {% endif %}
                 </div>

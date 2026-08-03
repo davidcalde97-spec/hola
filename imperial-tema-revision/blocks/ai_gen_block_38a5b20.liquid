@@ -158,9 +158,9 @@
     {% else %}
       <div class="ai-cta-banner-placeholder-{{ ai_gen_id }}">
         {{ 'hero-apparel-1' | placeholder_svg_tag }}
-        <div class="ai-cta-banner-empty-state-{{ ai_gen_id }}">
-          Add a strong background image
-        </div>
+        {% if request.design_mode %}<div class="ai-cta-banner-empty-state-{{ ai_gen_id }}">
+          Agrega una imagen de fondo
+        </div>{% endif %}
       </div>
     {% endif %}
 

@@ -103,7 +103,7 @@
 
  <button class="ecom-product-single__media--play-control" type="button">
  <span class="ecom-product-single__media--play-control-wrapper">
- <span class="visually-hidden">Play video</span>
+ <span class="visually-hidden">{{ 'general.accessibility.play_video' | t }}</span>
 
  </span>
  </button>
@@ -200,7 +200,7 @@
  </span>
  <div class="ecom-theme-app-extension-content">
  <span class="ecom-theme-app-extension-title">{{review_platform | replace: '_', ' ' | replace: '-', ' ' | capitalize}}</span>
- <div class="ecom-placeholder-on-builder-mode" data-ecom-placeholder="The rating element will display when published to Online store"></div>
+ <div class="ecom-placeholder-on-builder-mode" data-ecom-placeholder="{{ 'sections.quickview.rating_placeholder' | t }}"></div>
  </div>
  </div>
  </div>
@@ -208,7 +208,7 @@
  {%- case review_platform -%}
  {%- when 'none' -%}
  <div class="ecom-theme-app-extensions-skeleton">
- <p>Please select the rating platform in settings</p>
+ <p>{{ 'sections.quickview.rating_select_platform' | t }}</p>
  </div>
  {%- when 'ali-reviews' -%}
  <div product-id="{{ product.id }}" product-handle="{{ product.handle }}" class="alireviews-review-star-rating"></div>
@@ -237,7 +237,7 @@
  </span>
  <div class="ecom-theme-app-extension-content">
  <span class="ecom-theme-app-extension-title">Ryviu</span>
- <div class="ecom-placeholder-on-builder-mode" data-ecom-placeholder="The rating element will display when published to Online store"></div>
+ <div class="ecom-placeholder-on-builder-mode" data-ecom-placeholder="{{ 'sections.quickview.rating_placeholder' | t }}"></div>
  </div>
  </div>
  {%- else -%}
@@ -281,12 +281,12 @@
  {%- when 'air-reviews' -%}
  <div class="AirReviews-Widget AirReviews-Widget--Stars" data-review-avg="{{ product.metafields.air_reviews_product.review_avg }}" data-review-count="{{ product.metafields.air_reviews_product.review_count }}"></div>
  {% else %}
- <p>The rating platform not supported</p>
+ <p>{{ 'sections.quickview.rating_not_supported' | t }}</p>
  {%-endcase-%}
  {% endif %}
  {%- else -%}
  <div class="ecom-theme-app-extensions-skeleton">
- <p>Please select the rating platform in settings</p>
+ <p>{{ 'sections.quickview.rating_select_platform' | t }}</p>
  </div>
  {%- endif -%}
  </div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-7iwzweue0ul" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__price" deep="2"><div class="ecom-product-single__price-wrapper"><div class="ecom-product-single__price-container"><div class="ecom-product-single__price-container-grid"><div class="ecom-product-single ecom-product-single__price--prices">
@@ -331,12 +331,12 @@
  {%- assign savings = target.compare_at_price | minus: target.price | times: 100.0 | divided_by: target.compare_at_price | round -%}
 
  {%- if target.compare_at_price != nil and target.compare_at_price > target.price and target.available == true -%}
- <span class="ecom-product-single__price--badges-sale" data-text=" {price}% OFF" data-sale="{{savings}}" data-type="percent">
- {price}% OFF
+ <span class="ecom-product-single__price--badges-sale" data-text="{{ 'product.general.percent_off_badge' | t: price: '{price}' }}" data-sale="{{savings}}" data-type="percent">
+ {{ 'product.general.percent_off_badge' | t: price: '{price}' }}
  </span>
  {% endif %}
  <span class="ecom-product-single__price--badges-sold-out" {% if target.available %} style="display:none" {% endif %}>
- Sold out
+ {{ 'product.general.sold_out_badge' | t }}
  </span>
  </div>
  </div></div><div class="ecom-product-single-afterpay">
@@ -361,16 +361,16 @@
  data-hide_day_of_the_week="undefined"
  data-format="undefined"
  data-variant="{{ product.selected_or_first_available_variant.id }}"
- data-instock-text="In stock"
- data-outstock-text="Outstock"
- data-inventory-text="{quantity} items left in stock"
+ data-instock-text="{{ 'product.inventory.in_stock' | t }}"
+ data-outstock-text="{{ 'product.inventory.out_of_stock' | t }}"
+ data-inventory-text="{{ 'product.inventory.items_left' | t: quantity: '{quantity}' }}"
  data-show-less-than="100"
- data-preorder-text="Preorder text"
+ data-preorder-text="{{ 'product.general.pre_order_button' | t }}"
  data-show-next-incoming-date="true"
- data-unavailable-text="Unavailable"
- data-incoming-date-text="Variant is out of stock. The product will available at: {next_incoming_date}"
+ data-unavailable-text="{{ 'product.general.unavailable_button' | t }}"
+ data-incoming-date-text="{{ 'product.inventory.incoming_stock' | t: next_incoming_date: '{next_incoming_date}' }}"
  >
- In stock
+ {{ 'product.inventory.in_stock' | t }}
  </p>
  </div><div class="ecom-product-single__inventory-progress-bar"><div class="ecom-product-single__inventory-progress-bar--timer"></div></div></div></div></div> <div class="ecom-block ecom-core core__block ecom-yi00rqsw3aq" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__variant-picker" deep="2"><div class="ecom-product-single__variant-picker-wrapper ecom_not_hide_dropdown_arrow"><div class="ecom-product-single__variant-picker-container {% if product.has_only_default_variant%} ecom-product-single__variant-picker--only-default{% endif%}" data-picker-type="color" data-ecom-placeholder="">
  {% assign ecom_has_variant_picker = true%}
@@ -442,7 +442,7 @@
  <script type="application/json" id="product-json-{{product.id}}-ecom-yi00rqsw3aq">
  {%- render "ecom_product_json", product: product -%}
  </script>
- </div></div></div></div></div> <div class="ecom-block ecom-core core__block ecom-07z8zzjef1qr" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__quantity" deep="2"><div class="ecom-product-single__quantity-wrapper"><div class="ecom-product-single__quantity-container"><label class="ecom-product-single__quantity-container-label" for="quantity"></label><div class="ecom-product-single__quantity-controls"><button type="button" class="ecom-product-single__quantity-controls-button ecom-product-single__quantity-controls-minus" aria-label="control minus"><span class="w-5 ecom-product-single__quantity-controls-icon"><svg class="inline-flex w-5 " viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 10a.75.75 0 0 1 .75-.75h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1-.75-.75Z" fill="currentColor"></path></svg></span></button><label for="quantity" style="display: none;">Quantity</label><input name="quantity" type="number" id="quantity" max="9999" min="1" class="ecom-product-single__quantity-input" required=""><button type="button" class="ecom-product-single__quantity-controls-button ecom-product-single__quantity-controls-plus" aria-label="control plus"><span class="w-5 ecom-product-single__quantity-controls-icon"><svg class="inline-flex w-5 " viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.75 6.75a.75.75 0 0 0-1.5 0v2.5h-2.5a.75.75 0 0 0 0 1.5h2.5v2.5a.75.75 0 0 0 1.5 0v-2.5h2.5a.75.75 0 0 0 0-1.5h-2.5v-2.5Z" fill="currentColor"></path></svg></span></button></div></div></div></div></div> <div class="ecom-block ecom-core core__block ecom-mwx0o77333i ec-button-action" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__add-to-cart" deep="2"><div class="ecom-product-single__add-to-cart-wrapper"><div class="ecom-product-single__add-to-cart-container"><div class="ecom-product-single__add-to-cart-buttons"><div class="ecom-product-single__add-to-cart-buttons-wrapper"><button type="submit" class="ecom-product-single__add-to-cart--submit ecom-flex animated" data-text-add-cart="Add to cart" data-text-pre-order="Pre Order" data-text-unavailable="Unavailable" data-text-outstock="Out stock" data-text-added-cart="Added to cart" data-message-added-cart="Added to cart" data-href="#" data-target="" data-action="popup" data-variant-id="{{product.first_available_variant.id}}"><span class="ecom-add-to-cart-text">Add to cart</span><span class="ecom__element--button-icon"></span></button></div></div></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-xpx9pwax29l" data-core-is="block"><div class="ecom-row ecom-core core__block ecom-0b2x5d0mugqo" data-id="ecom-0b2x5d0mugqo" style="z-index: inherit;"><div data-deep="3" class="core__row--columns"><div class="ecom-column ecom-core core__column--first core__column--last ecom-6890bz4xgc6"><div class="core__column--wrapper" style=""><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-1dy0c7bmq6o" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="3"><h3 class="ecom__heading ecom-db"><b>Guarantee safe</b> <i>&amp; secure checkout</i></h3></div></div> <div class="ecom-block ecom-core core__block ecom-b0tj80po3oh" data-core-is="block"><div class="ecom-element ecom-base-image" deep="3"><figure><div class="ecom-container-image ecom-image-align" data-stopdrag=""><div data-stopdrag="" class="ecom-image-content-position ecom-image-default ecom-base-image-container-overlay" style=""><picture class="ecom-image-picture"><img loading="lazy" fetchpriority="low" src="https://cdn.shopify.com/s/files/1/0726/1221/7115/files/trus.svg?v=1678270241" alt="trus" style=""></picture></div></div></figure></div></div> </div></div></div><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__column--resize" style="display: none;"></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> <div class="ecom-block ecom-core core__block elmspace ecom-b96utpn9o9" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="2"><h3 class="ecom__heading ecom-db">Share:</h3></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-q1h83mc4ctb" data-core-is="block"><div class="ecom__element ecom-element element__social" deep="2"><div class="ecom__element-social facebook" style=""><a href="https://www.facebook.com/sharer/sharer.php?u={current-link}" alt="facebook" class="element-social-link" target="_blank"><div class="social-icon"><span><svg version="1.1" id="lni_lni-facebook-filled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+ </div></div></div></div></div> <div class="ecom-block ecom-core core__block ecom-07z8zzjef1qr" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__quantity" deep="2"><div class="ecom-product-single__quantity-wrapper"><div class="ecom-product-single__quantity-container"><label class="ecom-product-single__quantity-container-label" for="quantity"></label><div class="ecom-product-single__quantity-controls"><button type="button" class="ecom-product-single__quantity-controls-button ecom-product-single__quantity-controls-minus" aria-label="{{ 'product.quantity.decrease_quantity' | t }}"><span class="w-5 ecom-product-single__quantity-controls-icon"><svg class="inline-flex w-5 " viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 10a.75.75 0 0 1 .75-.75h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1-.75-.75Z" fill="currentColor"></path></svg></span></button><label for="quantity" style="display: none;">{{ 'product.quantity.label' | t }}</label><input name="quantity" type="number" id="quantity" max="9999" min="1" class="ecom-product-single__quantity-input" required=""><button type="button" class="ecom-product-single__quantity-controls-button ecom-product-single__quantity-controls-plus" aria-label="{{ 'product.quantity.increase_quantity' | t }}"><span class="w-5 ecom-product-single__quantity-controls-icon"><svg class="inline-flex w-5 " viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.75 6.75a.75.75 0 0 0-1.5 0v2.5h-2.5a.75.75 0 0 0 0 1.5h2.5v2.5a.75.75 0 0 0 1.5 0v-2.5h2.5a.75.75 0 0 0 0-1.5h-2.5v-2.5Z" fill="currentColor"></path></svg></span></button></div></div></div></div></div> <div class="ecom-block ecom-core core__block ecom-mwx0o77333i ec-button-action" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__add-to-cart" deep="2"><div class="ecom-product-single__add-to-cart-wrapper"><div class="ecom-product-single__add-to-cart-container"><div class="ecom-product-single__add-to-cart-buttons"><div class="ecom-product-single__add-to-cart-buttons-wrapper"><button type="submit" class="ecom-product-single__add-to-cart--submit ecom-flex animated" data-text-add-cart="{{ 'product.general.add_to_cart_button' | t }}" data-text-pre-order="{{ 'product.general.pre_order_button' | t }}" data-text-unavailable="{{ 'product.general.unavailable_button' | t }}" data-text-outstock="{{ 'product.general.sold_out_button' | t }}" data-text-added-cart="{{ 'product.general.added_to_cart' | t }}" data-message-added-cart="{{ 'product.general.added_to_cart' | t }}" data-href="#" data-target="" data-action="popup" data-variant-id="{{product.first_available_variant.id}}"><span class="ecom-add-to-cart-text">{{ 'product.general.add_to_cart_button' | t }}</span><span class="ecom__element--button-icon"></span></button></div></div></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-xpx9pwax29l" data-core-is="block"><div class="ecom-row ecom-core core__block ecom-0b2x5d0mugqo" data-id="ecom-0b2x5d0mugqo" style="z-index: inherit;"><div data-deep="3" class="core__row--columns"><div class="ecom-column ecom-core core__column--first core__column--last ecom-6890bz4xgc6"><div class="core__column--wrapper" style=""><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-1dy0c7bmq6o" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="3"><h3 class="ecom__heading ecom-db">{{ 'product.general.secure_checkout' | t }}</h3></div></div> <div class="ecom-block ecom-core core__block ecom-b0tj80po3oh" data-core-is="block"><div class="ecom-element ecom-base-image" deep="3"><figure><div class="ecom-container-image ecom-image-align" data-stopdrag=""><div data-stopdrag="" class="ecom-image-content-position ecom-image-default ecom-base-image-container-overlay" style=""><picture class="ecom-image-picture"><img loading="lazy" fetchpriority="low" src="https://cdn.shopify.com/s/files/1/0726/1221/7115/files/trus.svg?v=1678270241" alt="" style=""></picture></div></div></figure></div></div> </div></div></div><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__column--resize" style="display: none;"></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> <div class="ecom-block ecom-core core__block elmspace ecom-b96utpn9o9" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="2"><h3 class="ecom__heading ecom-db">{{ 'general.social.share' | t }}:</h3></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-q1h83mc4ctb" data-core-is="block"><div class="ecom__element ecom-element element__social" deep="2"><div class="ecom__element-social facebook" style=""><a href="https://www.facebook.com/sharer/sharer.php?u={current-link}" alt="facebook" class="element-social-link" target="_blank"><div class="social-icon"><span><svg version="1.1" id="lni_lni-facebook-filled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
  <path d="M47.4,25.8L47.4,25.8h-5.6h-2v-2v-6.2v-2h2H46c1.1,0,2-0.8,2-2V3c0-1.1-0.8-2-2-2h-7.3c-7.9,0-13.4,5.6-13.4,13.9v8.7v2h-2
  h-6.8c-1.4,0-2.7,1.1-2.7,2.7v7.2c0,1.4,1.1,2.7,2.7,2.7h6.6h2v2v20.1c0,1.4,1.1,2.7,2.7,2.7h9.4c0.6,0,1.1-0.3,1.5-0.7
  s0.7-1.1,0.7-1.7l0,0l0,0V40.3v-2h2.1H46c1.3,0,2.3-0.8,2.5-2v-0.1v-0.1l1.4-6.9c0.1-0.7,0-1.5-0.6-2.3

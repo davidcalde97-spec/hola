@@ -16,7 +16,10 @@
       "navigate_to_next_section": "Ir a la siguiente sección",
       "mute_video": "Silenciar video",
       "unmute_video": "Activar el sonido del video",
-      "rss_feed": "Fuente RSS"
+      "rss_feed": "Fuente RSS",
+      "go_to_slide": "Ir a la diapositiva {{ index }}",
+      "previous_slide": "Diapositiva anterior",
+      "next_slide": "Diapositiva siguiente"
     },
     "label": {
       "color": "Color",
@@ -44,7 +47,8 @@
       "email": "Correo electrónico",
       "subscribe": "Suscribirme",
       "notify_me": "Avísame",
-      "subscribed_successfully": "¡Listo! Te suscribiste a nuestro boletín."
+      "subscribed_successfully": "¡Listo! Te suscribiste a nuestro boletín.",
+      "popup_title": "Boletín de novedades"
     },
     "localization": {
       "country": "País",
@@ -67,7 +71,8 @@
       "product_title": "Producto",
       "product_description": "Escribe un texto sobre tu producto.",
       "collection_title": "Colección"
-    }
+    },
+    "loading": "Cargando…"
   },
   "header": {
     "general": {
@@ -105,7 +110,9 @@
       "available_colors_count": {
         "one": "{{ count }} color disponible",
         "other": "{{ count }} colores disponibles"
-      }
+      },
+      "percent_off_badge": "-{{ price }}%",
+      "secure_checkout": "Compra 100% segura y protegida"
     },
     "gallery": {
       "close": "Cerrar galería",
@@ -150,7 +157,8 @@
       "low_stock_with_quantity_count": {
         "one": "Solo queda {{count}} pieza",
         "other": "Solo quedan {{count}} piezas"
-      }
+      },
+      "items_left": "Quedan {{ quantity }} en existencia"
     },
     "store_availability": {
       "view_store_info": "Ver información de la tienda",
@@ -169,7 +177,10 @@
       "empty_collection": "Esta colección está vacía",
       "all_collections": "Todas las colecciones",
       "no_collections": "Esta tienda aún no tiene colecciones.",
-      "continue_shopping": "Seguir comprando"
+      "continue_shopping": "Seguir comprando",
+      "larger_images": "Ver imágenes de producto más grandes",
+      "smaller_images": "Ver imágenes de producto más pequeñas",
+      "compact_images": "Ver imágenes de producto compactas"
     },
     "products_count": {
       "zero": "0 productos",
@@ -233,7 +244,8 @@
       "email": "Correo electrónico",
       "message": "Mensaje",
       "submit": "Enviar mensaje",
-      "success_message": "Tu mensaje se envió correctamente. Te responderemos muy pronto."
+      "success_message": "Tu mensaje se envió correctamente. Te responderemos muy pronto.",
+      "custom_field": "Campo personalizado"
     }
   },
   "customer": {
@@ -412,7 +424,8 @@
       "pages": "Páginas",
       "clear": "Borrar",
       "view_all_results": "Ver todos los resultados",
-      "no_results": "No encontramos resultados."
+      "no_results": "No encontramos resultados.",
+      "search_for": "Buscar \"{{ terms }}\""
     },
     "results_count": {
       "zero": "0 resultados",
@@ -508,6 +521,11 @@
         "other": "{{ count }} artículos"
       },
       "product_subtotal": "Subtotal de productos"
+    },
+    "quickview": {
+      "rating_placeholder": "La calificación se mostrará al publicarse en la tienda en línea",
+      "rating_select_platform": "Selecciona la plataforma de reseñas en la configuración",
+      "rating_not_supported": "Plataforma de reseñas no compatible"
     }
   }
 }

@@ -304,9 +304,9 @@
     {% elsif block.settings.video == blank %}
       <div class="ai-hero-video__placeholder-{{ ai_gen_id }}">
         {{ 'hero-apparel-1' | placeholder_svg_tag }}
-        <div class="ai-hero-video__empty-state-{{ ai_gen_id }}">
+        {% if request.design_mode %}<div class="ai-hero-video__empty-state-{{ ai_gen_id }}">
           Agrega un video o imagen de fondo
-        </div>
+        </div>{% endif %}
       </div>
     {% endif %}
   </div>

@@ -35,7 +35,7 @@
             {%- assign field_title = block.settings.title -%}
 
             {%- if field_title == blank -%}
-              {%- capture field_title -%}Custom field {% increment custom_field %}{%- endcapture -%}
+              {%- capture field_title -%}{{ 'contact.form.custom_field' | t }} {% increment custom_field %}{%- endcapture -%}
             {%- endif -%}
 
             {%- capture name -%}contact[{{ field_title | escape }}]{%- endcapture -%}
