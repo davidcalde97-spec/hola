@@ -11,10 +11,9 @@ Fecha: 3 de agosto de 2026.
 ## 1. Idioma: español de México como único idioma del tema
 
 ### Archivos de idioma
-- **Nuevo `locales/es.default.json`** — el español de México ahora es el idioma **default** del tema (365 claves, cobertura 100% de las claves que tenía `en.default.json`, cero huecos).
-- **Eliminado `locales/en.default.json`** — el inglés deja de ser el default. No se generó ninguna versión en inglés.
-- **Eliminado `locales/es.json`** — sustituido por el default en español.
-- **Eliminados los 26 locales restantes** (ar, cs, da, de, el, fi, fr, he, it, ja, ko, lt, lv, nb, nl, pl, pt-BR, ro, ru, sk, sl, sv, tr, uk, zh-CN, zh-TW) y `fr.schema.json` — la tienda es solo en español de México.
+- **Nuevo `locales/es.default.json`** (en esta carpeta) — la traducción completa en español de México (365 claves + 16 nuevas, cobertura 100% de las claves que tenía `en.default.json`, cero huecos). Es la fuente única de todos los textos del tema.
+- **En el tema subido a Shopify**: la herramienta de subida usada en esta sesión **no permite borrar archivos de temas** (política de seguridad), por lo que en el tema "Imperial - Revisión ES-MX" el contenido es-MX se aplicó **sobrescribiendo `locales/es.json` Y `locales/en.default.json` con el mismo contenido en español**. Resultado práctico: el idioma default/fallback del tema es español y **no queda ningún texto en inglés**, aunque los nombres de archivo se conserven.
+- **Paso manual opcional (1 minuto, cosmético)** en el editor de código del tema copia: eliminar `locales/es.json`, renombrar/recrear `locales/en.default.json` como `locales/es.default.json` (el contenido es el de esta carpeta), y borrar los 26 locales de otros idiomas (ar, cs, da, …, zh-TW) y `fr.schema.json`. Mientras no se haga, esos archivos extra son inertes: solo se usarían si publicaras esos idiomas en la tienda.
 - **Conservado `locales/en.default.schema.json`** — es el archivo de etiquetas del **editor de temas** (no lo ve el cliente); el tema lo requiere como schema default. No existía `es.schema.json` en el tema original.
 
 ### Reescritura completa de la traducción (España → México)
@@ -82,6 +81,7 @@ La página FAQ era **el demo del tema en inglés** ("Do you ship overseas?"…).
 - Botón del acordeón `FAQ` → `Preguntas frecuentes`.
 - `¿Expides factura fiscal?` → `¿Expiden factura fiscal?` (voz consistente) y `Si expedimos factura fiscal, mándanos tus datos.` → `Sí, expedimos factura fiscal. Envíanos tus datos después de tu compra.` (el "Si" sin acento se leía como condicional).
 - `envío seguro` / `facturación disponible` / `compra protegida` / `preguntas frecuentes` / `¿necesitas ayuda?` → capitalización inicial.
+- `Solícitala` → `Solicítala` (acento mal colocado, detectado durante la verificación de subida).
 - `Pairs well with` → `Combina bien con`; `Productos Similares` → `Productos similares`; `Dudas del Producto` → `Dudas del producto`.
 - Testimonios placeholder en inglés → placeholder en español (bloque desactivado).
 - Encabezado decorativo `h1` → `h2` en productpage (evita h1 duplicado con el título del producto).

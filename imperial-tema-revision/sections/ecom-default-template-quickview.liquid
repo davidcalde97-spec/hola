@@ -1,3 +1,6 @@
+{%- capture ph_price -%}{price}{%- endcapture -%}
+{%- capture ph_quantity -%}{quantity}{%- endcapture -%}
+{%- capture ph_incoming_date -%}{next_incoming_date}{%- endcapture -%}
 {% comment %}
  EComposer (https://ecomposer.io)
  You SHOULD NOT modify source code in this page because
@@ -331,8 +334,8 @@
  {%- assign savings = target.compare_at_price | minus: target.price | times: 100.0 | divided_by: target.compare_at_price | round -%}
 
  {%- if target.compare_at_price != nil and target.compare_at_price > target.price and target.available == true -%}
- <span class="ecom-product-single__price--badges-sale" data-text="{{ 'product.general.percent_off_badge' | t: price: '{price}' }}" data-sale="{{savings}}" data-type="percent">
- {{ 'product.general.percent_off_badge' | t: price: '{price}' }}
+ <span class="ecom-product-single__price--badges-sale" data-text="{{ 'product.general.percent_off_badge' | t: price: ph_price }}" data-sale="{{savings}}" data-type="percent">
+ {{ 'product.general.percent_off_badge' | t: price: ph_price }}
  </span>
  {% endif %}
  <span class="ecom-product-single__price--badges-sold-out" {% if target.available %} style="display:none" {% endif %}>
@@ -363,12 +366,12 @@
  data-variant="{{ product.selected_or_first_available_variant.id }}"
  data-instock-text="{{ 'product.inventory.in_stock' | t }}"
  data-outstock-text="{{ 'product.inventory.out_of_stock' | t }}"
- data-inventory-text="{{ 'product.inventory.items_left' | t: quantity: '{quantity}' }}"
+ data-inventory-text="{{ 'product.inventory.items_left' | t: quantity: ph_quantity }}"
  data-show-less-than="100"
  data-preorder-text="{{ 'product.general.pre_order_button' | t }}"
  data-show-next-incoming-date="true"
  data-unavailable-text="{{ 'product.general.unavailable_button' | t }}"
- data-incoming-date-text="{{ 'product.inventory.incoming_stock' | t: next_incoming_date: '{next_incoming_date}' }}"
+ data-incoming-date-text="{{ 'product.inventory.incoming_stock' | t: next_incoming_date: ph_incoming_date }}"
  >
  {{ 'product.inventory.in_stock' | t }}
  </p>
