@@ -1,0 +1,581 @@
+{% doc %}
+  @prompt
+    Create a visual decision section.
+    
+    Title:
+    ¿Qué estás buscando?
+    
+    Options:
+    - Para regalo
+    - Para uso diario
+    - Para ocasión especial
+    
+    Layout:
+    - Large clickable cards
+    
+    Mobile:
+    - Stack or slider
+    
+    Goal:
+    Guide decision fast
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-decision-section-{{ ai_gen_id }} {
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    padding: {{ block.settings.section_padding }}px 20px;
+    background-color: {{ block.settings.background_color }};
+    display: block;
+  }
+
+  .ai-decision-section__container-{{ ai_gen_id }} {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .ai-decision-section__title-{{ ai_gen_id }} {
+    text-align: {{ block.settings.title_alignment }};
+    color: {{ block.settings.title_color }};
+    font-size: {{ block.settings.title_size }}px;
+    margin: 0 0 {{ block.settings.title_spacing }}px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .ai-decision-section__cards-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat({{ block.settings.columns_desktop }}, 1fr);
+    gap: {{ block.settings.card_gap }}px;
+  }
+
+  .ai-decision-section__card-{{ ai_gen_id }} {
+    position: relative;
+    overflow: hidden;
+    border-radius: {{ block.settings.card_border_radius }}px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: {{ block.settings.card_background }};
+    border: {{ block.settings.card_border_width }}px solid {{ block.settings.card_border_color }};
+    text-decoration: none;
+    display: block;
+  }
+
+  .ai-decision-section__card-{{ ai_gen_id }}:hover {
+    transform: translateY(-{{ block.settings.hover_lift }}px);
+    box-shadow: 0 {{ block.settings.hover_shadow }}px {{ block.settings.hover_shadow | times: 2 }}px rgba(0, 0, 0, 0.15);
+  }
+
+  .ai-decision-section__card-image-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    padding-bottom: {{ block.settings.image_aspect_ratio }}%;
+    overflow: hidden;
+  }
+
+  .ai-decision-section__card-image-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .ai-decision-section__card-{{ ai_gen_id }}:hover .ai-decision-section__card-image-{{ ai_gen_id }} {
+    transform: scale(1.05);
+  }
+
+  .ai-decision-section__card-placeholder-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-decision-section__card-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.3;
+  }
+
+  .ai-decision-section__card-overlay-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, {{ block.settings.overlay_opacity }}) 100%);
+    display: flex;
+    align-items: flex-end;
+    padding: {{ block.settings.card_padding }}px;
+  }
+
+  .ai-decision-section__card-content-{{ ai_gen_id }} {
+    width: 100%;
+  }
+
+  .ai-decision-section__card-title-{{ ai_gen_id }} {
+    color: {{ block.settings.card_text_color }};
+    font-size: {{ block.settings.card_title_size }}px;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: {{ block.settings.card_text_alignment }};
+  }
+
+  .ai-decision-section__card-icon-{{ ai_gen_id }} {
+    display: inline-block;
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  .ai-decision-section__card-{{ ai_gen_id }}:hover .ai-decision-section__card-icon-{{ ai_gen_id }} {
+    transform: translateX(5px);
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-decision-section__title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.7 }}px;
+    }
+
+    .ai-decision-section__card-title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.card_title_size | times: 0.8 }}px;
+    }
+
+    {% if block.settings.mobile_layout == 'stack' %}
+      .ai-decision-section__cards-{{ ai_gen_id }} {
+        grid-template-columns: 1fr;
+      }
+    {% elsif block.settings.mobile_layout == 'two_columns' %}
+      .ai-decision-section__cards-{{ ai_gen_id }} {
+        grid-template-columns: repeat(2, 1fr);
+        gap: {{ block.settings.card_gap | times: 0.7 }}px;
+      }
+    {% elsif block.settings.mobile_layout == 'slider' %}
+      .ai-decision-section__cards-{{ ai_gen_id }} {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: {{ block.settings.card_gap | times: 0.7 }}px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+
+      .ai-decision-section__cards-{{ ai_gen_id }}::-webkit-scrollbar {
+        display: none;
+      }
+
+      .ai-decision-section__card-{{ ai_gen_id }} {
+        flex: 0 0 85%;
+        scroll-snap-align: start;
+      }
+    {% endif %}
+
+    .ai-decision-section__card-overlay-{{ ai_gen_id }} {
+      padding: {{ block.settings.card_padding | times: 0.7 }}px;
+    }
+  }
+{% endstyle %}
+
+<decision-cards-{{ ai_gen_id }} class="ai-decision-section-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-decision-section__container-{{ ai_gen_id }}">
+    {% if block.settings.title != blank %}
+      <h2 class="ai-decision-section__title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
+    {% endif %}
+
+    <div class="ai-decision-section__cards-{{ ai_gen_id }}">
+      {% for i in (1..3) %}
+        {% liquid
+          assign title_key = 'card_' | append: i | append: '_title'
+          assign image_key = 'card_' | append: i | append: '_image'
+          assign link_key = 'card_' | append: i | append: '_link'
+          
+          assign card_title = block.settings[title_key]
+          assign card_image = block.settings[image_key]
+          assign card_link = block.settings[link_key]
+        %}
+
+        {% if card_title != blank %}
+          <a 
+            href="{{ card_link }}" 
+            class="ai-decision-section__card-{{ ai_gen_id }}"
+            data-card-index="{{ i }}"
+          >
+            <div class="ai-decision-section__card-image-wrapper-{{ ai_gen_id }}">
+              {% if card_image %}
+                <img
+                  src="{{ card_image | image_url: width: 800 }}"
+                  alt="{{ card_image.alt | escape }}"
+                  loading="lazy"
+                  width="{{ card_image.width }}"
+                  height="{{ card_image.height }}"
+                  class="ai-decision-section__card-image-{{ ai_gen_id }}"
+                >
+              {% else %}
+                <div class="ai-decision-section__card-placeholder-{{ ai_gen_id }}">
+                  {{ 'image' | placeholder_svg_tag }}
+                </div>
+              {% endif %}
+
+              <div class="ai-decision-section__card-overlay-{{ ai_gen_id }}">
+                <div class="ai-decision-section__card-content-{{ ai_gen_id }}">
+                  <h3 class="ai-decision-section__card-title-{{ ai_gen_id }}">
+                    {{ card_title }}
+                    {% if block.settings.show_arrow %}
+                      <span class="ai-decision-section__card-icon-{{ ai_gen_id }}">→</span>
+                    {% endif %}
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</decision-cards-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class DecisionCards{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.cards = this.querySelectorAll('.ai-decision-section__card-{{ ai_gen_id }}');
+        this.setupAccessibility();
+      }
+
+      setupAccessibility() {
+        this.cards.forEach((card, index) => {
+          card.setAttribute('role', 'button');
+          card.setAttribute('tabindex', '0');
+          
+          card.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              card.click();
+            }
+          });
+        });
+      }
+    }
+
+    customElements.define('decision-cards-{{ ai_gen_id }}', DecisionCards{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Decision cards",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Title"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Title",
+      "default": "¿Qué estás buscando?"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Title size",
+      "min": 16,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "label": "Title alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color",
+      "default": "#2a3871"
+    },
+    {
+      "type": "range",
+      "id": "title_spacing",
+      "label": "Space below title",
+      "min": 10,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Card 1"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "card_1_title",
+      "label": "Title",
+      "default": "Para regalo"
+    },
+    {
+      "type": "image_picker",
+      "id": "card_1_image",
+      "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "card_1_link",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Card 2"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "card_2_title",
+      "label": "Title",
+      "default": "Para uso diario"
+    },
+    {
+      "type": "image_picker",
+      "id": "card_2_image",
+      "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "card_2_link",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Card 3"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "card_3_title",
+      "label": "Title",
+      "default": "Para ocasión especial"
+    },
+    {
+      "type": "image_picker",
+      "id": "card_3_image",
+      "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "card_3_link",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "label": "Columns on desktop",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "select",
+      "id": "mobile_layout",
+      "label": "Mobile layout",
+      "options": [
+        { "value": "stack", "label": "Stack" },
+        { "value": "two_columns", "label": "Two columns" },
+        { "value": "slider", "label": "Slider" }
+      ],
+      "default": "slider"
+    },
+    {
+      "type": "range",
+      "id": "card_gap",
+      "label": "Gap between cards",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Section padding",
+      "min": 20,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Card style"
+    },
+    {
+      "type": "range",
+      "id": "image_aspect_ratio",
+      "label": "Image height",
+      "min": 50,
+      "max": 150,
+      "step": 10,
+      "unit": "%",
+      "default": 120
+    },
+    {
+      "type": "range",
+      "id": "card_title_size",
+      "label": "Card title size",
+      "min": 14,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "select",
+      "id": "card_text_alignment",
+      "label": "Card text alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "color",
+      "id": "card_text_color",
+      "label": "Card text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "card_padding",
+      "label": "Card padding",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "label": "Card border radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "Card background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "card_border_width",
+      "label": "Card border width",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "card_border_color",
+      "label": "Card border color",
+      "default": "#2a3871"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Overlay opacity",
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "default": 0.5
+    },
+    {
+      "type": "checkbox",
+      "id": "show_arrow",
+      "label": "Show arrow",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Hover effects"
+    },
+    {
+      "type": "range",
+      "id": "hover_lift",
+      "label": "Hover lift",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "hover_shadow",
+      "label": "Hover shadow",
+      "min": 0,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#ffffff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Decision cards"
+    }
+  ]
+}
+{% endschema %}

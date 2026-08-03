@@ -1,0 +1,1135 @@
+{% doc %}
+  @prompt
+    Create a premium hero slideshow section for the Prestige theme with support for video and image slides, optimized for mobile-first.
+    
+    Goal:
+    Deliver a high-end storytelling experience without compromising performance or clarity.
+    
+    --------------------------------
+    SLIDES STRUCTURE
+    --------------------------------
+    Support up to 3 slides max.
+    
+    Each slide can be:
+    - Image OR
+    - Video
+    
+    Settings per slide:
+    - media_type (image / video)
+    - image
+    - video
+    - mobile_image (fallback)
+    - mobile_video (optional)
+    - headline
+    - subheadline
+    - primary CTA
+    - secondary CTA
+    
+    --------------------------------
+    CONTENT (Spanish Example)
+    --------------------------------
+    
+    Slide 1:
+    Headline:
+    Joyería que eleva tu estilo.
+    CTA:
+    Comprar ahora
+    
+    Slide 2:
+    Headline:
+    Diseños que destacan.
+    CTA:
+    Ver colecciones
+    
+    Slide 3:
+    Headline:
+    Hecho para cada momento.
+    CTA:
+    Descubrir más
+    
+    --------------------------------
+    VIDEO BEHAVIOR
+    --------------------------------
+    - Autoplay (muted)
+    - Loop enabled
+    - No controls
+    - Inline play
+    
+    --------------------------------
+    SLIDER BEHAVIOR
+    --------------------------------
+    Mobile:
+    - Swipe enabled
+    - No autoplay OR very slow autoplay (5–7s)
+    - Show pagination dots
+    
+    Desktop:
+    - Optional arrows
+    - Smooth transitions (fade preferred)
+    
+    --------------------------------
+    MOBILE-FIRST RULES
+    --------------------------------
+    - Show headline + CTA above the fold
+    - Avoid too much text
+    - Use fallback images if video is heavy
+    
+    --------------------------------
+    PERFORMANCE
+    --------------------------------
+    - Limit to max 1 video on mobile (optional setting)
+    - Lazy load non-active slides
+    - Use poster images
+    
+    --------------------------------
+    OVERLAY
+    --------------------------------
+    - Add dark/gradient overlay
+    - Adjustable opacity
+    
+    --------------------------------
+    EDITOR SETTINGS
+    --------------------------------
+    - Add/remove slides (max 3)
+    - Toggle autoplay
+    - Toggle video on mobile
+    - Adjust transition speed
+    
+    --------------------------------
+    DESIGN (Prestige Style)
+    --------------------------------
+    - Minimal text
+    - Large typography
+    - Editorial layout
+    - Clean spacing
+    
+    --------------------------------
+    RULES
+    --------------------------------
+    - Do NOT overload with slides
+    - Do NOT autoplay too fast
+    - Maintain premium feel
+    - Ensure fast load time
+    Enhancement:
+    
+    - Use fade transition instead of slide (more premium)
+    - Pause autoplay on interaction
+    - Ensure first slide loads instantly
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-hero-slideshow-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 500px;
+    max-height: 900px;
+    overflow: hidden;
+    display: block;
+  }
+
+  .ai-hero-slideshow__slides-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ai-hero-slideshow__slide-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity {{ block.settings.transition_speed }}s ease-in-out, visibility {{ block.settings.transition_speed }}s ease-in-out;
+    z-index: 1;
+  }
+
+  .ai-hero-slideshow__slide-{{ ai_gen_id }}.active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+  }
+
+  .ai-hero-slideshow__media-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-hero-slideshow__video-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-hero-slideshow__overlay-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: {{ block.settings.overlay_color }};
+    opacity: {{ block.settings.overlay_opacity }};
+    z-index: 3;
+  }
+
+  .ai-hero-slideshow__content-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    z-index: 4;
+  }
+
+  .ai-hero-slideshow__headline-{{ ai_gen_id }} {
+    font-family: {{ block.settings.headline_font.family }}, {{ block.settings.headline_font.fallback_families }};
+    font-weight: {{ block.settings.headline_font.weight }};
+    font-style: {{ block.settings.headline_font.style }};
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.headline_size_mobile }}px;
+    line-height: 1.1;
+    margin: 0 0 16px;
+    max-width: 90%;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .ai-hero-slideshow__subheadline-{{ ai_gen_id }} {
+    font-family: {{ block.settings.subheadline_font.family }}, {{ block.settings.subheadline_font.fallback_families }};
+    font-weight: {{ block.settings.subheadline_font.weight }};
+    font-style: {{ block.settings.subheadline_font.style }};
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.subheadline_size_mobile }}px;
+    line-height: 1.4;
+    margin: 0 0 32px;
+    max-width: 80%;
+    letter-spacing: 0.02em;
+  }
+
+  .ai-hero-slideshow__cta-wrapper-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .ai-hero-slideshow__cta-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 32px;
+    background-color: {{ block.settings.primary_cta_bg }};
+    color: {{ block.settings.primary_cta_text }};
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 180px;
+  }
+
+  .ai-hero-slideshow__cta-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.primary_cta_hover_bg }};
+    color: {{ block.settings.primary_cta_hover_text }};
+  }
+
+  .ai-hero-slideshow__cta--secondary-{{ ai_gen_id }} {
+    background-color: transparent;
+    color: {{ block.settings.secondary_cta_text }};
+    border: 1px solid {{ block.settings.secondary_cta_text }};
+  }
+
+  .ai-hero-slideshow__cta--secondary-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.secondary_cta_text }};
+    color: {{ block.settings.secondary_cta_hover_text }};
+  }
+
+  .ai-hero-slideshow__pagination-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 5;
+  }
+
+  .ai-hero-slideshow__dot-{{ ai_gen_id }} {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: {{ block.settings.text_color }};
+    opacity: 0.4;
+    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    border: none;
+    padding: 0;
+  }
+
+  .ai-hero-slideshow__dot-{{ ai_gen_id }}.active {
+    opacity: 1;
+    transform: scale(1.3);
+  }
+
+  .ai-hero-slideshow__arrows-{{ ai_gen_id }} {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    display: none;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 5;
+    pointer-events: none;
+  }
+
+  .ai-hero-slideshow__arrow-{{ ai_gen_id }} {
+    width: 44px;
+    height: 44px;
+    background-color: {{ block.settings.text_color }};
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+    pointer-events: auto;
+    opacity: 0.7;
+  }
+
+  .ai-hero-slideshow__arrow-{{ ai_gen_id }}:hover {
+    opacity: 1;
+  }
+
+  .ai-hero-slideshow__arrow-{{ ai_gen_id }} svg {
+    width: 20px;
+    height: 20px;
+    stroke: {{ block.settings.overlay_color }};
+    stroke-width: 2;
+  }
+
+  @media screen and (min-width: 750px) {
+    .ai-hero-slideshow-{{ ai_gen_id }} {
+      max-height: 100vh;
+    }
+
+    .ai-hero-slideshow__headline-{{ ai_gen_id }} {
+      font-size: {{ block.settings.headline_size_desktop }}px;
+      max-width: 70%;
+    }
+
+    .ai-hero-slideshow__subheadline-{{ ai_gen_id }} {
+      font-size: {{ block.settings.subheadline_size_desktop }}px;
+      max-width: 60%;
+    }
+
+    .ai-hero-slideshow__cta-wrapper-{{ ai_gen_id }} {
+      flex-direction: row;
+      gap: 16px;
+    }
+
+    .ai-hero-slideshow__cta-{{ ai_gen_id }} {
+      font-size: 13px;
+      padding: 16px 40px;
+    }
+
+    .ai-hero-slideshow__arrows-{{ ai_gen_id }} {
+      display: flex;
+    }
+
+    .ai-hero-slideshow__pagination-{{ ai_gen_id }} {
+      bottom: 40px;
+    }
+  }
+{% endstyle %}
+
+<hero-slideshow-{{ ai_gen_id }}
+  class="ai-hero-slideshow-{{ ai_gen_id }}"
+  data-autoplay="{{ block.settings.enable_autoplay }}"
+  data-autoplay-speed="{{ block.settings.autoplay_speed }}"
+  data-mobile-autoplay="{{ block.settings.mobile_autoplay }}"
+  data-mobile-video="{{ block.settings.show_video_on_mobile }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-hero-slideshow__slides-{{ ai_gen_id }}">
+    {% for i in (1..3) %}
+      {% liquid
+        assign slide_enabled_key = 'slide_' | append: i | append: '_enabled'
+        assign media_type_key = 'slide_' | append: i | append: '_media_type'
+        assign image_key = 'slide_' | append: i | append: '_image'
+        assign video_key = 'slide_' | append: i | append: '_video'
+        assign mobile_image_key = 'slide_' | append: i | append: '_mobile_image'
+        assign mobile_video_key = 'slide_' | append: i | append: '_mobile_video'
+        assign headline_key = 'slide_' | append: i | append: '_headline'
+        assign subheadline_key = 'slide_' | append: i | append: '_subheadline'
+        assign primary_cta_text_key = 'slide_' | append: i | append: '_primary_cta_text'
+        assign primary_cta_url_key = 'slide_' | append: i | append: '_primary_cta_url'
+        assign secondary_cta_text_key = 'slide_' | append: i | append: '_secondary_cta_text'
+        assign secondary_cta_url_key = 'slide_' | append: i | append: '_secondary_cta_url'
+
+        assign slide_enabled = block.settings[slide_enabled_key]
+        assign media_type = block.settings[media_type_key]
+        assign image = block.settings[image_key]
+        assign video = block.settings[video_key]
+        assign mobile_image = block.settings[mobile_image_key]
+        assign mobile_video = block.settings[mobile_video_key]
+        assign headline = block.settings[headline_key]
+        assign subheadline = block.settings[subheadline_key]
+        assign primary_cta_text = block.settings[primary_cta_text_key]
+        assign primary_cta_url = block.settings[primary_cta_url_key]
+        assign secondary_cta_text = block.settings[secondary_cta_text_key]
+        assign secondary_cta_url = block.settings[secondary_cta_url_key]
+      %}
+
+      {% if slide_enabled %}
+        <div class="ai-hero-slideshow__slide-{{ ai_gen_id }} {% if forloop.first %}active{% endif %}" data-slide="{{ i }}">
+          {% if media_type == 'video' %}
+            {% if video != blank %}
+              <video
+                class="ai-hero-slideshow__video-{{ ai_gen_id }} ai-hero-slideshow__video-desktop-{{ ai_gen_id }}"
+                autoplay
+                muted
+                loop
+                playsinline
+                {% if video.preview_image %}
+                  poster="{{ video.preview_image | image_url: width: 2000 }}"
+                {% endif %}
+              >
+                {% for source in video.sources %}
+                  <source src="{{ source.url }}" type="{{ source.mime_type }}">
+                {% endfor %}
+              </video>
+            {% endif %}
+
+            {% if mobile_video != blank %}
+              <video
+                class="ai-hero-slideshow__video-{{ ai_gen_id }} ai-hero-slideshow__video-mobile-{{ ai_gen_id }}"
+                autoplay
+                muted
+                loop
+                playsinline
+                style="display: none;"
+                {% if mobile_video.preview_image %}
+                  poster="{{ mobile_video.preview_image | image_url: width: 1000 }}"
+                {% endif %}
+              >
+                {% for source in mobile_video.sources %}
+                  <source src="{{ source.url }}" type="{{ source.mime_type }}">
+                {% endfor %}
+              </video>
+            {% elsif mobile_image != blank %}
+              <img
+                src="{{ mobile_image | image_url: width: 1000 }}"
+                alt="{{ mobile_image.alt | escape }}"
+                class="ai-hero-slideshow__media-{{ ai_gen_id }} ai-hero-slideshow__media-mobile-{{ ai_gen_id }}"
+                loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+                style="display: none;"
+              >
+            {% elsif image != blank %}
+              <img
+                src="{{ image | image_url: width: 1000 }}"
+                alt="{{ image.alt | escape }}"
+                class="ai-hero-slideshow__media-{{ ai_gen_id }} ai-hero-slideshow__media-mobile-{{ ai_gen_id }}"
+                loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+                style="display: none;"
+              >
+            {% endif %}
+          {% else %}
+            {% if image != blank %}
+              <img
+                src="{{ image | image_url: width: 2000 }}"
+                alt="{{ image.alt | escape }}"
+                class="ai-hero-slideshow__media-{{ ai_gen_id }} ai-hero-slideshow__media-desktop-{{ ai_gen_id }}"
+                loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+              >
+            {% else %}
+              <div class="ai-hero-slideshow__media-{{ ai_gen_id }} ai-hero-slideshow__media-desktop-{{ ai_gen_id }}" style="background-color: #f4f4f4;">
+                {{ 'hero-apparel-1' | placeholder_svg_tag }}
+              </div>
+            {% endif %}
+
+            {% if mobile_image != blank %}
+              <img
+                src="{{ mobile_image | image_url: width: 1000 }}"
+                alt="{{ mobile_image.alt | escape }}"
+                class="ai-hero-slideshow__media-{{ ai_gen_id }} ai-hero-slideshow__media-mobile-{{ ai_gen_id }}"
+                loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+                style="display: none;"
+              >
+            {% endif %}
+          {% endif %}
+
+          <div class="ai-hero-slideshow__overlay-{{ ai_gen_id }}"></div>
+
+          <div class="ai-hero-slideshow__content-{{ ai_gen_id }}">
+            {% if headline != blank %}
+              <h2 class="ai-hero-slideshow__headline-{{ ai_gen_id }}">{{ headline }}</h2>
+            {% endif %}
+
+            {% if subheadline != blank %}
+              <p class="ai-hero-slideshow__subheadline-{{ ai_gen_id }}">{{ subheadline }}</p>
+            {% endif %}
+
+            {% if primary_cta_text != blank or secondary_cta_text != blank %}
+              <div class="ai-hero-slideshow__cta-wrapper-{{ ai_gen_id }}">
+                {% if primary_cta_text != blank %}
+                  <a href="{{ primary_cta_url }}" class="ai-hero-slideshow__cta-{{ ai_gen_id }}">
+                    {{ primary_cta_text }}
+                  </a>
+                {% endif %}
+
+                {% if secondary_cta_text != blank %}
+                  <a href="{{ secondary_cta_url }}" class="ai-hero-slideshow__cta-{{ ai_gen_id }} ai-hero-slideshow__cta--secondary-{{ ai_gen_id }}">
+                    {{ secondary_cta_text }}
+                  </a>
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="ai-hero-slideshow__pagination-{{ ai_gen_id }}">
+    {% for i in (1..3) %}
+      {% liquid
+        assign slide_enabled_key = 'slide_' | append: i | append: '_enabled'
+        assign slide_enabled = block.settings[slide_enabled_key]
+      %}
+      {% if slide_enabled %}
+        <button
+          class="ai-hero-slideshow__dot-{{ ai_gen_id }} {% if forloop.first %}active{% endif %}"
+          data-slide="{{ i }}"
+          aria-label="Go to slide {{ i }}"
+        ></button>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="ai-hero-slideshow__arrows-{{ ai_gen_id }}">
+    <button class="ai-hero-slideshow__arrow-{{ ai_gen_id }} ai-hero-slideshow__arrow-prev-{{ ai_gen_id }}" aria-label="Previous slide">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+        <path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    <button class="ai-hero-slideshow__arrow-{{ ai_gen_id }} ai-hero-slideshow__arrow-next-{{ ai_gen_id }}" aria-label="Next slide">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+        <path d="M9 18l6-6-6-6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+</hero-slideshow-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class HeroSlideshow{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.currentSlide = 0;
+        this.autoplayTimer = null;
+        this.isPaused = false;
+        this.isMobile = window.innerWidth < 750;
+      }
+
+      connectedCallback() {
+        this.slides = Array.from(this.querySelectorAll('.ai-hero-slideshow__slide-{{ ai_gen_id }}'));
+        this.dots = Array.from(this.querySelectorAll('.ai-hero-slideshow__dot-{{ ai_gen_id }}'));
+        this.prevButton = this.querySelector('.ai-hero-slideshow__arrow-prev-{{ ai_gen_id }}');
+        this.nextButton = this.querySelector('.ai-hero-slideshow__arrow-next-{{ ai_gen_id }}');
+        
+        this.autoplay = this.dataset.autoplay === 'true';
+        this.autoplaySpeed = parseInt(this.dataset.autoplaySpeed) * 1000;
+        this.mobileAutoplay = this.dataset.mobileAutoplay === 'true';
+        this.showVideoOnMobile = this.dataset.mobileVideo === 'true';
+
+        this.handleMediaDisplay();
+        this.setupEventListeners();
+        this.setupTouchEvents();
+        
+        if (this.shouldAutoplay()) {
+          this.startAutoplay();
+        }
+
+        window.addEventListener('resize', () => {
+          const wasMobile = this.isMobile;
+          this.isMobile = window.innerWidth < 750;
+          if (wasMobile !== this.isMobile) {
+            this.handleMediaDisplay();
+          }
+        });
+      }
+
+      handleMediaDisplay() {
+        this.slides.forEach(slide => {
+          const desktopMedia = slide.querySelectorAll('.ai-hero-slideshow__media-desktop-{{ ai_gen_id }}, .ai-hero-slideshow__video-desktop-{{ ai_gen_id }}');
+          const mobileMedia = slide.querySelectorAll('.ai-hero-slideshow__media-mobile-{{ ai_gen_id }}, .ai-hero-slideshow__video-mobile-{{ ai_gen_id }}');
+
+          desktopMedia.forEach(media => {
+            media.style.display = this.isMobile ? 'none' : 'block';
+          });
+
+          mobileMedia.forEach(media => {
+            if (this.isMobile) {
+              if (media.tagName === 'VIDEO' && !this.showVideoOnMobile) {
+                media.style.display = 'none';
+              } else {
+                media.style.display = 'block';
+              }
+            } else {
+              media.style.display = 'none';
+            }
+          });
+        });
+      }
+
+      shouldAutoplay() {
+        if (!this.autoplay) return false;
+        if (this.isMobile && !this.mobileAutoplay) return false;
+        return this.slides.length > 1;
+      }
+
+      setupEventListeners() {
+        this.dots.forEach((dot, index) => {
+          dot.addEventListener('click', () => {
+            this.goToSlide(index);
+            this.pauseAutoplay();
+          });
+        });
+
+        if (this.prevButton) {
+          this.prevButton.addEventListener('click', () => {
+            this.previousSlide();
+            this.pauseAutoplay();
+          });
+        }
+
+        if (this.nextButton) {
+          this.nextButton.addEventListener('click', () => {
+            this.nextSlide();
+            this.pauseAutoplay();
+          });
+        }
+
+        this.addEventListener('mouseenter', () => {
+          this.pauseAutoplay();
+        });
+
+        this.addEventListener('mouseleave', () => {
+          if (this.shouldAutoplay() && this.isPaused) {
+            this.startAutoplay();
+          }
+        });
+      }
+
+      setupTouchEvents() {
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        this.addEventListener('touchstart', (e) => {
+          touchStartX = e.changedTouches[0].screenX;
+          this.pauseAutoplay();
+        });
+
+        this.addEventListener('touchend', (e) => {
+          touchEndX = e.changedTouches[0].screenX;
+          this.handleSwipe(touchStartX, touchEndX);
+        });
+      }
+
+      handleSwipe(startX, endX) {
+        const swipeThreshold = 50;
+        const diff = startX - endX;
+
+        if (Math.abs(diff) > swipeThreshold) {
+          if (diff > 0) {
+            this.nextSlide();
+          } else {
+            this.previousSlide();
+          }
+        }
+      }
+
+      goToSlide(index) {
+        this.slides[this.currentSlide].classList.remove('active');
+        this.dots[this.currentSlide].classList.remove('active');
+
+        this.currentSlide = index;
+
+        this.slides[this.currentSlide].classList.add('active');
+        this.dots[this.currentSlide].classList.add('active');
+
+        const videos = this.slides[this.currentSlide].querySelectorAll('video');
+        videos.forEach(video => {
+          video.play().catch(() => {});
+        });
+      }
+
+      nextSlide() {
+        const nextIndex = (this.currentSlide + 1) % this.slides.length;
+        this.goToSlide(nextIndex);
+      }
+
+      previousSlide() {
+        const prevIndex = (this.currentSlide - 1 + this.slides.length) % this.slides.length;
+        this.goToSlide(prevIndex);
+      }
+
+      startAutoplay() {
+        this.isPaused = false;
+        this.autoplayTimer = setInterval(() => {
+          this.nextSlide();
+        }, this.autoplaySpeed);
+      }
+
+      pauseAutoplay() {
+        this.isPaused = true;
+        if (this.autoplayTimer) {
+          clearInterval(this.autoplayTimer);
+          this.autoplayTimer = null;
+        }
+      }
+
+      disconnectedCallback() {
+        this.pauseAutoplay();
+      }
+    }
+
+    customElements.define('hero-slideshow-{{ ai_gen_id }}', HeroSlideshow{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Hero slideshow",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Slideshow behavior"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_autoplay",
+      "label": "Enable autoplay",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "autoplay_speed",
+      "min": 3,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "label": "Autoplay speed",
+      "default": 6
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_autoplay",
+      "label": "Enable autoplay on mobile",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "transition_speed",
+      "min": 0.5,
+      "max": 2,
+      "step": 0.5,
+      "unit": "s",
+      "label": "Transition speed",
+      "default": 1
+    },
+    {
+      "type": "checkbox",
+      "id": "show_video_on_mobile",
+      "label": "Show video on mobile",
+      "info": "Disable to show fallback images on mobile for better performance",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Overlay"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "label": "Overlay opacity",
+      "default": 0.4
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "font_picker",
+      "id": "headline_font",
+      "label": "Headline font",
+      "default": "serif"
+    },
+    {
+      "type": "range",
+      "id": "headline_size_mobile",
+      "min": 24,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Headline size (mobile)",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "headline_size_desktop",
+      "min": 40,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Headline size (desktop)",
+      "default": 72
+    },
+    {
+      "type": "font_picker",
+      "id": "subheadline_font",
+      "label": "Subheadline font",
+      "default": "serif"
+    },
+    {
+      "type": "range",
+      "id": "subheadline_size_mobile",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Subheadline size (mobile)",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "subheadline_size_desktop",
+      "min": 14,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Subheadline size (desktop)",
+      "default": 18
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Primary CTA style"
+    },
+    {
+      "type": "color",
+      "id": "primary_cta_bg",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "primary_cta_text",
+      "label": "Text",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "primary_cta_hover_bg",
+      "label": "Hover background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "primary_cta_hover_text",
+      "label": "Hover text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Secondary CTA style"
+    },
+    {
+      "type": "color",
+      "id": "secondary_cta_text",
+      "label": "Text and border",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "secondary_cta_hover_text",
+      "label": "Hover text",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Slide 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "slide_1_enabled",
+      "label": "Enable slide 1",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "slide_1_media_type",
+      "label": "Media type",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image"
+        },
+        {
+          "value": "video",
+          "label": "Video"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "image_picker",
+      "id": "slide_1_image",
+      "label": "Desktop image"
+    },
+    {
+      "type": "video",
+      "id": "slide_1_video",
+      "label": "Desktop video"
+    },
+    {
+      "type": "image_picker",
+      "id": "slide_1_mobile_image",
+      "label": "Mobile image (fallback)"
+    },
+    {
+      "type": "video",
+      "id": "slide_1_mobile_video",
+      "label": "Mobile video (optional)"
+    },
+    {
+      "type": "text",
+      "id": "slide_1_headline",
+      "label": "Headline",
+      "default": "Joyería que eleva tu estilo."
+    },
+    {
+      "type": "text",
+      "id": "slide_1_subheadline",
+      "label": "Subheadline"
+    },
+    {
+      "type": "text",
+      "id": "slide_1_primary_cta_text",
+      "label": "Primary CTA text",
+      "default": "Comprar ahora"
+    },
+    {
+      "type": "url",
+      "id": "slide_1_primary_cta_url",
+      "label": "Primary CTA link"
+    },
+    {
+      "type": "text",
+      "id": "slide_1_secondary_cta_text",
+      "label": "Secondary CTA text"
+    },
+    {
+      "type": "url",
+      "id": "slide_1_secondary_cta_url",
+      "label": "Secondary CTA link"
+    },
+    {
+      "type": "header",
+      "content": "Slide 2"
+    },
+    {
+      "type": "checkbox",
+      "id": "slide_2_enabled",
+      "label": "Enable slide 2",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "slide_2_media_type",
+      "label": "Media type",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image"
+        },
+        {
+          "value": "video",
+          "label": "Video"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "image_picker",
+      "id": "slide_2_image",
+      "label": "Desktop image"
+    },
+    {
+      "type": "video",
+      "id": "slide_2_video",
+      "label": "Desktop video"
+    },
+    {
+      "type": "image_picker",
+      "id": "slide_2_mobile_image",
+      "label": "Mobile image (fallback)"
+    },
+    {
+      "type": "video",
+      "id": "slide_2_mobile_video",
+      "label": "Mobile video (optional)"
+    },
+    {
+      "type": "text",
+      "id": "slide_2_headline",
+      "label": "Headline",
+      "default": "Diseños que destacan."
+    },
+    {
+      "type": "text",
+      "id": "slide_2_subheadline",
+      "label": "Subheadline"
+    },
+    {
+      "type": "text",
+      "id": "slide_2_primary_cta_text",
+      "label": "Primary CTA text",
+      "default": "Ver colecciones"
+    },
+    {
+      "type": "url",
+      "id": "slide_2_primary_cta_url",
+      "label": "Primary CTA link"
+    },
+    {
+      "type": "text",
+      "id": "slide_2_secondary_cta_text",
+      "label": "Secondary CTA text"
+    },
+    {
+      "type": "url",
+      "id": "slide_2_secondary_cta_url",
+      "label": "Secondary CTA link"
+    },
+    {
+      "type": "header",
+      "content": "Slide 3"
+    },
+    {
+      "type": "checkbox",
+      "id": "slide_3_enabled",
+      "label": "Enable slide 3",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "slide_3_media_type",
+      "label": "Media type",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image"
+        },
+        {
+          "value": "video",
+          "label": "Video"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "image_picker",
+      "id": "slide_3_image",
+      "label": "Desktop image"
+    },
+    {
+      "type": "video",
+      "id": "slide_3_video",
+      "label": "Desktop video"
+    },
+    {
+      "type": "image_picker",
+      "id": "slide_3_mobile_image",
+      "label": "Mobile image (fallback)"
+    },
+    {
+      "type": "video",
+      "id": "slide_3_mobile_video",
+      "label": "Mobile video (optional)"
+    },
+    {
+      "type": "text",
+      "id": "slide_3_headline",
+      "label": "Headline",
+      "default": "Hecho para cada momento."
+    },
+    {
+      "type": "text",
+      "id": "slide_3_subheadline",
+      "label": "Subheadline"
+    },
+    {
+      "type": "text",
+      "id": "slide_3_primary_cta_text",
+      "label": "Primary CTA text",
+      "default": "Descubrir más"
+    },
+    {
+      "type": "url",
+      "id": "slide_3_primary_cta_url",
+      "label": "Primary CTA link"
+    },
+    {
+      "type": "text",
+      "id": "slide_3_secondary_cta_text",
+      "label": "Secondary CTA text"
+    },
+    {
+      "type": "url",
+      "id": "slide_3_secondary_cta_url",
+      "label": "Secondary CTA link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero slideshow"
+    }
+  ]
+}
+{% endschema %}

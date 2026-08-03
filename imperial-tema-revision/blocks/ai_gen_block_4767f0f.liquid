@@ -1,0 +1,547 @@
+{% doc %}
+  @prompt
+    Create an image with text section with editorial style.
+    
+    Title:
+    Materiales que sí importan
+    
+    Text:
+    Seleccionamos materiales que garantizan calidad, durabilidad y elegancia.
+    
+    Layout:
+    - Image + text (alternating)
+    - Large photography
+    
+    Blocks:
+    - Oro
+    - Plata
+    - Acabados premium
+    
+    Mobile:
+    - Stacked layout
+    
+    Rules:
+    - Avoid technical overload
+    - Keep it aspirational
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-editorial-section-{{ ai_gen_id }} {
+    width: 100%;
+    display: block;
+  }
+
+  .ai-editorial-container-{{ ai_gen_id }} {
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .ai-editorial-header-{{ ai_gen_id }} {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .ai-editorial-title-{{ ai_gen_id }} {
+    font-family: {{ block.settings.title_font.family }}, {{ block.settings.title_font.fallback_families }};
+    font-weight: {{ block.settings.title_font.weight }};
+    font-style: {{ block.settings.title_font.style }};
+    font-size: {{ block.settings.title_size_mobile }}px;
+    color: {{ block.settings.title_color }};
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .ai-editorial-description-{{ ai_gen_id }} {
+    font-family: {{ block.settings.text_font.family }}, {{ block.settings.text_font.fallback_families }};
+    font-weight: {{ block.settings.text_font.weight }};
+    font-style: {{ block.settings.text_font.style }};
+    font-size: {{ block.settings.text_size_mobile }}px;
+    color: {{ block.settings.text_color }};
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .ai-editorial-items-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.item_spacing_mobile }}px;
+  }
+
+  .ai-editorial-item-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .ai-editorial-image-wrapper-{{ ai_gen_id }} {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .ai-editorial-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .ai-editorial-image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    aspect-ratio: {{ block.settings.image_aspect_ratio }};
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-editorial-image-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    opacity: 0.3;
+  }
+
+  .ai-editorial-content-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+  }
+
+  .ai-editorial-item-title-{{ ai_gen_id }} {
+    font-family: {{ block.settings.title_font.family }}, {{ block.settings.title_font.fallback_families }};
+    font-weight: {{ block.settings.title_font.weight }};
+    font-style: {{ block.settings.title_font.style }};
+    font-size: {{ block.settings.item_title_size_mobile }}px;
+    color: {{ block.settings.title_color }};
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .ai-editorial-item-text-{{ ai_gen_id }} {
+    font-family: {{ block.settings.text_font.family }}, {{ block.settings.text_font.fallback_families }};
+    font-weight: {{ block.settings.text_font.weight }};
+    font-style: {{ block.settings.text_font.style }};
+    font-size: {{ block.settings.item_text_size_mobile }}px;
+    color: {{ block.settings.text_color }};
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  @media screen and (min-width: 750px) {
+    .ai-editorial-title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size_desktop }}px;
+    }
+
+    .ai-editorial-description-{{ ai_gen_id }} {
+      font-size: {{ block.settings.text_size_desktop }}px;
+    }
+
+    .ai-editorial-items-{{ ai_gen_id }} {
+      gap: {{ block.settings.item_spacing_desktop }}px;
+    }
+
+    .ai-editorial-item-{{ ai_gen_id }} {
+      flex-direction: row;
+      align-items: center;
+      gap: 60px;
+    }
+
+    .ai-editorial-item-{{ ai_gen_id }}:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    .ai-editorial-image-wrapper-{{ ai_gen_id }} {
+      flex: 0 0 {{ block.settings.image_width_percent }}%;
+    }
+
+    .ai-editorial-content-{{ ai_gen_id }} {
+      flex: 1;
+      padding: 0;
+    }
+
+    .ai-editorial-item-title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.item_title_size_desktop }}px;
+    }
+
+    .ai-editorial-item-text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.item_text_size_desktop }}px;
+    }
+  }
+{% endstyle %}
+
+<editorial-materials-{{ ai_gen_id }} class="ai-editorial-section-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-editorial-container-{{ ai_gen_id }}">
+    <div class="ai-editorial-header-{{ ai_gen_id }}">
+      {% if block.settings.title != blank %}
+        <h2 class="ai-editorial-title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
+      {% endif %}
+      {% if block.settings.description != blank %}
+        <div class="ai-editorial-description-{{ ai_gen_id }}">{{ block.settings.description }}</div>
+      {% endif %}
+    </div>
+
+    <div class="ai-editorial-items-{{ ai_gen_id }}">
+      {% for i in (1..3) %}
+        {% liquid
+          assign image_key = 'item_' | append: i | append: '_image'
+          assign title_key = 'item_' | append: i | append: '_title'
+          assign text_key = 'item_' | append: i | append: '_text'
+          assign enabled_key = 'item_' | append: i | append: '_enabled'
+
+          assign item_image = block.settings[image_key]
+          assign item_title = block.settings[title_key]
+          assign item_text = block.settings[text_key]
+          assign item_enabled = block.settings[enabled_key]
+        %}
+
+        {% if item_enabled %}
+          <div class="ai-editorial-item-{{ ai_gen_id }}">
+            <div class="ai-editorial-image-wrapper-{{ ai_gen_id }}">
+              {% if item_image %}
+                <img
+                  src="{{ item_image | image_url: width: 1200 }}"
+                  alt="{{ item_image.alt | escape }}"
+                  loading="lazy"
+                  width="{{ item_image.width }}"
+                  height="{{ item_image.height }}"
+                  class="ai-editorial-image-{{ ai_gen_id }}"
+                >
+              {% else %}
+                <div class="ai-editorial-image-placeholder-{{ ai_gen_id }}">
+                  {{ 'image' | placeholder_svg_tag }}
+                </div>
+              {% endif %}
+            </div>
+
+            <div class="ai-editorial-content-{{ ai_gen_id }}">
+              {% if item_title != blank %}
+                <h3 class="ai-editorial-item-title-{{ ai_gen_id }}">{{ item_title }}</h3>
+              {% endif %}
+              {% if item_text != blank %}
+                <div class="ai-editorial-item-text-{{ ai_gen_id }}">{{ item_text }}</div>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</editorial-materials-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class EditorialMaterials{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.style.display = 'block';
+      }
+    }
+
+    customElements.define('editorial-materials-{{ ai_gen_id }}', EditorialMaterials{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Materiales editoriales",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Encabezado"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Título",
+      "default": "Materiales que sí importan"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "description",
+      "label": "Descripción",
+      "default": "Seleccionamos materiales que garantizan calidad, durabilidad y elegancia."
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Ancho en escritorio",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 90
+    },
+    {
+      "type": "header",
+      "content": "Diseño de imagen"
+    },
+    {
+      "type": "select",
+      "id": "image_aspect_ratio",
+      "label": "Proporción de imagen",
+      "options": [
+        {
+          "value": "3/4",
+          "label": "Retrato (3:4)"
+        },
+        {
+          "value": "4/5",
+          "label": "Retrato corto (4:5)"
+        },
+        {
+          "value": "1/1",
+          "label": "Cuadrado (1:1)"
+        },
+        {
+          "value": "5/4",
+          "label": "Paisaje corto (5:4)"
+        },
+        {
+          "value": "16/9",
+          "label": "Paisaje (16:9)"
+        }
+      ],
+      "default": "4/5"
+    },
+    {
+      "type": "range",
+      "id": "image_width_percent",
+      "label": "Ancho de imagen en escritorio",
+      "min": 40,
+      "max": 60,
+      "step": 5,
+      "unit": "%",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "item_spacing_mobile",
+      "label": "Espaciado entre elementos (móvil)",
+      "min": 30,
+      "max": 80,
+      "step": 10,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "item_spacing_desktop",
+      "label": "Espaciado entre elementos (escritorio)",
+      "min": 60,
+      "max": 150,
+      "step": 10,
+      "unit": "px",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Tipografía"
+    },
+    {
+      "type": "font_picker",
+      "id": "title_font",
+      "label": "Fuente de títulos",
+      "default": "serif"
+    },
+    {
+      "type": "font_picker",
+      "id": "text_font",
+      "label": "Fuente de texto",
+      "default": "serif"
+    },
+    {
+      "type": "range",
+      "id": "title_size_mobile",
+      "label": "Tamaño título principal (móvil)",
+      "min": 20,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "title_size_desktop",
+      "label": "Tamaño título principal (escritorio)",
+      "min": 30,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "text_size_mobile",
+      "label": "Tamaño descripción (móvil)",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "text_size_desktop",
+      "label": "Tamaño descripción (escritorio)",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "item_title_size_mobile",
+      "label": "Tamaño título de elemento (móvil)",
+      "min": 16,
+      "max": 36,
+      "step": 2,
+      "unit": "px",
+      "default": 22
+    },
+    {
+      "type": "range",
+      "id": "item_title_size_desktop",
+      "label": "Tamaño título de elemento (escritorio)",
+      "min": 20,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "item_text_size_mobile",
+      "label": "Tamaño texto de elemento (móvil)",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "item_text_size_desktop",
+      "label": "Tamaño texto de elemento (escritorio)",
+      "min": 14,
+      "max": 22,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Colores"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Color de títulos",
+      "default": "#2a3871"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Color de texto",
+      "default": "#2a3871"
+    },
+    {
+      "type": "header",
+      "content": "Material 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "item_1_enabled",
+      "label": "Mostrar material 1",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "item_1_image",
+      "label": "Imagen"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "item_1_title",
+      "label": "Título",
+      "default": "Oro"
+    },
+    {
+      "type": "richtext",
+      "id": "item_1_text",
+      "label": "Texto",
+      "default": "<p>Oro de 14k y 18k que mantiene su brillo y valor a través del tiempo.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Material 2"
+    },
+    {
+      "type": "checkbox",
+      "id": "item_2_enabled",
+      "label": "Mostrar material 2",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "item_2_image",
+      "label": "Imagen"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "item_2_title",
+      "label": "Título",
+      "default": "Plata"
+    },
+    {
+      "type": "richtext",
+      "id": "item_2_text",
+      "label": "Texto",
+      "default": "<p>Plata .925 de ley con acabados que resisten el paso del tiempo.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Material 3"
+    },
+    {
+      "type": "checkbox",
+      "id": "item_3_enabled",
+      "label": "Mostrar material 3",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "item_3_image",
+      "label": "Imagen"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "item_3_title",
+      "label": "Título",
+      "default": "Acabados premium"
+    },
+    {
+      "type": "richtext",
+      "id": "item_3_text",
+      "label": "Texto",
+      "default": "<p>Técnicas artesanales que garantizan piezas únicas y duraderas.</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Materiales editoriales"
+    }
+  ]
+}
+{% endschema %}

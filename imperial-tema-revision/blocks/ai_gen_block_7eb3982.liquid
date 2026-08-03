@@ -1,0 +1,427 @@
+{% doc %}
+  @prompt
+    Crea una sección "Feature Icons" elegante y minimalista para una tienda de joyería premium.
+    
+    Diseño:
+    
+    * Mostrar 6 elementos alineados horizontalmente en escritorio.
+    * Cada elemento debe tener una estructura vertical:
+    
+      * Icono de palomita (✓) en la parte superior.
+      * Texto debajo del icono.
+    * No utilizar listas ni viñetas.
+    * Todo el contenido debe estar centrado.
+    * Mantener un diseño limpio, sofisticado y de lujo.
+    * Espaciado uniforme entre cada elemento.
+    * Iconos ligeramente más grandes que el texto.
+    * Utilizar colores acordes a una joyería premium (dorado suave, negro y gris oscuro).
+    * Fondo limpio y elegante.
+    
+    Contenido:
+    
+    * Oro auténtico
+    * Plata Ley 925
+    * Facturación disponible
+    * Envíos asegurados
+    * Atención personalizada
+    * Compra segura
+    
+    Responsive:
+    
+    * Desktop: 6 columnas en una sola fila.
+    * Tablet: 3 columnas por fila.
+    * Mobile: 2 columnas o 1 columna según el espacio disponible.
+    
+    La sección debe transmitir confianza, calidad y exclusividad, con el icono de palomita centrado arriba y el texto centrado debajo en cada elemento.
+    
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-feature-icons-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    padding: {{ block.settings.section_padding }}px 20px;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-feature-icons-grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: {{ block.settings.item_spacing }}px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .ai-feature-icons-item-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    gap: {{ block.settings.icon_text_gap }}px;
+  }
+
+  .ai-feature-icons-icon-{{ ai_gen_id }} {
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .ai-feature-icons-icon-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    stroke: {{ block.settings.icon_color }};
+    stroke-width: {{ block.settings.icon_stroke_width }};
+    fill: none;
+  }
+
+  .ai-feature-icons-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.text_size }}px;
+    color: {{ block.settings.text_color }};
+    line-height: 1.4;
+    font-weight: {{ block.settings.text_weight }};
+    letter-spacing: {{ block.settings.text_letter_spacing }}px;
+    text-transform: {{ block.settings.text_transform }};
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-feature-icons-grid-{{ ai_gen_id }} {
+      grid-template-columns: repeat(3, 1fr);
+      gap: {{ block.settings.item_spacing | times: 0.8 }}px;
+    }
+
+    .ai-feature-icons-icon-{{ ai_gen_id }} {
+      width: {{ block.settings.icon_size | times: 0.8 }}px;
+      height: {{ block.settings.icon_size | times: 0.8 }}px;
+    }
+
+    .ai-feature-icons-text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.text_size | times: 0.9 }}px;
+    }
+  }
+
+  @media screen and (max-width: 589px) {
+    .ai-feature-icons-grid-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.columns_mobile }}, 1fr);
+      gap: {{ block.settings.item_spacing | times: 0.6 }}px;
+    }
+
+    .ai-feature-icons-icon-{{ ai_gen_id }} {
+      width: {{ block.settings.icon_size | times: 0.7 }}px;
+      height: {{ block.settings.icon_size | times: 0.7 }}px;
+    }
+
+    .ai-feature-icons-text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.text_size | times: 0.8 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-feature-icons-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-feature-icons-grid-{{ ai_gen_id }}">
+    {% if block.settings.feature_1_text != blank %}
+      <div class="ai-feature-icons-item-{{ ai_gen_id }}">
+        <div class="ai-feature-icons-icon-{{ ai_gen_id }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </div>
+        <div class="ai-feature-icons-text-{{ ai_gen_id }}">{{ block.settings.feature_1_text }}</div>
+      </div>
+    {% endif %}
+
+    {% if block.settings.feature_2_text != blank %}
+      <div class="ai-feature-icons-item-{{ ai_gen_id }}">
+        <div class="ai-feature-icons-icon-{{ ai_gen_id }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </div>
+        <div class="ai-feature-icons-text-{{ ai_gen_id }}">{{ block.settings.feature_2_text }}</div>
+      </div>
+    {% endif %}
+
+    {% if block.settings.feature_3_text != blank %}
+      <div class="ai-feature-icons-item-{{ ai_gen_id }}">
+        <div class="ai-feature-icons-icon-{{ ai_gen_id }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </div>
+        <div class="ai-feature-icons-text-{{ ai_gen_id }}">{{ block.settings.feature_3_text }}</div>
+      </div>
+    {% endif %}
+
+    {% if block.settings.feature_4_text != blank %}
+      <div class="ai-feature-icons-item-{{ ai_gen_id }}">
+        <div class="ai-feature-icons-icon-{{ ai_gen_id }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </div>
+        <div class="ai-feature-icons-text-{{ ai_gen_id }}">{{ block.settings.feature_4_text }}</div>
+      </div>
+    {% endif %}
+
+    {% if block.settings.feature_5_text != blank %}
+      <div class="ai-feature-icons-item-{{ ai_gen_id }}">
+        <div class="ai-feature-icons-icon-{{ ai_gen_id }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </div>
+        <div class="ai-feature-icons-text-{{ ai_gen_id }}">{{ block.settings.feature_5_text }}</div>
+      </div>
+    {% endif %}
+
+    {% if block.settings.feature_6_text != blank %}
+      <div class="ai-feature-icons-item-{{ ai_gen_id }}">
+        <div class="ai-feature-icons-icon-{{ ai_gen_id }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </div>
+        <div class="ai-feature-icons-text-{{ ai_gen_id }}">{{ block.settings.feature_6_text }}</div>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Feature icons",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Contenido"
+    },
+    {
+      "type": "text",
+      "id": "feature_1_text",
+      "label": "Característica 1",
+      "default": "Oro auténtico"
+    },
+    {
+      "type": "text",
+      "id": "feature_2_text",
+      "label": "Característica 2",
+      "default": "Plata Ley 925"
+    },
+    {
+      "type": "text",
+      "id": "feature_3_text",
+      "label": "Característica 3",
+      "default": "Facturación disponible"
+    },
+    {
+      "type": "text",
+      "id": "feature_4_text",
+      "label": "Característica 4",
+      "default": "Envíos asegurados"
+    },
+    {
+      "type": "text",
+      "id": "feature_5_text",
+      "label": "Característica 5",
+      "default": "Atención personalizada"
+    },
+    {
+      "type": "text",
+      "id": "feature_6_text",
+      "label": "Característica 6",
+      "default": "Compra segura"
+    },
+    {
+      "type": "header",
+      "content": "Diseño"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Ancho en escritorio",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "label": "Columnas en móvil",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Espaciado vertical",
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "item_spacing",
+      "label": "Espaciado entre elementos",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "icon_text_gap",
+      "label": "Espacio icono-texto",
+      "min": 5,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "header",
+      "content": "Colores"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Fondo",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Color de icono",
+      "default": "#d9bf55"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Color de texto",
+      "default": "#2a3871"
+    },
+    {
+      "type": "header",
+      "content": "Estilo de icono"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Tamaño de icono",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "icon_stroke_width",
+      "label": "Grosor de icono",
+      "min": 1,
+      "max": 3,
+      "step": 0.5,
+      "default": 2
+    },
+    {
+      "type": "header",
+      "content": "Estilo de texto"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Tamaño de texto",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 13
+    },
+    {
+      "type": "select",
+      "id": "text_weight",
+      "label": "Peso de texto",
+      "options": [
+        {
+          "value": "300",
+          "label": "Ligero"
+        },
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medio"
+        },
+        {
+          "value": "600",
+          "label": "Semi-negrita"
+        },
+        {
+          "value": "700",
+          "label": "Negrita"
+        }
+      ],
+      "default": "400"
+    },
+    {
+      "type": "select",
+      "id": "text_transform",
+      "label": "Transformación de texto",
+      "options": [
+        {
+          "value": "none",
+          "label": "Normal"
+        },
+        {
+          "value": "uppercase",
+          "label": "Mayúsculas"
+        },
+        {
+          "value": "lowercase",
+          "label": "Minúsculas"
+        },
+        {
+          "value": "capitalize",
+          "label": "Capitalizar"
+        }
+      ],
+      "default": "uppercase"
+    },
+    {
+      "type": "range",
+      "id": "text_letter_spacing",
+      "label": "Espaciado de letras",
+      "min": 0,
+      "max": 3,
+      "step": 0.5,
+      "unit": "px",
+      "default": 1
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feature icons"
+    }
+  ]
+}
+{% endschema %}
