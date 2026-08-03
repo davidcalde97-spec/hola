@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "faq": {
@@ -15,28 +6,28 @@
         "category": {
           "type": "category",
           "settings": {
-            "title": "Order"
+            "title": "Pedidos"
           }
         },
         "question-1": {
           "type": "question",
           "settings": {
-            "question": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "question": "¿Hacen envíos a todo México?",
+            "answer": "<p>Sí, enviamos a toda la República Mexicana. El costo de envío se calcula al finalizar tu compra y es gratis en pedidos desde $999.</p>"
           }
         },
         "question-2": {
           "type": "question",
           "settings": {
-            "question": "How long will it take to get my orders?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "question": "¿Cuánto tarda en llegar mi pedido?",
+            "answer": "<p>Ofrecemos dos opciones de envío dentro de México:</p><ul><li><strong>Envío Express:</strong> de 2 a 3 días hábiles.</li><li><strong>Envío Terrestre:</strong> de 5 a 7 días hábiles.</li></ul><p>Los tiempos pueden variar ligeramente según tu ubicación.</p>"
           }
         },
         "question-3": {
           "type": "question",
           "settings": {
-            "question": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "question": "¿Tienes otra duda?",
+            "answer": "<p>Escríbenos desde nuestra página de contacto. Con gusto te ayudamos.</p>"
           }
         }
       },

@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -84,7 +75,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "liquid": "{% assign faq_metafield = product.metafields['imperialjewelry']['preguntas'] %}\n\n{% if faq_metafield != blank %}\n  <div id=\"faq-block\">\n    <button id=\"faq-toggle\" aria-expanded=\"false\" aria-controls=\"faq-content\">\n      Dudas del Producto\n      <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\">\n        <polyline points=\"6 9 12 15 18 9\"></polyline>\n      </svg>\n    </button>\n\n    <div id=\"faq-content\" hidden>\n      {{ faq_metafield | metafield_tag }}\n    </div>\n  </div>\n\n  <style>\n    #faq-block { margin: 1rem 0; }\n    #faq-toggle {\n      display: flex;\n      align-items: center;\n      gap: 8px;\n      background: none;\n      border: none;\n      font-size: 1rem;\n      font-weight: 600;\n      cursor: pointer;\n      padding: 0;\n    }\n    #faq-toggle svg { transition: transform 0.2s; }\n    #faq-toggle[aria-expanded=\"true\"] svg { transform: rotate(180deg); }\n    #faq-content { margin-top: 12px; }\n  </style>\n\n  <script>\n    document.getElementById('faq-toggle').addEventListener('click', function () {\n      var expanded = this.getAttribute('aria-expanded') === 'true';\n      var content = document.getElementById('faq-content');\n      this.setAttribute('aria-expanded', String(!expanded));\n      content.hidden = expanded;\n    });\n  </script>\n{% endif %}"
+            "liquid": "{% assign faq_metafield = product.metafields['imperialjewelry']['preguntas'] %}\n\n{% if faq_metafield != blank %}\n  <div id=\"faq-block\">\n    <button id=\"faq-toggle\" aria-expanded=\"false\" aria-controls=\"faq-content\">\n      Dudas del producto\n      <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\">\n        <polyline points=\"6 9 12 15 18 9\"></polyline>\n      </svg>\n    </button>\n\n    <div id=\"faq-content\" hidden>\n      {{ faq_metafield | metafield_tag }}\n    </div>\n  </div>\n\n  <style>\n    #faq-block { margin: 1rem 0; }\n    #faq-toggle {\n      display: flex;\n      align-items: center;\n      gap: 8px;\n      background: none;\n      border: none;\n      font-size: 1rem;\n      font-weight: 600;\n      cursor: pointer;\n      padding: 0;\n    }\n    #faq-toggle svg { transition: transform 0.2s; }\n    #faq-toggle[aria-expanded=\"true\"] svg { transform: rotate(180deg); }\n    #faq-content { margin-top: 12px; }\n  </style>\n\n  <script>\n    document.getElementById('faq-toggle').addEventListener('click', function () {\n      var expanded = this.getAttribute('aria-expanded') === 'true';\n      var content = document.getElementById('faq-content');\n      this.setAttribute('aria-expanded', String(!expanded));\n      content.hidden = expanded;\n    });\n  </script>\n{% endif %}"
           }
         },
         "buy_buttons": {
@@ -102,7 +93,7 @@
           "type": "complementary_products",
           "disabled": true,
           "settings": {
-            "title": "Pairs well with",
+            "title": "Combina bien con",
             "products_count": 2,
             "show_below_gallery": true,
             "stack_products": false,
@@ -156,7 +147,7 @@
         "horizontal_spacing_factor": 0.2,
         "vertical_spacing_factor": 0.2,
         "subheading": "",
-        "title": "Productos Similares",
+        "title": "Productos similares",
         "heading_style": "h2",
         "content": ""
       }
@@ -170,7 +161,7 @@
             "icon": "picto-delivery-truck",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "envío seguro",
+            "title": "Envío seguro",
             "content": "<p>Empaque protegido y asegurado</p>"
           }
         },
@@ -180,7 +171,7 @@
             "icon": "picto-customer-support",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "facturación disponible",
+            "title": "Facturación disponible",
             "content": "<p>Solicítala después de tu compra.</p>"
           }
         },
@@ -190,7 +181,7 @@
             "icon": "picto-shield",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "compra protegida",
+            "title": "Compra protegida",
             "content": "<p>Métodos de pago confiables.</p>"
           }
         }
@@ -271,7 +262,7 @@
         "testimonial_ejR3kg": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "content": "<p>Comparte aquí la opinión de un cliente sobre sus piezas, la atención o los envíos.</p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -280,7 +271,7 @@
         "testimonial_cxeKix": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "content": "<p>Comparte aquí la opinión de un cliente sobre sus piezas, la atención o los envíos.</p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -289,7 +280,7 @@
         "testimonial_8hibdb": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "content": "<p>Comparte aquí la opinión de un cliente sobre sus piezas, la atención o los envíos.</p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -298,7 +289,7 @@
         "testimonial_BFTntF": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "content": "<p>Comparte aquí la opinión de un cliente sobre sus piezas, la atención o los envíos.</p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -358,7 +349,7 @@
             "custom_icon": "shopify://shop_images/mercado-libre-logo-0233EC77C6-seeklogo.com_97455e87-891b-48e0-ae29-3b212098d040.png",
             "icon_width": 64,
             "mobile_icon_width": 64,
-            "title": "<a href=\"https://www.mercadolibre.com.mx/tienda/imperial-jewelry\" target=\"_blank\" title=\"https://www.mercadolibre.com.mx/tienda/imperial-jewelry\">mercado libre</a>",
+            "title": "<a href=\"https://www.mercadolibre.com.mx/tienda/imperial-jewelry\" target=\"_blank\" title=\"https://www.mercadolibre.com.mx/tienda/imperial-jewelry\">Mercado Libre</a>",
             "content": ""
           }
         },
@@ -445,8 +436,8 @@
         "question_y4EXUA": {
           "type": "question",
           "settings": {
-            "question": "<strong>¿Expides factura fiscal?</strong>",
-            "answer": "<p>Si expedimos factura fiscal, mándanos tus datos.</p>"
+            "question": "<strong>¿Expiden factura fiscal?</strong>",
+            "answer": "<p>Sí, expedimos factura fiscal. Envíanos tus datos después de tu compra.</p>"
           }
         }
       },
@@ -462,8 +453,8 @@
         "color_scheme": "scheme-fa02338f-66e3-4518-b49b-845896cde05d",
         "separate_section_with_border": true,
         "show_categories": false,
-        "subheading": "¿necesitas ayuda?",
-        "title": "preguntas frecuentes",
+        "subheading": "¿Necesitas ayuda?",
+        "title": "Preguntas frecuentes",
         "heading_style": "h2",
         "content": ""
       }

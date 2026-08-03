@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "slideshow": {
@@ -188,7 +179,7 @@
           "settings": {
             "video": "shopify://files/videos/011_78231_Anim_htdqao_bbe7e4b7-b0c4-4aef-9900-b193e890a550.mp4",
             "disable_video_mobile": false,
-            "heading": "Joyería de oro y plata  que  dura toda la vida",
+            "heading": "Joyería de oro y plata que dura toda la vida",
             "subheading": "Diseño italiano con calidad certificada",
             "content_max_width": 800,
             "min_height_mobile": 500,
@@ -386,7 +377,7 @@
             "icon": "picto-send",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Envios a todo mexico",
+            "title": "Envíos a todo México",
             "content": ""
           }
         },
@@ -396,7 +387,7 @@
             "icon": "picto-user",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "clientes satisfechos",
+            "title": "Clientes satisfechos",
             "content": ""
           }
         }
@@ -426,7 +417,7 @@
             "benefit_1_text": "Materiales de alta calidad",
             "benefit_2_text": "Compra segura",
             "benefit_3_text": "Envíos a todo México",
-            "benefit_4_text": "clientes satisfechos",
+            "benefit_4_text": "Clientes satisfechos",
             "desktop_width_percent": 100,
             "vertical_padding": 40,
             "horizontal_padding": 20,
@@ -613,7 +604,7 @@
             "products_count": 8,
             "title": "",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": "Ver todo"
           }
         },
         "collection_Ki3mPy": {
@@ -623,7 +614,7 @@
             "products_count": 8,
             "title": "",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": "Ver todo"
           }
         },
         "collection-1": {
@@ -643,7 +634,7 @@
             "products_count": 8,
             "title": "",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": "Ver todo"
           }
         }
       },
@@ -968,7 +959,7 @@
             "products_count": 8,
             "title": "Oro",
             "link_url": "",
-            "link_text": "Comprar"
+            "link_text": "Ver todo"
           }
         },
         "collection_pG6TTC": {
@@ -978,7 +969,7 @@
             "products_count": 8,
             "title": "Plata",
             "link_url": "",
-            "link_text": "Ver todos"
+            "link_text": "Ver todo"
           }
         }
       },
@@ -1225,7 +1216,7 @@
             "image": "shopify://shop_images/05078312_00012.jpg",
             "subheading": "",
             "title": "Anillos",
-            "content": "<p>Nuestros <strong>anillos </strong>son fabricados con la más avanzada tecnología de <strong>impresión 3D</strong>, montaje de piedra en cera y <strong>fundicion de presición </strong><em>(lost wax casting)</em>, un proceso que elimina imperfecciones y garantiza precisión absoluta en cada detalle. Al mismo tiempo, cada pieza pasa por el <strong>control de calidad de nuestros joyeros artesanos</strong>, quienes aportan su experiencia y sensibilidad para asegurar un acabado impecable que combina <strong>innovación, perfección técnica y tradición artesanal</strong>.<br/><br/></p>",
+            "content": "<p>Nuestros <strong>anillos </strong>son fabricados con la más avanzada tecnología de <strong>impresión 3D</strong>, montaje de piedra en cera y <strong>fundición de precisión</strong> <em>(lost wax casting)</em>, un proceso que elimina imperfecciones y garantiza precisión absoluta en cada detalle. Al mismo tiempo, cada pieza pasa por el <strong>control de calidad de nuestros joyeros artesanos</strong>, quienes aportan su experiencia y sensibilidad para asegurar un acabado impecable que combina <strong>innovación, perfección técnica y tradición artesanal</strong>.<br/><br/></p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -1237,7 +1228,7 @@
             "image": "shopify://shop_images/captura_7_65344a68-a30e-478e-9f67-85f8b37279d4.png",
             "subheading": "",
             "title": "Aretes",
-            "content": "<p>Nuestras <strong>arracadas </strong>destacan por su <strong>brillo intenso, color definido, diamantado preciso y peso único </strong>que se siente sólido y cómodo a la vez. Están fabricadas por la <strong>mejor casa de joyería de tubo en México </strong>,<strong>miembro permanente del Grupo de Calidad de la Cámara de Joyería de Jalisco</strong>, lo que garantiza <strong>acabados superiores, consistencia y larga durabilidad</strong>. Ideales para uso diario u ocasiones especiales, son una elección segura para quienes buscan <strong>impacto visual, calidad y tradición </strong>en una sola pieza.<br/><br/></p>",
+            "content": "<p>Nuestras <strong>arracadas </strong>destacan por su <strong>brillo intenso, color definido, diamantado preciso y peso único </strong>que se siente sólido y cómodo a la vez. Están fabricadas por la <strong>mejor casa de joyería de tubo en México</strong>, <strong>miembro  permanente del Grupo de Calidad de la Cámara de Joyería de Jalisco</strong>, lo que garantiza <strong>acabados superiores, consistencia y larga durabilidad</strong>. Ideales para uso diario u ocasiones especiales, son una elección segura para quienes buscan <strong>impacto visual, calidad y tradición </strong>en una sola pieza.<br/><br/></p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -1249,7 +1240,7 @@
             "image": "shopify://shop_images/06578356_00000_ae2aaed1-04e6-4439-85d9-53d3a8ebd14a.jpg",
             "subheading": "",
             "title": "Collares",
-            "content": "<p>Nuestras <strong>cadenas  </strong>son sinónimo de elegancia, tradición y excelencia. Cada pieza está elaborada en un <strong>100% de oro auténtico</strong>, proveniente exclusivamente de las mejores fábricas de <strong>Vicenza, Arezzo y Bassano del Grappa</strong>, regiones italianas reconocidas a nivel mundial por su maestría en la producción de joyería de oro y plata.<br/><br/></p>",
+            "content": "<p>Nuestras <strong>cadenas</strong> son sinónimo de elegancia, tradición y excelencia. Cada pieza está elaborada en un <strong>100% de oro auténtico</strong>, proveniente exclusivamente de las mejores fábricas de <strong>Vicenza, Arezzo y Bassano del Grappa</strong>, regiones italianas reconocidas a nivel mundial por su maestría en la producción de joyería de oro y plata.<br/><br/></p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -1261,7 +1252,7 @@
             "image": "shopify://shop_images/002_78218_0000_a85e006f-f46a-4c3a-8e44-95e39fa0b4bf.jpg",
             "subheading": "",
             "title": "Dijes",
-            "content": "<p>Nuestros dijes son una fusión perfecta entre fe, arte y excelencia.<br/><br/>Cada pieza representa mucho más que un accesorio: es un símbolo de espiritualidad, devoción y protección. Elaborados en 100% oro auténtico, nuestros dijes provienen de las mejores talleres de Italia y Turquía, reconocidas mundialmente por su maestría en la joyería fina, así como de fábricas nacionales que destacan por su innovación y precisión.</p><p>El resultado son piezas con un brillo intenso, color definido, diamantado preciso y un peso equilibrado que se siente sólido y cómodo a la vez.<br/></p>",
+            "content": "<p>Nuestros dijes son una fusión perfecta entre fe, arte y excelencia.<br/><br/>Cada pieza representa mucho más que un accesorio: es un símbolo de espiritualidad, devoción y protección. Elaborados en 100% oro auténtico, nuestros dijes provienen de los mejores talleres de Italia y Turquía, reconocidos mundialmente por su maestría en la joyería fina, así como de fábricas nacionales que destacan por su innovación y precisión.</p><p>El resultado son piezas con un brillo intenso, color definido, diamantado preciso y un peso equilibrado que se siente sólido y cómodo a la vez.<br/></p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -1273,7 +1264,7 @@
             "image": "shopify://shop_images/02879626_00005.jpg",
             "subheading": "",
             "title": "Pulseras",
-            "content": "<p>Nuestras <strong>pulseras </strong>representan lo mejor del gusto europeo, elaboradas en los mejores talleres de europa reconocidos por su tradición joyera. Cada pulsera combina <strong>brillo, elegancia y durabilidad</strong>, con un diseño atemporal. Una joya ideal tanto para <strong>uso diario como para ocasiones especiales</strong>.<br/><br/><br/><br/></p>",
+            "content": "<p>Nuestras <strong>pulseras </strong>representan lo mejor del gusto europeo, elaboradas en los mejores talleres de Europa, reconocidos por su tradición joyera. Cada pulsera combina <strong>brillo, elegancia y durabilidad</strong>, con un diseño atemporal. Una joya ideal tanto para <strong>uso diario como para ocasiones especiales</strong>.</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -1538,8 +1529,8 @@
         "heading_RYYEMK": {
           "type": "heading",
           "settings": {
-            "text": "También De venta en",
-            "heading_tag": "h1"
+            "text": "También de venta en",
+            "heading_tag": "h2"
           }
         },
         "richtext_T8bddR": {
@@ -1573,7 +1564,7 @@
             "custom_icon": "shopify://shop_images/mercado-libre-logo-0233EC77C6-seeklogo.com_97455e87-891b-48e0-ae29-3b212098d040.png",
             "icon_width": 64,
             "mobile_icon_width": 64,
-            "title": "<a href=\"https://www.mercadolibre.com.mx/tienda/imperial-jewelry\" target=\"_blank\" title=\"https://www.mercadolibre.com.mx/tienda/imperial-jewelry\">mercado libre</a>",
+            "title": "<a href=\"https://www.mercadolibre.com.mx/tienda/imperial-jewelry\" target=\"_blank\" title=\"https://www.mercadolibre.com.mx/tienda/imperial-jewelry\">Mercado Libre</a>",
             "content": ""
           }
         },
