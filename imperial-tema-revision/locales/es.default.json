@@ -72,7 +72,21 @@
       "product_description": "Escribe un texto sobre tu producto.",
       "collection_title": "Colección"
     },
-    "loading": "Cargando…"
+    "loading": "Cargando…",
+    "search": {
+      "heading": {
+        "one": "Resultado de búsqueda",
+        "other": "Resultados de búsqueda"
+      },
+      "results_with_count": {
+        "one": "{{ count }} resultado de \"{{ terms }}\"",
+        "other": "{{ count }} resultados de \"{{ terms }}\""
+      }
+    },
+    "meta": {
+      "tags": "Con etiqueta \"{{ tags }}\"",
+      "page": "Página {{ page }}"
+    }
   },
   "header": {
     "general": {

@@ -156,6 +156,23 @@ El tema base ya estaba bien localizado con `| t`; los defectos estaban en archiv
 9. **Color #D5AF17**: ese tono **no existe en ningún archivo del tema**. El dorado de la marca en este tema es **#D9BF55** (con azul #2A3871), usado de forma consistente. No lo introduje para no alterar el diseño.
 10. **Assets minificados** (`theme.js`, `theme.css`, `vendor.min.js`, `photoswipe.min.js`, `gp-global.css`) — no se tocaron; los textos que muestran vienen de `js-variables.liquid`, que ya usa claves de idioma.
 
+## 5b. Pasada de `shopify theme check` (CLI 4.6.0)
+
+Se corrió theme check delimitado a cada tema. Correcciones aplicadas:
+
+- **`asyc="async"` → `async`** en los 4 scripts de vendors de EComposer del quick-view — el atributo estaba mal escrito, así que los scripts eran parser-blocking sin querer.
+- **HTML inválido en la galería del quick-view**: comas sueltas entre atributos (`alt="…",` y `,loading="lazy"`) eliminadas.
+- **`width`/`height` agregados** a las 2 imágenes de miniaturas del quick-view (350×350) y a las 4 imágenes del slideshow `ai_gen_block_c8d7a6e` (dimensiones intrínsecas del objeto imagen) — evita CLS.
+- **4 claves de traducción faltantes** usadas por `layout/ecom.liquid` en el `<title>` (defecto preexistente: páginas EComposer mostraban "translation missing" en búsquedas/etiquetas/paginación): `general.search.heading`, `general.search.results_with_count`, `general.meta.tags`, `general.meta.page` — agregadas al locale en español.
+- Se agregó `locales/en.default.schema.json` a esta carpeta local (copia fiel del tema; elimina ~2,900 falsos positivos del check).
+
+Errores restantes reportados que decidí NO tocar (con motivo):
+- `ImgWidthAndHeight` en la imagen `trus.svg` del quick-view: la política de red del entorno impide descargar el SVG para medir su proporción real; inventarla causaría un CLS peor. Añadir `width/height` manualmente cuando se conozca el tamaño.
+- 3 × `MissingTemplate` (snippets `opinew_review_stars_product`, `ssw-widget-avg-rate-listing`): faltan también en el tema live; solo se alcanzan si se elige Opinew/SSW como plataforma de reseñas (apps no instaladas).
+- `MissingAsset` × 29: los 5 assets minificados grandes no se descargaron localmente a propósito; existen en el tema real.
+- `UnknownFilter 'raw'` (GemPages), `ValidBlockTarget 'subheading'` (_dynamic-grid-item), `ValidDocParamTypes` (gp-head/ecom_google_snippet), clave de schema `sections.predictive_search.predictive_search`: defectos preexistentes de archivos generados por apps, de bajo riesgo/solo editor; tocarlos no aporta al cliente.
+- Warnings de fuentes obsoletas (`helvetica_n4`) en `settings_schema.json`: cambiar la fuente es una decisión de diseño de marca.
+
 ## 6. Pendientes que están fuera del tema (ajustes de la tienda, no del código)
 
 - **La tienda tiene el idioma "Inglés" publicado** a nivel tienda (Configuración → Idiomas). El tema ya no tiene inglés, así que las URLs `/en` mostrarán español; para eliminarlo del todo, **despublica el inglés en el admin**.
