@@ -1,0 +1,3 @@
+ignore:
+  - imperial-tema-revision/**
+  - deploy/**

@@ -440,6 +440,8 @@
               <img
                 src="{{ mobile_image | image_url: width: 1000 }}"
                 alt="{{ mobile_image.alt | escape }}"
+                width="{{ mobile_image.width }}"
+                height="{{ mobile_image.height }}"
                 class="ai-hero-slideshow__media-{{ ai_gen_id }} ai-hero-slideshow__media-mobile-{{ ai_gen_id }}"
                 loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
                 style="display: none;"
@@ -448,6 +450,8 @@
               <img
                 src="{{ image | image_url: width: 1000 }}"
                 alt="{{ image.alt | escape }}"
+                width="{{ image.width }}"
+                height="{{ image.height }}"
                 class="ai-hero-slideshow__media-{{ ai_gen_id }} ai-hero-slideshow__media-mobile-{{ ai_gen_id }}"
                 loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
                 style="display: none;"
@@ -458,6 +462,8 @@
               <img
                 src="{{ image | image_url: width: 2000 }}"
                 alt="{{ image.alt | escape }}"
+                width="{{ image.width }}"
+                height="{{ image.height }}"
                 class="ai-hero-slideshow__media-{{ ai_gen_id }} ai-hero-slideshow__media-desktop-{{ ai_gen_id }}"
                 loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
               >
@@ -471,6 +477,8 @@
               <img
                 src="{{ mobile_image | image_url: width: 1000 }}"
                 alt="{{ mobile_image.alt | escape }}"
+                width="{{ mobile_image.width }}"
+                height="{{ mobile_image.height }}"
                 class="ai-hero-slideshow__media-{{ ai_gen_id }} ai-hero-slideshow__media-mobile-{{ ai_gen_id }}"
                 loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
                 style="display: none;"
