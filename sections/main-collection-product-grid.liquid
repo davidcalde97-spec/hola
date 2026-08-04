@@ -34,6 +34,11 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .section-{{ section.id }}-padding .product-grid > .grid__item {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 350px;
+  }
 {%- endstyle -%}
 
 <collection-component
@@ -41,7 +46,12 @@
   data-collection-id="{{ collection.id }}"
 >
   <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
-    {%- paginate collection.products by section.settings.products_per_page -%}
+    {%- liquid
+      # Tope de 24: facets.js reemplaza todo #ProductGridContainer con un solo
+      # innerHTML al filtrar/ordenar; páginas mayores producen long tasks en móvil.
+      assign products_per_page = section.settings.products_per_page | default: 16 | at_least: 8 | at_most: 24
+    -%}
+    {%- paginate collection.products by products_per_page -%}
       {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
       {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}
         <facet-filters-form class="facets facets-vertical-sort page-width small-hide">
@@ -210,7 +220,7 @@
       "type": "range",
       "id": "products_per_page",
       "min": 8,
-      "max": 36,
+      "max": 24,
       "step": 4,
       "default": 16,
       "label": "t:sections.main-collection-product-grid.settings.products_per_page.label"
