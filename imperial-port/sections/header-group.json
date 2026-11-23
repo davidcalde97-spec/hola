@@ -1,0 +1,95 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message_jQwGna": {
+          "type": "message",
+          "settings": {
+            "text": "Envío gratis desde $1,999"
+          }
+        },
+        "message_4TNdrK": {
+          "type": "message",
+          "settings": {
+            "text": "Usa el cupón <strong>IMPERIAL</strong> y obtén 10% en tu primera compra."
+          }
+        },
+        "message_yAfJxg": {
+          "type": "message",
+          "settings": {
+            "text": "Garantía de oro real"
+          }
+        }
+      },
+      "block_order": [
+        "message_jQwGna",
+        "message_yAfJxg",
+        "message_4TNdrK"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2b89e713-ac76-4b50-a8f4-bb1b882f2f0c",
+        "enable_sticky": false,
+        "autoplay": true,
+        "cycle_speed": 6,
+        "desktop_font_size": 12,
+        "mobile_font_size": 12
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_xBg8Va": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Tienda",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_xBg8Va"
+      ],
+      "settings": {
+        "color_scheme": "scheme-845c1987-e02f-481a-a2f6-374bb7250aff",
+        "enable_sticky": true,
+        "hide_on_scroll": true,
+        "show_separation_border": true,
+        "reduce_padding": true,
+        "logo": "shopify://shop_images/Imperial_Jewelry_logo_transparente.png",
+        "logo_max_width": 150,
+        "logo_mobile_max_width": 100,
+        "menu": "onw",
+        "sidebar_menu": "onw-mobile",
+        "customer_account_menu": "customer-account-main-menu",
+        "menu_open_trigger": "hover",
+        "menu_text_font": "body",
+        "enable_search": true,
+        "sidebar_color_scheme": "scheme-bccf5a9c-3212-45a7-a88e-739fd0fda227",
+        "sidebar_text_font": "body",
+        "sidebar_show_dividers": false,
+        "sidebar_open_second_level_menus": false,
+        "layout": "drawer",
+        "show_icons": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "show_locale_selector": false,
+        "transparent_header_text_color": "#2a3871",
+        "transparent_logo": "shopify://shop_images/Imperial_Jewelry_logo_transparente.png"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_RLaPpB": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign faq_metafield = product.metafields['imperialjewelry']['preguntas'] %}\n\n{% if faq_metafield != blank %}\n  <div id=\"faq-block\">\n    <button id=\"faq-toggle\" aria-expanded=\"false\" aria-controls=\"faq-content\">\n      Preguntas frecuentes\n      <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\">\n        <polyline points=\"6 9 12 15 18 9\"></polyline>\n      </svg>\n    </button>\n\n    <div id=\"faq-content\" hidden>\n      {{ faq_metafield | metafield_tag }}\n    </div>\n  </div>\n\n  <style>\n    #faq-block { margin: 1rem 0; }\n    #faq-toggle {\n      display: flex;\n      align-items: center;\n      gap: 8px;\n      background: none;\n      border: none;\n      font-size: 1rem;\n      font-weight: 600;\n      cursor: pointer;\n      padding: 0;\n    }\n    #faq-toggle svg { transition: transform 0.2s; }\n    #faq-toggle[aria-expanded=\"true\"] svg { transform: rotate(180deg); }\n    #faq-content { margin-top: 12px; }\n  </style>\n\n  <script>\n    document.getElementById('faq-toggle').addEventListener('click', function () {\n      var expanded = this.getAttribute('aria-expanded') === 'true';\n      var content = document.getElementById('faq-content');\n      this.setAttribute('aria-expanded', String(!expanded));\n      content.hidden = expanded;\n    });\n  </script>\n{% endif %}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": true
+          }
+        },
+        "inventory_UJXgfJ": {
+          "type": "inventory",
+          "disabled": true,
+          "settings": {
+            "show_in_stock_quantity": true,
+            "low_inventory_threshold": 10,
+            "show_progress_bar": false,
+            "progress_bar_max_value": 50
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": true,
+            "selector_style": "block",
+            "swatch_selector_style": "block_swatch",
+            "variant_image_options": "",
+            "variant_image_show_underline": false,
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#2a3871",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "#2a3871",
+            "payment_button_text_color": "#d9bf55"
+          }
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "disabled": true,
+          "settings": {
+            "title": "Combina bien con",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
+        }
+      },
+      "block_order": [
+        "liquid_RLaPpB",
+        "description",
+        "inventory_UJXgfJ",
+        "vendor",
+        "title",
+        "price",
+        "payment_terms",
+        "separator",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "complementary_products"
+      ],
+      "settings": {
+        "color_scheme": "scheme-845c1987-e02f-481a-a2f6-374bb7250aff",
+        "allow_transparent_header": false,
+        "transparent_header_use_primary_colors": false,
+        "container_size": "lg",
+        "product_info_size": 60,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": true,
+        "desktop_media_layout": "grid",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 1
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-845c1987-e02f-481a-a2f6-374bb7250aff",
+        "separate_section_with_border": false,
+        "hide_product_information": true,
+        "stack_products": false,
+        "recommendations_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.2,
+        "vertical_spacing_factor": 0.2,
+        "subheading": "",
+        "title": "Productos similares",
+        "content": ""
+      }
+    },
+    "related_products_QqWUJj": {
+      "type": "related-products",
+      "name": "t:sections.related_products.presets.related_products.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_JtJyAH": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_dAKmpU": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_Qgjywj": {
+          "type": "heading",
+          "settings": {
+            "text": "Joyas que cuentan tu historia",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_DP4PUA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><br/>Cada pieza está diseñada para acompañarte en los momentos más importantes de tu vida. Utilizamos materiales cuidadosamente seleccionados y acabados de alta calidad para crear joyas que destacan por su belleza, durabilidad y significado.<br/><br/></p>"
+          }
+        },
+        "button_HC989Q": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Ver todo",
+            "url": "shopify://collections/all",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_dAKmpU",
+        "heading_Qgjywj",
+        "richtext_DP4PUA",
+        "button_HC989Q"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "blocks_rJa7Et": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_bd059e9_m8LpkD": {
+          "type": "ai_gen_block_bd059e9",
+          "settings": {
+            "title": "¿Qué estás buscando?",
+            "title_size": 32,
+            "title_alignment": "center",
+            "title_color": "#2a3871",
+            "title_spacing": 40,
+            "card_1_title": "Para regalo",
+            "card_1_image": "shopify://shop_images/06578356_00001_0bab74a3-9555-4a44-b17d-ba73a9878c03.jpg",
+            "card_1_link": "shopify://collections/dijes-oro-onw",
+            "card_2_title": "Para uso diario",
+            "card_2_image": "shopify://shop_images/05578292_00002.jpg",
+            "card_2_link": "shopify://collections/cadena",
+            "card_3_title": "Para ocasión especial",
+            "card_3_image": "shopify://shop_images/20250516_1702_AnilloElegantedeOro_remix_01jvdn9tjcfp1bqk5gqmy66nw8.png",
+            "card_3_link": "",
+            "desktop_width_percent": 100,
+            "columns_desktop": 3,
+            "mobile_layout": "slider",
+            "card_gap": 20,
+            "section_padding": 40,
+            "image_aspect_ratio": 120,
+            "card_title_size": 24,
+            "card_text_alignment": "center",
+            "card_text_color": "#ffffff",
+            "card_padding": 30,
+            "card_border_radius": 0,
+            "card_background": "#ffffff",
+            "card_border_width": 0,
+            "card_border_color": "#2a3871",
+            "overlay_opacity": 0.5,
+            "show_arrow": true,
+            "hover_lift": 8,
+            "hover_shadow": 15,
+            "background_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_bd059e9_m8LpkD"
+      ],
+      "name": "Decision cards",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "text_with_icons_GnWR9Q": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_pg8MBq": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/mercado-libre-logo-0233EC77C6-seeklogo.com_97455e87-891b-48e0-ae29-3b212098d040.png",
+            "icon_width": 64,
+            "mobile_icon_width": 64,
+            "title": "<a href=\"https://www.mercadolibre.com.mx/tienda/imperial-jewelry\" target=\"_blank\" title=\"https://www.mercadolibre.com.mx/tienda/imperial-jewelry\">Mercado Libre</a>",
+            "content": ""
+          }
+        },
+        "item_rMrNXD": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/amazon-logo-0.png",
+            "icon_width": 64,
+            "mobile_icon_width": 64,
+            "title": "<a href=\"https://www.amazon.com.mx/stores/page/D0BB344E-AEF4-4C1E-91CE-80D42BD68DEF\" title=\"https://www.amazon.com.mx/stores/page/D0BB344E-AEF4-4C1E-91CE-80D42BD68DEF\">Amazon</a>",
+            "content": ""
+          }
+        },
+        "item_RUAje4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/COPPEL_Mesa_de_trabajo_1.jpg",
+            "icon_width": 64,
+            "mobile_icon_width": 64,
+            "title": "<a href=\"https://www.coppel.com/sd/imperial%20jewelry\" title=\"https://www.coppel.com/sd/imperial%20jewelry\">Coppel</a>",
+            "content": ""
+          }
+        },
+        "item_CKHrXi": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/WALMART_Mesa_de_trabajo_1.jpg",
+            "icon_width": 64,
+            "mobile_icon_width": 64,
+            "title": "<a href=\"https://www.walmart.com.mx/search?q=Imperial+Jewelry&facet=brand:Imperial+Jewelry\" title=\"https://www.walmart.com.mx/search?q=Imperial+Jewelry&facet=brand:Imperial+Jewelry\">Walmart</a>",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_pg8MBq",
+        "item_rMrNXD",
+        "item_RUAje4",
+        "item_CKHrXi"
+      ],
+      "settings": {
+        "color_scheme": "scheme-845c1987-e02f-481a-a2f6-374bb7250aff",
+        "separate_section_with_border": true,
+        "stack_on_mobile": true,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "related_products_QqWUJj",
+    "rich_text_JtJyAH",
+    "blocks_rJa7Et",
+    "text_with_icons_GnWR9Q"
+  ]
+}

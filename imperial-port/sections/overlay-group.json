@@ -1,0 +1,55 @@
+{
+  "type": "custom.overlay",
+  "name": "Overlay group",
+  "sections": {
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "show_cart_note": false,
+        "allow_discount_application": true,
+        "show_shipping_text": false,
+        "show_view_cart_button": false,
+        "show_checkout_button": true,
+        "show_price_in_checkout_button": false,
+        "cross_sell_products": [
+          "cadena-de-plata-925-estilo-barbada-de-45-cm-calibre-3-2mm",
+          "cadena-de-oro-mujer-italiana-10k-gargantilla-aros-tricolor",
+          "anillo-de-plata-esterlina-925-con-zirconia-para-dama",
+          "arete-arracada-diamantada-de-oro-10k-estilo-domino-15mm"
+        ],
+        "cross_sell_title": "Complétalo con",
+        "cross_sell_stack_products": false
+      }
+    },
+    "newsletter-popup": {
+      "type": "newsletter-popup",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "apparition_delay": 5,
+        "show_only_on_index": true,
+        "hide_for_account_holders": true,
+        "show_only_once": true,
+        "show_newsletter_form": true,
+        "title": "Suscríbete a nuestras novedades",
+        "content": "Recibe antes que nadie lanzamientos, promociones y meses sin intereses.",
+        "button_text": "Suscribirme"
+      }
+    },
+    "privacy-banner": {
+      "type": "privacy-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "title": "🍪 Política de cookies",
+        "content": "<p>Usamos cookies y tecnologías similares para brindarte la mejor experiencia en nuestro sitio. Consulta nuestra Política de privacidad para más información.</p>"
+      }
+    }
+  },
+  "order": [
+    "cart-drawer",
+    "newsletter-popup",
+    "privacy-banner"
+  ]
+}

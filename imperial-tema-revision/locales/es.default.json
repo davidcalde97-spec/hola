@@ -541,5 +541,14 @@
       "rating_select_platform": "Selecciona la plataforma de reseñas en la configuración",
       "rating_not_supported": "Plataforma de reseñas no compatible"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "marketing": {
+        "unsubscribe": {
+          "description": "Ya no recibirás recordatorios de carritos abandonados."
+        }
+      }
+    }
   }
 }

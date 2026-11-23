@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_block_HtwG7C": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_qzEegw": {
+          "type": "subheading",
+          "settings": {
+            "text": "<strong>Calidad</strong>"
+          }
+        },
+        "richtext_pEXnyU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>En nuestra joyería ofrecemos piezas con calidad, tanto en productos importados de Italia como en las creaciones mexicanas. Productos de oro y plata trabajados con precisión, brillo excepcional y diseños clásicos que se convierten en verdaderas piezas de colección. Al mismo tiempo, nuestras arracadas y anillos mexicanos son elaborados por expertos artesanos con procesos que combinan tecnología de vanguardia (impresión 3D, vaciado de succión, montaje en cera) con la experiencia de generaciones. Cada pieza cuenta con el respaldo de la Cámara de Joyería de Jalisco, símbolo de confianza y excelencia nacional. Con nosotros tienes la certeza de adquirir una joya que combina lo mejor de la tradición italiana y la maestría mexicana, piezas diseñadas para acompañarte todos los días y en las ocasiones más especiales.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qzEegw",
+        "richtext_pEXnyU"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "scheme-845c1987-e02f-481a-a2f6-374bb7250aff",
+        "image_size": "xs",
+        "image": "shopify://shop_images/Rollo_de_cadena.jpg",
+        "mobile_image": "shopify://shop_images/01178231_00004.jpg",
+        "content_width": "lg",
+        "enable_parallax": true,
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_block_hCGNTm": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_DQtehf": {
+          "type": "subheading",
+          "settings": {
+            "text": "<strong>Precisión</strong>"
+          }
+        },
+        "richtext_dQKKGc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>La necesidad de trabajar con un proceso exacto para la elaboración de nuestras piezas finas y pulidas ha aumentado, ya que el mercado demanda nuestros productos de oro y plata con una precisión y calidad cada vez mayores. Sin embargo, los procesos de fabricación a gran escala son muy diferentes a aquellos que realizamos de forma artesanal. En varios casos, el trabajo manual es indispensable para lograr los acabados que nos distinguen, especialmente cuando se trata de piezas con características únicas o de materiales nobles. A lo largo del tiempo, hemos observado que el proceso se ha ido complicando conforme crece la variedad de productos y la cantidad de personal involucrado. Esto ha resultado en la pérdida de control sobre la manejabilidad de la materia prima, lo que nos dificulta seguir el proceso inicial y mantener la misma calidad en todos los lotes. Es importante considerar la capacidad de cada trabajador para modificar o mejorar el proceso inicial, ya que esto solo puede lograrse con tiempo, experiencia y práctica. Por ello, aunque los procesos sean estandarizados, cada persona aporta variaciones que terminan convirtiéndose en parte del resultado final. En conclusión, la calidad del producto es personal, y depende tanto de la habilidad individual como del control y conocimiento del proceso y la materia prima.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DQtehf",
+        "richtext_dQKKGc"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "scheme-845c1987-e02f-481a-a2f6-374bb7250aff",
+        "image_size": "xs",
+        "image": "shopify://shop_images/Rollo_de_cadena.jpg",
+        "mobile_image": "shopify://shop_images/01178231_00004.jpg",
+        "content_width": "lg",
+        "enable_parallax": true,
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_block_96EJKk": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_XHcDK6": {
+          "type": "subheading",
+          "settings": {
+            "text": "<strong>Presencia Global</strong>"
+          }
+        },
+        "richtext_LpnHyc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Contamos con presencia en cuatro continentes: América del Norte, América del Sur, Europa y Asia. Nuestra red comercial abarca más de diez países, desde los cuales exportamos más de la mitad de nuestra producción mensual e importamos constantemente para satisfacer las necesidades del mercado local. Participamos activamente en las exposiciones más importantes del sector joyero a nivel internacional, como Vicenzaoro (Italia) y JCK Las Vegas (Estados Unidos). Asimismo, fortalecemos nuestra presencia nacional participando en las principales ferias de México, incluyendo la Expo Joya de Ciudad de México y Guadalajara. Esta proyección internacional y local refleja nuestro compromiso con la excelencia, la innovación y la expansión sostenible dentro de la industria joyera.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XHcDK6",
+        "richtext_LpnHyc"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "scheme-845c1987-e02f-481a-a2f6-374bb7250aff",
+        "image_size": "xs",
+        "image": "shopify://shop_images/Rollo_de_cadena.jpg",
+        "mobile_image": "shopify://shop_images/01178231_00004.jpg",
+        "content_width": "lg",
+        "enable_parallax": true,
+        "remove_vertical_spacing": true
+      }
+    },
+    "text_with_icons_qYfWDN": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_wUX6ig": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-money",
+            "custom_icon": "shopify://shop_images/1Recurso_1_350x_197883f0-888f-402c-8040-dd04af739297.png",
+            "icon_width": 64,
+            "mobile_icon_width": 64,
+            "title": "<a href=\"https://diflor.com/contacto/\" title=\"https://diflor.com/contacto/\">¡Mayoreo!</a>",
+            "content": ""
+          }
+        },
+        "item_tc8JQg": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-customer-support",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Atención a clientes",
+            "content": "<p>Estamos disponibles de lunes a viernes para resolver tus dudas.</p>"
+          }
+        },
+        "item_k9PTgE": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-shield",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Pago seguro",
+            "content": "<p>Tu información de pago se procesa de forma segura.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_wUX6ig",
+        "item_tc8JQg",
+        "item_k9PTgE"
+      ],
+      "disabled": true,
+      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "color_scheme": "scheme-3eaa1a65-f2e9-4952-9b80-12b9f430548c",
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_block_HtwG7C",
+    "image_with_text_block_hCGNTm",
+    "image_with_text_block_96EJKk",
+    "text_with_icons_qYfWDN"
+  ]
+}

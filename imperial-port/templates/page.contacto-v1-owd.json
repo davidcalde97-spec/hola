@@ -1,0 +1,195 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_block_gF3tpJ": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_dKm7FG": {
+          "type": "subheading",
+          "settings": {
+            "text": "¿Tienes dudas?"
+          }
+        },
+        "richtext_KfNVXx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Estamos para ayudarte, comunícate con nosotros si quieres información de una pieza o te interesa comprar por mayoreo.</p><p>Nuestro equipo de especialistas te acompaña antes, durante y después de tu compra.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_dKm7FG",
+        "richtext_KfNVXx"
+      ],
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "scheme-845c1987-e02f-481a-a2f6-374bb7250aff",
+        "image_size": "xs",
+        "image": "shopify://shop_images/01178231_00004_b7f64aef-778c-4a30-a466-4eb4aa6d7647.jpg",
+        "content_width": "md",
+        "enable_parallax": true,
+        "remove_vertical_spacing": true
+      }
+    },
+    "text_with_icons_wfK36n": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_9gyVrA": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-money",
+            "custom_icon": "shopify://shop_images/1Recurso_1_350x_197883f0-888f-402c-8040-dd04af739297.png",
+            "icon_width": 64,
+            "mobile_icon_width": 64,
+            "title": "<a href=\"https://diflor.com/contacto/\" title=\"https://diflor.com/contacto/\">¡Mayoreo!</a>",
+            "content": ""
+          }
+        },
+        "item_nc6BWK": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-customer-support",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Atención a clientes",
+            "content": "<p>Estamos disponibles de lunes a viernes para resolver tus dudas.</p>"
+          }
+        },
+        "item_Qe77rG": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-shield",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Pago seguro",
+            "content": "<p>Tu información de pago se procesa de forma segura.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_9gyVrA",
+        "item_nc6BWK",
+        "item_Qe77rG"
+      ],
+      "disabled": true,
+      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "color_scheme": "scheme-3eaa1a65-f2e9-4952-9b80-12b9f430548c",
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
+    "blocks_amdMBi": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7eb3982_NQVUiD": {
+          "type": "ai_gen_block_7eb3982",
+          "settings": {
+            "feature_1_text": "Atención personalizada",
+            "feature_2_text": "Ayuda para elegir medidas y modelos",
+            "feature_3_text": "Facturación disponible",
+            "feature_4_text": "Seguimiento de pedidos",
+            "feature_5_text": "Garantías y cuidados de tus piezas",
+            "feature_6_text": "",
+            "desktop_width_percent": 100,
+            "columns_mobile": "2",
+            "section_padding": 40,
+            "item_spacing": 30,
+            "icon_text_gap": 12,
+            "background_color": "#ffffff",
+            "icon_color": "#d9bf55",
+            "text_color": "#2a3871",
+            "icon_size": 32,
+            "icon_stroke_width": 2,
+            "text_size": 13,
+            "text_weight": "400",
+            "text_transform": "uppercase",
+            "text_letter_spacing": 1
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7eb3982_NQVUiD"
+      ],
+      "name": "Feature icons",
+      "settings": {
+        "color_scheme": "scheme-bccf5a9c-3212-45a7-a88e-739fd0fda227",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "contact_pMVkWQ": {
+      "type": "contact",
+      "name": "t:sections.contact.presets.contact_form.name",
+      "settings": {
+        "color_scheme": "scheme-3eaa1a65-f2e9-4952-9b80-12b9f430548c",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Contacto",
+        "heading_style": "h2",
+        "content": ""
+      }
+    },
+    "rich_text_4bxhAJ": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_BXbzh8": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subtítulo"
+          }
+        },
+        "heading_JyNz4d": {
+          "type": "heading",
+          "settings": {
+            "text": "Encabezado",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_yHHe6h": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Comparte aquí información sobre Imperial Jewelry con tus clientes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_BXbzh8",
+        "heading_JyNz4d",
+        "richtext_yHHe6h"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_block_gF3tpJ",
+    "text_with_icons_wfK36n",
+    "blocks_amdMBi",
+    "contact_pMVkWQ",
+    "rich_text_4bxhAJ"
+  ]
+}

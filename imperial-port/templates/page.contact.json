@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "text_with_icons_wfK36n": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_9gyVrA": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-money",
+            "custom_icon": "shopify://shop_images/1Recurso_1_350x_197883f0-888f-402c-8040-dd04af739297.png",
+            "icon_width": 64,
+            "mobile_icon_width": 64,
+            "title": "<a href=\"https://diflor.com/contacto/\" title=\"https://diflor.com/contacto/\">¡Mayoreo!</a>",
+            "content": ""
+          }
+        },
+        "item_nc6BWK": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-customer-support",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Atención a clientes",
+            "content": "<p>Estamos disponibles de lunes a viernes para resolver tus dudas.</p>"
+          }
+        },
+        "item_Qe77rG": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-shield",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Pago seguro",
+            "content": "<p>Tu información de pago se procesa de forma segura.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_9gyVrA",
+        "item_nc6BWK",
+        "item_Qe77rG"
+      ],
+      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "color_scheme": "scheme-3eaa1a65-f2e9-4952-9b80-12b9f430548c",
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_with_icons_wfK36n"
+  ]
+}
