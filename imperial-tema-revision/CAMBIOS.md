@@ -173,6 +173,17 @@ Errores restantes reportados que decidí NO tocar (con motivo):
 - `UnknownFilter 'raw'` (GemPages), `ValidBlockTarget 'subheading'` (_dynamic-grid-item), `ValidDocParamTypes` (gp-head/ecom_google_snippet), clave de schema `sections.predictive_search.predictive_search`: defectos preexistentes de archivos generados por apps, de bajo riesgo/solo editor; tocarlos no aporta al cliente.
 - Warnings de fuentes obsoletas (`helvetica_n4`) en `settings_schema.json`: cambiar la fuente es una decisión de diseño de marca.
 
+## 5c. Port al tema de noviembre (23 nov 2026)
+
+El tema publicado pasó a ser **"Imperial - carrito y ficha (prueba)"**, que no tenía esta auditoría. Se creó la copia sin publicar **"Imperial - carrito y ficha + ES-MX"** (ID 161930182842) con la auditoría aplicada encima:
+
+- 10 archivos Liquid + `settings_schema.json` estaban idénticos a agosto (md5): se copió la versión auditada.
+- `ai_gen_block_def05ab.liquid` cambió en noviembre (fuentes de video para móvil): se combinó con el ocultamiento del aviso para el comerciante.
+- Los JSON se re-procesaron con `scripts/fix_es_mx.py` (correcciones por contenido, idempotentes) sobre la versión de noviembre, sin pisar cambios de negocio: **envío gratis desde $1,999**, **cupón IMPERIAL**, **devoluciones en 30 días**, título del cross-sell "Complétalo con".
+- La FAQ de `page.faq.json` se actualizó con la política vigente (antes decía $999 y Express 2–3 días).
+- Se agregó la clave de noviembre `shopify.checkout.marketing.unsubscribe.description` al locale.
+- Varias correcciones de agosto ya las habías aplicado tú en noviembre; el script lo detectó y no las duplicó.
+
 ## 6. Pendientes que están fuera del tema (ajustes de la tienda, no del código)
 
 - **La tienda tiene el idioma "Inglés" publicado** a nivel tienda (Configuración → Idiomas). El tema ya no tiene inglés, así que las URLs `/en` mostrarán español; para eliminarlo del todo, **despublica el inglés en el admin**.
