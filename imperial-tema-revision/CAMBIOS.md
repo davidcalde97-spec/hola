@@ -203,6 +203,14 @@ Respaldo previo completo en `admin-audit/respaldo-2026-11-24.json`.
 - **Hecho a mano por el comerciante**: "Sets Oro" y "Sets Plata" ocultas de la tienda en línea (verificado); "gastos" → "costos de envío" en Términos del servicio (verificado: única diferencia con el original).
 - **Pendiente opcional**: el Aviso legal conserva "gastos de envío" (1 vez). No aparece en la lista de políticas del admin y la conexión no tiene permiso para editarlo. Texto corregido listo en `admin-audit/politica-LEGAL_NOTICE.nueva.html`.
 
+## 5f. Aviso de meses sin intereses (24 nov 2026)
+
+Diagnóstico con datos de 90 días: de 363 sesiones que llegaron al pago solo 24 compraron. Los meses sin intereses sí funcionan (6 pedidos pagados a 3, 6 y 12 meses), pero solo con tarjeta de crédito escrita a mano: los 4 pagos con Apple Pay fueron de contado. Se agregó un aviso de cómo pagar a meses en la ficha (bloque `liquid_giACzq` de `product.product-page-v2.json`) y en el resumen del carrito (`cart-shipping-summary.liquid`, desde $1,999; clave `cart.summary.msi_note`).
+
+Tema publicado: **"Imperial - tienda actual (24 nov 2026)"** (ID 161968881850).
+
+Para medir el efecto en unas semanas: pedidos pagados a meses (`receiptJson → payment_method_details.card.installments`) y la proporción entre sesiones que llegan al pago y sesiones que compran.
+
 ## 6. Pendientes que están fuera del tema (ajustes de la tienda, no del código)
 
 - **La tienda tiene el idioma "Inglés" publicado** a nivel tienda (Configuración → Idiomas). El tema ya no tiene inglés, así que las URLs `/en` mostrarán español; para eliminarlo del todo, **despublica el inglés en el admin**.
