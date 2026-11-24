@@ -1,0 +1,31 @@
+{%- doc -%}
+  Renders the free shipping bar. It is used on cart page and cart drawer to render the remaining amount before being eligible for free shipping.
+
+  Imperial: rendered fully in Liquid (no <free-shipping-bar> JS formatter). The theme JS used
+  Intl.NumberFormat(Shopify.locale = "es") which printed "267,55 MXN". The cart drawer and cart page are re-rendered
+  by section rendering on every cart change, so a Liquid message stays up to date.
+  Rule: free standard shipping when cart.total_price (after line and cart discounts) >= threshold ($1,999).
+{%- enddoc -%}
+
+{%- liquid
+  assign ij_threshold = settings.cart_free_shipping_threshold | remove: ',' | remove: '$' | strip | times: 100 | round
+  if ij_threshold <= 0
+    assign ij_threshold = 199900
+  endif
+
+  assign ij_total = cart.total_price
+-%}
+
+{%- if cart.requires_shipping -%}
+  <div class="free-shipping-bar" data-ij-free-shipping data-threshold="{{ ij_threshold }}" data-total="{{ ij_total }}">
+    <span class="text-subdued">
+      {%- if ij_total >= ij_threshold -%}
+        {{- 'cart.free_shipping_bar.limit_reached_html' | t -}}
+      {%- else -%}
+        {%- assign ij_remaining = ij_threshold | minus: ij_total -%}
+        {%- capture ij_remaining_formatted -%}${{ ij_remaining | money_without_currency }} MXN{%- endcapture -%}
+        {{- 'cart.free_shipping_bar.limit_unreached_html' | t: remaining_amount: ij_remaining_formatted -}}
+      {%- endif -%}
+    </span>
+  </div>
+{%- endif -%}

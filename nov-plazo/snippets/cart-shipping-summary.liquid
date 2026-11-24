@@ -1,0 +1,92 @@
+{%- doc -%}
+  Imperial: order summary shown above "Finalizar compra" in the cart drawer and on the cart page.
+  Rule (same as the live shipping rates): standard national shipping $99 MXN when cart.total_price
+  (after line and cart-level discounts, IVA included) is below $1,999; free from $1,999.
+  cart.total_price already includes discount codes applied through the cart discount field (/cart/update.js).
+  The cart drawer is re-rendered with section rendering on every cart change, so all values stay current.
+{%- enddoc -%}
+
+{%- liquid
+  assign ij_threshold = settings.cart_free_shipping_threshold | remove: ',' | remove: '$' | strip | times: 100 | round
+  if ij_threshold <= 0
+    assign ij_threshold = 199900
+  endif
+  assign ij_rate = 9900
+
+  assign ij_cart_discount = 0
+  for discount_application in cart.cart_level_discount_applications
+    assign ij_cart_discount = ij_cart_discount | plus: discount_application.total_allocated_amount
+  endfor
+
+  assign ij_line_discount = cart.total_discount | minus: ij_cart_discount
+
+  assign ij_subtotal = cart.total_price
+  assign ij_shipping = 0
+  if cart.requires_shipping and ij_subtotal < ij_threshold
+    assign ij_shipping = ij_rate
+  endif
+  assign ij_total = ij_subtotal | plus: ij_shipping
+-%}
+
+<div class="ij-cart-summary" data-ij-cart-summary data-subtotal="{{ ij_subtotal }}" data-shipping="{{ ij_shipping }}" data-total="{{ ij_total }}">
+  {%- if ij_line_discount > 0 -%}
+    <div class="ij-cart-summary__row ij-cart-summary__row--muted">
+      <span>Ahorro en productos (ya aplicado)</span>
+      <span>−${{ ij_line_discount | money_without_currency }} MXN</span>
+    </div>
+  {%- endif -%}
+
+  {%- if ij_cart_discount > 0 -%}
+    <div class="ij-cart-summary__row ij-cart-summary__row--muted">
+      <span>Productos</span>
+      <span>${{ cart.items_subtotal_price | money_without_currency }} MXN</span>
+    </div>
+    {%- for discount_application in cart.cart_level_discount_applications -%}
+      <div class="ij-cart-summary__row ij-cart-summary__row--discount">
+        <span>Descuento ({{ discount_application.title | escape }})</span>
+        <span>−${{ discount_application.total_allocated_amount | money_without_currency }} MXN</span>
+      </div>
+    {%- endfor -%}
+  {%- endif -%}
+
+  <div class="ij-cart-summary__row" data-ij-row="subtotal">
+    <span>{% if cart.total_discount > 0 %}Subtotal con descuentos{% else %}Subtotal{% endif %}</span>
+    <span>${{ ij_subtotal | money_without_currency }} MXN</span>
+  </div>
+
+  <div class="ij-cart-summary__row ij-cart-summary__row--muted" data-ij-row="iva">
+    <span>IVA incluido</span>
+  </div>
+
+  {%- if cart.requires_shipping -%}
+    <div class="ij-cart-summary__row" data-ij-row="shipping">
+      <span>Envío estándar</span>
+      {%- if ij_shipping == 0 -%}
+        <span class="ij-cart-summary__free">Gratis</span>
+      {%- else -%}
+        <span>${{ ij_shipping | money_without_currency }} MXN</span>
+      {%- endif -%}
+    </div>
+    <div class="ij-cart-summary__row ij-cart-summary__row--muted" data-ij-row="delivery">
+      <span>Entrega estimada</span>
+      <span>3 a 5 días hábiles</span>
+    </div>
+  {%- endif -%}
+
+  <div class="ij-cart-summary__row ij-cart-summary__row--total" data-ij-row="total">
+    <span>Total estimado</span>
+    <span>${{ ij_total | money_without_currency }} MXN</span>
+  </div>
+</div>
+
+<style>
+  .ij-cart-summary{width:100%;display:grid;gap:.25rem;padding-block-start:.625rem;border-block-start:2px solid #D9BF55;color:#2A3871;font-size:14px;line-height:1.35;letter-spacing:.02em}
+  .ij-cart-summary__row{display:flex;justify-content:space-between;align-items:baseline;gap:1rem}
+  .ij-cart-summary__row > span:first-child{white-space:nowrap}
+  .ij-cart-summary__row > span:last-child{text-align:end;white-space:nowrap;font-variant-numeric:tabular-nums}
+  .ij-cart-summary__row--muted{font-size:13px;color:rgb(42 56 113 / .82)}
+  .ij-cart-summary__row--discount{font-size:13px}
+  .ij-cart-summary__row--total{font-size:16px;font-weight:700;padding-block-start:.3rem;margin-block-start:.1rem;border-block-start:1px solid rgb(42 56 113 / .18)}
+  .ij-cart-summary__free{font-weight:700;color:#2A3871}
+  .cart-page .ij-cart-summary,.cart-recap .ij-cart-summary{max-width:28rem}
+</style>

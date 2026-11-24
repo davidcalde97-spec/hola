@@ -126,7 +126,8 @@
         "other": "{{ count }} colores disponibles"
       },
       "percent_off_badge": "-{{ price }}%",
-      "secure_checkout": "Compra 100% segura y protegida"
+      "secure_checkout": "Compra 100% segura y protegida",
+      "shipping_note": "Envío estándar en México por $99. Gratis desde $1,999 después de descuentos. Entrega estimada en 3 a 5 días hábiles."
     },
     "gallery": {
       "close": "Cerrar galería",
@@ -417,6 +418,18 @@
     "discount": {
       "label": "Código de descuento",
       "error": "Ingresa un código de descuento válido"
+    },
+    "summary": {
+      "line_savings": "Ahorro en productos (ya aplicado)",
+      "products": "Productos",
+      "discount": "Descuento ({{ title }})",
+      "subtotal_with_discounts": "Subtotal con descuentos",
+      "tax_included": "IVA incluido",
+      "standard_shipping": "Envío estándar",
+      "free": "Gratis",
+      "estimated_delivery": "Entrega estimada",
+      "delivery_time": "3 a 5 días hábiles",
+      "estimated_total": "Total estimado"
     }
   },
   "404": {
