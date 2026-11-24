@@ -1,0 +1,1528 @@
+{
+ "fecha": "2026-11-24",
+ "colecciones": [
+  {
+   "id": "gid://shopify/Collection/332843679930",
+   "handle": "oro-nuevo",
+   "title": "Oro",
+   "online_store": true
+  },
+  {
+   "id": "gid://shopify/Collection/332843778234",
+   "handle": "plata-nuevo",
+   "title": "Plata nuevo",
+   "online_store": true
+  },
+  {
+   "id": "gid://shopify/Collection/329455370426",
+   "handle": "sets-oro-owd",
+   "title": "Sets Oro",
+   "online_store": true
+  },
+  {
+   "id": "gid://shopify/Collection/329455403194",
+   "handle": "sets-plata-owd",
+   "title": "Sets Plata",
+   "online_store": true
+  }
+ ],
+ "menu_footer": {
+  "id": "gid://shopify/Menu/207919546554",
+  "items": [
+   [
+    "Políticas de Envío",
+    "SHOP_POLICY",
+    "/policies/shipping-policy"
+   ],
+   [
+    "Devoluciones y Reembolsos",
+    "SHOP_POLICY",
+    "/policies/refund-policy"
+   ],
+   [
+    "Términos y Condiciones",
+    "SHOP_POLICY",
+    "/policies/terms-of-service"
+   ],
+   [
+    "Políticas de Privacidad",
+    "SHOP_POLICY",
+    "/policies/privacy-policy"
+   ]
+  ]
+ },
+ "politicas": {
+  "LEGAL_NOTICE": "<h1><span>Aviso legal</span></h1>\n<p><strong><span>Última actualización:</span></strong><span> 4 de agosto de 2026</span></p>\n<h2><span>Identificación del titular</span></h2>\n<p><span>Este sitio web es operado bajo el nombre comercial </span><strong><span>Imperial Jewelry</span></strong><span> por </span><strong><span>Aurart</span></strong><span>, con RFC </span><strong><span>AUR0912109R7</span></strong><span>.</span></p>\n<ul>\n<li>\n<p><strong><span>Nombre comercial:</span></strong><span> Imperial Jewelry</span></p>\n</li>\n<li>\n<p><strong><span>Razón social:</span></strong><span> Aurart</span></p>\n</li>\n<li>\n<p><strong><span>RFC:</span></strong><span> AUR0912109R7</span></p>\n</li>\n<li>\n<p><strong><span>Domicilio:</span></strong><span> Calle Protón 26, Parque Industrial Naucalpan, Naucalpan de Juárez, Estado de México, C.P. 53489</span></p>\n</li>\n<li>\n<p><strong><span>Correo electrónico:</span></strong><span> </span><a href=\"mailto:contacto@imperialjewelry.com.mx\"><span>contacto@imperialjewelry.com.mx</span></a></p>\n</li>\n<li>\n<p><strong><span>Teléfono y WhatsApp:</span></strong><span> </span><a href=\"https://wa.me/525513145814\"><span>+52 55 1314 5814</span></a></p>\n</li>\n<li>\n<p><strong><span>Sitio web:</span></strong><span> </span><a href=\"https://imperialjewelry.com.mx\"><span>imperialjewelry.com.mx</span></a></p>\n</li>\n<li>\n<p><strong><span>Horario de atención:</span></strong><span> lunes a viernes, de 9:00 a. m. a 5:00 p. m.</span></p>\n</li>\n<li>\n<p><strong><span>Plazo de respuesta:</span></strong><span> hasta tres días hábiles.</span></p>\n</li>\n</ul>\n<h2><span>Objeto del sitio web</span></h2>\n<p><span>El sitio </span><a href=\"https://imperialjewelry.com.mx\"><span>imperialjewelry.com.mx</span></a><span> tiene como finalidad presentar, promocionar y comercializar los productos ofrecidos por Imperial Jewelry, así como proporcionar información, atención al cliente y acceso a servicios relacionados con las compras realizadas en línea.</span></p>\n<p><span>Imperial Jewelry realiza envíos dentro de México y a destinos internacionales habilitados en la tienda. La disponibilidad, costos, plazos, restricciones y demás condiciones aplicables se mostrarán antes de confirmar la compra.</span></p>\n<h2><span>Condiciones de acceso y uso</span></h2>\n<p><span>El acceso y navegación por este sitio implican el uso responsable y lícito de sus contenidos y funcionalidades. Al crear una cuenta o realizar una compra, también resultarán aplicables nuestros </span><a href=\"https://imperialjewelry.com.mx/policies/terms-of-service\"><span>Términos del Servicio</span></a><span>, </span><a href=\"https://imperialjewelry.com.mx/policies/privacy-policy\"><span>Aviso de Privacidad</span></a><span> y </span><a href=\"https://imperialjewelry.com.mx/policies/refund-policy\"><span>Política de devoluciones y reembolsos</span></a><span>.</span></p>\n<p><span>Queda prohibido utilizar el sitio para cometer actos ilícitos o fraudulentos, vulnerar derechos de terceros, introducir programas maliciosos, interferir con el funcionamiento de la plataforma, extraer información de manera no autorizada o eludir medidas de seguridad.</span></p>\n<p><span>Podremos restringir el acceso cuando detectemos actividades que comprometan la seguridad, disponibilidad o funcionamiento del sitio, sin afectar los derechos que correspondan al consumidor respecto de pedidos previamente aceptados.</span></p>\n<h2><span>Información sobre productos y precios</span></h2>\n<p><span>Procuramos que las descripciones, imágenes, materiales, medidas, pesos, disponibilidad y precios de los productos sean claros, veraces y se mantengan actualizados.</span></p>\n<p><span>Los colores y la apariencia de los productos pueden variar ligeramente debido a la iluminación, configuración o características de la pantalla utilizada. Estas variaciones de visualización no modifican las características esenciales ni las especificaciones ofrecidas para cada producto.</span></p>\n<p><span>Los precios se muestran en pesos mexicanos e incluyen los impuestos aplicables. Antes de finalizar una compra se indicará el monto total a pagar, incluyendo los gastos de envío, comisiones u otros cargos que correspondan.</span></p>\n<p><span>En envíos internacionales podrían generarse impuestos, aranceles o cargos aduaneros en el país de destino. Cuando no sea posible calcularlos en la tienda, se informará esta circunstancia antes de confirmar la compra.</span></p>\n<h2><span>Propiedad intelectual</span></h2>\n<p><span>Los contenidos de este sitio, incluyendo marcas, nombres comerciales, logotipos, diseños, textos, fotografías, imágenes, videos, catálogos, descripciones, gráficos y demás materiales, pertenecen a Aurart, a sus afiliadas o a sus respectivos licenciantes y están protegidos por la legislación mexicana, los tratados internacionales y demás disposiciones aplicables en materia de propiedad intelectual.</span></p>\n<p><span>El acceso al sitio no concede al usuario derechos de propiedad sobre sus contenidos. Sin autorización previa y por escrito, no se permite reproducir, modificar, distribuir, publicar, explotar comercialmente, descargar de forma masiva ni crear obras derivadas de dichos contenidos, salvo en los casos expresamente permitidos por la ley.</span></p>\n<p><span>Las marcas, logotipos y contenidos pertenecientes a Shopify o a otros terceros son propiedad de sus respectivos titulares.</span></p>\n<h2><span>Enlaces y servicios de terceros</span></h2>\n<p><span>Este sitio puede contener enlaces, aplicaciones, herramientas o contenidos proporcionados por terceros, como servicios de pago, mensajería, análisis o redes sociales.</span></p>\n<p><span>Los sitios y servicios externos se rigen por sus propios términos y avisos de privacidad. Imperial Jewelry no controla su contenido, disponibilidad o funcionamiento permanente y no será responsable por actos exclusivamente atribuibles a dichos terceros, sin perjuicio de las obligaciones que legalmente correspondan a cada participante.</span></p>\n<p><span>La inclusión de un enlace externo no implica necesariamente que Imperial Jewelry apruebe o respalde todos los contenidos, productos o servicios del sitio enlazado.</span></p>\n<h2><span>Disponibilidad y seguridad del sitio</span></h2>\n<p><span>Hacemos esfuerzos razonables para mantener el sitio disponible, actualizado y seguro. Sin embargo, pueden presentarse interrupciones temporales por mantenimiento, actualizaciones, fallas técnicas, servicios de terceros, disposiciones de autoridad, hechos de fuerza mayor u otras causas fuera de nuestro control razonable.</span></p>\n<p><span>No garantizamos que el sitio esté disponible de manera ininterrumpida, pero procuraremos restablecer el servicio y comunicar cualquier afectación relevante tan pronto como sea razonablemente posible.</span></p>\n<p><span>El usuario es responsable de mantener protegidos sus dispositivos, cuentas y credenciales de acceso. Si detectas un uso no autorizado de tu cuenta, comunícate de inmediato con nosotros.</span></p>\n<h2><span>Responsabilidad</span></h2>\n<p><span>Imperial Jewelry responderá por las obligaciones y daños que le sean legalmente imputables. Nada de este Aviso Legal excluye o limita los derechos irrenunciables del consumidor ni la responsabilidad que legalmente no pueda excluirse.</span></p>\n<p><span>No seremos responsables por daños derivados de un uso ilícito, negligente o contrario a las instrucciones del sitio, ni por interrupciones o actos exclusivamente atribuibles al usuario, a terceros o a causas de fuerza mayor, salvo que la legislación aplicable determine lo contrario.</span></p>\n<p><span>La información general publicada en el sitio tiene fines informativos y no sustituye asesoría profesional especializada. Esta aclaración no aplica a las características, especificaciones, precios, garantías o condiciones concretas ofrecidas para los productos, las cuales deberán respetarse.</span></p>\n<h2><span>Privacidad y datos personales</span></h2>\n<p><span>Los datos personales recabados mediante este sitio serán tratados conforme a nuestro </span><a href=\"https://imperialjewelry.com.mx/policies/privacy-policy\"><span>Aviso de Privacidad</span></a><span> y a la legislación mexicana aplicable.</span></p>\n<p><span>El Aviso de Privacidad informa la identidad y el domicilio del responsable, los datos tratados, las finalidades, las transferencias o remisiones aplicables, las medidas para limitar su uso o divulgación y los mecanismos para ejercer los derechos de acceso, rectificación, cancelación y oposición.</span></p>\n<p><span>Shopify y otros proveedores tecnológicos podrán tratar determinados datos para operar la tienda, procesar pagos, prevenir fraudes, gestionar pedidos o prestar soporte. Puedes consultar el </span><a href=\"https://www.shopify.com/legal/privacy\"><span>Aviso de Privacidad de Shopify</span></a><span>.</span></p>\n<h2><span>Derechos del consumidor</span></h2>\n<p><span>Las compras realizadas mediante este sitio se encuentran sujetas a la Ley Federal de Protección al Consumidor y demás disposiciones aplicables.</span></p>\n<p><span>Imperial Jewelry respetará los precios, características, cantidades, garantías, plazos y demás condiciones ofrecidas. Cuando legalmente corresponda, el consumidor podrá solicitar la reposición del producto, la devolución de la cantidad pagada, una bonificación o las demás soluciones previstas por la legislación aplicable.</span></p>\n<p><span>Contamos con una política comercial de devolución de 30 días naturales, durante los cuales puedes solicitar la devolución del producto por cualquier motivo, siempre que cumpla los requisitos y no se encuentre dentro de las excepciones establecidas en nuestra </span><a href=\"https://imperialjewelry.com.mx/policies/refund-policy\"><span>Política de devoluciones y reembolsos</span></a><span>.</span></p>\n<p><span>El consumidor podrá acudir ante la Procuraduría Federal del Consumidor o ante cualquier otra autoridad competente para ejercer sus derechos.</span></p>\n<h2><span>Comunicaciones y atención</span></h2>\n<p><span>Las preguntas, solicitudes, aclaraciones o reclamaciones relacionadas con el sitio o con una compra pueden enviarse a:</span></p>\n<ul>\n<li>\n<p><strong><span>Correo electrónico:</span></strong><span> </span><a href=\"mailto:contacto@imperialjewelry.com.mx\"><span>contacto@imperialjewelry.com.mx</span></a></p>\n</li>\n<li>\n<p><strong><span>Teléfono y WhatsApp:</span></strong><span> </span><a href=\"https://wa.me/525513145814\"><span>+52 55 1314 5814</span></a></p>\n</li>\n<li>\n<p><strong><span>Horario:</span></strong><span> lunes a viernes, de 9:00 a. m. a 5:00 p. m.</span></p>\n</li>\n</ul>\n<p><span>Procuraremos responder en un plazo máximo de tres días hábiles.</span></p>\n<h2><span>Modificaciones al Aviso Legal</span></h2>\n<p><span>Podemos actualizar este Aviso Legal para reflejar cambios legales, operativos, tecnológicos o en los servicios ofrecidos. La versión vigente estará disponible en esta página e indicará la fecha de su última actualización.</span></p>\n<p><span>Los cambios se aplicarán de manera prospectiva y no modificarán las condiciones de pedidos previamente aceptados, salvo cuando sean exigidos por la ley o resulten más favorables para el consumidor.</span></p>\n<h2><span>Legislación aplicable y jurisdicción</span></h2>\n<p><span>Este Aviso Legal y el uso del sitio se regirán por las leyes aplicables de los Estados Unidos Mexicanos.</span></p>\n<p><span>Cuando resulte necesaria la intervención de una autoridad o tribunal, será competente el que corresponda conforme a la legislación aplicable, sin obligar al consumidor a renunciar al domicilio, jurisdicción o mecanismos de protección que legalmente le favorezcan.</span></p>",
+  "TERMS_OF_SERVICE": "<h1><span>Términos del servicio</span></h1>\n<p><strong><span>Última actualización:</span></strong><span> 4 de agosto de 2026</span></p>\n<h2><span>Información general</span></h2>\n<p><span>Bienvenido a Imperial Jewelry. Los términos “Imperial Jewelry”, “nosotros”, “nos” y “nuestro” se refieren a Aurart, empresa que opera esta tienda y este sitio web bajo el nombre comercial Imperial Jewelry.</span></p>\n<p><span>Nuestro sitio web, incluyendo su información, contenido, funcionalidades, herramientas, productos y servicios relacionados, se denomina conjuntamente en este documento los “Servicios”. Nuestra tienda utiliza la plataforma tecnológica de Shopify para ofrecer los Servicios.</span></p>\n<p><span>Estos Términos del Servicio, junto con las políticas y avisos a los que se haga referencia, establecen los derechos y las obligaciones aplicables al uso de los Servicios y a las compras realizadas en nuestra tienda.</span></p>\n<p><span>Te pedimos que leas detenidamente estos Términos del Servicio, así como nuestro </span><a href=\"https://imperialjewelry.com.mx/policies/privacy-policy\"><span>Aviso de Privacidad</span></a><span> y nuestra </span><a href=\"https://imperialjewelry.com.mx/policies/refund-policy\"><span>Política de devoluciones y reembolsos</span></a><span>. Al acceder a los Servicios, crear una cuenta o realizar una compra, aceptas estos Términos. Si no estás de acuerdo con ellos, no deberás utilizar los Servicios.</span></p>\n<p><span>Ninguna disposición de estos Términos pretende limitar o excluir los derechos irrenunciables que te correspondan conforme a la legislación mexicana, particularmente la Ley Federal de Protección al Consumidor.</span></p>\n<h2><span>Sección 1. Acceso, edad y cuenta</span></h2>\n<p><span>Puedes navegar por el sitio sin crear una cuenta. Para realizar una compra deberás tener capacidad legal para contratar. Si eres menor de 18 años, deberás utilizar los Servicios bajo la supervisión y autorización de tu madre, padre o tutor legal, y la compra deberá ser realizada o autorizada por una persona adulta.</span></p>\n<p><span>Para utilizar determinadas funciones o efectuar una compra, podremos solicitarte información como tu nombre, correo electrónico, domicilio de facturación y envío, teléfono y datos necesarios para procesar el pago. Te comprometes a proporcionar información verdadera, completa, correcta y actualizada, y declaras que cuentas con autorización para proporcionarla.</span></p>\n<p><span>Eres responsable de mantener la confidencialidad de las credenciales de tu cuenta y de las actividades realizadas mediante ella. Si detectas un acceso o uso no autorizado, deberás informarnos de inmediato a </span><a href=\"mailto:contacto@imperialjewelry.com.mx\"><span>contacto@imperialjewelry.com.mx</span></a><span>.</span></p>\n<p><span>No podrás vender, ceder, transferir ni permitir el uso no autorizado de tu cuenta.</span></p>\n<h2><span>Sección 2. Productos e información comercial</span></h2>\n<p><span>Hacemos esfuerzos razonables para presentar de forma clara, veraz y actualizada las características de nuestros productos, incluyendo, según corresponda, material, quilataje o ley, color, dimensiones, peso, acabado, disponibilidad y precio.</span></p>\n<p><span>Los colores y la apariencia de los productos pueden variar ligeramente según la pantalla, iluminación y configuración del dispositivo utilizado. Estas variaciones de visualización no modifican las características esenciales ni las especificaciones ofrecidas en la página del producto.</span></p>\n<p><span>Las especificaciones, pesos y dimensiones aplicables serán los indicados en la página de cada producto. Cualquier tolerancia permitida será informada expresamente antes de la compra.</span></p>\n<p><span>Podemos actualizar descripciones, disponibilidad o características antes de que un pedido sea aceptado. Una vez aceptado el pedido, respetaremos las condiciones y especificaciones ofrecidas, salvo que acuerdes expresamente una modificación o que exista una causa legal que impida cumplirlo.</span></p>\n<p><span>Podemos limitar cantidades o dejar de ofrecer productos por razones de inventario, disponibilidad, seguridad, prevención de fraude o cumplimiento legal, siempre de manera no discriminatoria y antes de aceptar el pedido.</span></p>\n<h2><span>Sección 3. Pedidos y aceptación de la compra</span></h2>\n<p><span>Al enviar un pedido realizas una solicitud de compra. La recepción automática del pedido no implica necesariamente su aceptación. La compra se considerará aceptada cuando te enviemos una confirmación expresa de aceptación o de procesamiento del pedido.</span></p>\n<p><span>Antes de aceptar un pedido podremos rechazarlo por causas justificadas, como falta de inventario, imposibilidad de validar el pago, datos de envío incompletos, indicios razonables de fraude, restricciones legales o un error manifiesto en la información del producto. Si ya hubiéramos realizado un cobro y el pedido no fuera aceptado, devolveremos la cantidad pagada mediante la misma forma de pago, salvo que aceptes expresamente otra.</span></p>\n<p><span>Después de aceptar un pedido no modificaremos sus condiciones sin tu consentimiento. Si por una causa legal, de fuerza mayor o materialmente inevitable no pudiéramos cumplirlo, nos comunicaremos contigo y te ofreceremos las opciones que correspondan, incluyendo el reembolso cuando proceda.</span></p>\n<p><span>Debes revisar cuidadosamente los productos, cantidades, medidas, tallas, grabados, domicilio y demás datos antes de confirmar la compra.</span></p>\n<p><span>Contamos con una política comercial de devolución de 30 días naturales, durante los cuales puedes solicitar la devolución del producto por cualquier motivo, siempre que cumpla los requisitos y no se encuentre dentro de las excepciones establecidas. Las cancelaciones, cambios y devoluciones se sujetarán a nuestra </span><a href=\"https://imperialjewelry.com.mx/policies/refund-policy\"><span>Política de devoluciones y reembolsos</span></a><span> y a la legislación aplicable.</span></p>\n<p><span>Las compras realizadas en esta tienda se presumen destinadas al consumidor final. Si deseas comprar para reventa o mayoreo, deberás utilizar nuestros canales comerciales correspondientes y aceptar, en su caso, las condiciones específicas de esa operación.</span></p>\n<h2><span>Sección 4. Precios, pagos y facturación</span></h2>\n<p><span>Los precios se muestran en pesos mexicanos e incluyen los impuestos aplicables. Antes de confirmar la compra se mostrará el monto total a pagar, incluyendo, cuando corresponda, gastos de envío, comisiones y cualquier otro cargo aplicable.</span></p>\n<p><span>Los precios, descuentos y promociones pueden cambiar sin previo aviso para compras futuras. El precio aplicable a un pedido será el mostrado al momento de confirmarlo y se incluirá en el comprobante de la operación.</span></p>\n<p><span>Los precios y promociones de esta tienda en línea pueden ser diferentes de los ofrecidos en establecimientos físicos, plataformas de terceros o canales de mayoreo. Cada promoción se sujetará a su vigencia, disponibilidad, restricciones y términos específicos. En caso de contradicción, prevalecerán las condiciones particulares de la promoción, sin reducir los derechos reconocidos por la legislación aplicable.</span></p>\n<p><span>En pedidos internacionales podrían generarse impuestos, aranceles o cargos aduaneros en el país de destino. Cuando dichos cargos no puedan calcularse en la tienda, se informará esta circunstancia antes de la compra. El comprador será responsable de los cargos que le correspondan conforme a la legislación del país de destino.</span></p>\n<p><span>Declaras que estás autorizado para utilizar la forma de pago seleccionada y que los datos proporcionados son correctos. Los pagos podrán ser procesados por proveedores externos sujetos a sus propios términos y medidas de seguridad.</span></p>\n<p><span>Para solicitar un comprobante fiscal digital por Internet (CFDI), deberás proporcionar correctamente tus datos fiscales y comunicarte por correo electrónico a </span><a href=\"mailto:contacto@imperialjewelry.com.mx\"><span>contacto@imperialjewelry.com.mx</span></a><span> o mediante </span><a href=\"https://wa.me/525513145814\"><span>WhatsApp</span></a><span>. La emisión y corrección de comprobantes fiscales se realizará conforme a las disposiciones fiscales vigentes.</span></p>\n<h2><span>Sección 5. Envío y entrega</span></h2>\n<p><span>Antes de completar la compra te informaremos las opciones de envío disponibles, su costo y el plazo estimado o comprometido de entrega.</span></p>\n<p><span>Haremos esfuerzos razonables para entregar el pedido dentro del plazo informado. Si se presenta un retraso por causas fuera de nuestro control razonable, como fenómenos naturales, disposiciones de autoridad, interrupciones logísticas o hechos de fuerza mayor, te notificaremos tan pronto como sea posible y te informaremos las alternativas disponibles. Esto no limita los derechos que te correspondan por incumplimiento.</span></p>\n<p><span>Somos responsables de entregar el pedido en el domicilio indicado durante la compra. El riesgo de pérdida o daño se transferirá al cliente cuando el pedido sea entregado en dicho domicilio o a la persona autorizada para recibirlo.</span></p>\n<p><span>Es tu responsabilidad proporcionar un domicilio completo y correcto. Si una entrega no pudiera completarse por información incorrecta o incompleta proporcionada por ti, podremos cobrar los gastos razonables de un nuevo envío, siempre que te los informemos y aceptes previamente.</span></p>\n<p><span>Revisa el paquete y el producto al recibirlos. Si detectas daños, faltantes o un artículo diferente al solicitado, comunícate con nosotros lo antes posible a </span><a href=\"mailto:contacto@imperialjewelry.com.mx\"><span>contacto@imperialjewelry.com.mx</span></a><span>. Consulta nuestra </span><a href=\"https://imperialjewelry.com.mx/policies/refund-policy\"><span>Política de devoluciones y reembolsos</span></a><span> para conocer el procedimiento aplicable.</span></p>\n<h2><span>Sección 6. Propiedad intelectual</span></h2>\n<p><span>Los Servicios y sus contenidos, incluyendo marcas, nombres comerciales, logotipos, diseños, textos, fotografías, imágenes, gráficos, videos, audios, catálogos, descripciones y la selección y disposición de dichos elementos, pertenecen a Imperial Jewelry, a sus afiliadas o a sus respectivos licenciantes y están protegidos por la legislación mexicana, los tratados internacionales y demás disposiciones aplicables en materia de propiedad intelectual.</span></p>\n<p><span>Se te concede un permiso limitado, revocable, no exclusivo e intransferible para acceder y utilizar los Servicios con fines personales y lícitos. Sin autorización previa y por escrito, no podrás reproducir, distribuir, modificar, publicar, explotar comercialmente, crear obras derivadas, descargar de forma masiva ni transmitir contenidos de los Servicios, salvo en los casos permitidos por la ley.</span></p>\n<p><span>Imperial Jewelry, sus logotipos, nombres de productos, diseños y eslóganes son marcas o activos comerciales de sus respectivos titulares. Las marcas y elementos de Shopify pertenecen a Shopify o a sus licenciantes. Nada de lo establecido en estos Términos transfiere derechos de propiedad intelectual al usuario.</span></p>\n<h2><span>Sección 7. Herramientas y servicios de terceros</span></h2>\n<p><span>Podemos ofrecer acceso a herramientas, aplicaciones o funcionalidades proporcionadas por terceros. Dichas herramientas pueden estar sujetas a condiciones y avisos de privacidad propios del tercero responsable.</span></p>\n<p><span>No controlamos el funcionamiento permanente de herramientas de terceros y no garantizamos que estén disponibles de forma ininterrumpida. Antes de utilizarlas, deberás revisar y aceptar las condiciones aplicables. Esta disposición no excluye las responsabilidades que legalmente nos correspondan respecto de los Servicios o de una relación de consumo.</span></p>\n<p><span>Las nuevas funciones, herramientas o recursos que incorporemos al sitio también formarán parte de los Servicios y quedarán sujetos a estos Términos, salvo que se indiquen condiciones específicas.</span></p>\n<h2><span>Sección 8. Enlaces a sitios de terceros</span></h2>\n<p><span>Los Servicios pueden contener enlaces o contenidos proporcionados por terceros. Estos enlaces se facilitan para tu conveniencia y no implican necesariamente que aprobemos o controlemos los sitios enlazados.</span></p>\n<p><span>No somos responsables del contenido, disponibilidad, seguridad o prácticas de sitios externos que no operemos. Antes de realizar una transacción con un tercero, revisa sus términos, políticas y datos de contacto. Las reclamaciones relacionadas exclusivamente con productos o servicios adquiridos directamente a un tercero deberán presentarse ante dicho tercero, sin perjuicio de los derechos que legalmente puedas ejercer frente a otras personas responsables.</span></p>\n<h2><span>Sección 9. Relación con Shopify</span></h2>\n<p><span>Nuestra tienda utiliza la plataforma tecnológica de Shopify. Sin embargo, cualquier compraventa realizada en esta tienda se celebra directamente entre el cliente e Imperial Jewelry. Shopify no es el vendedor de nuestros productos ni determina sus características, precios, entrega, cambios, devoluciones o garantías.</span></p>\n<p><span>El uso que Shopify haga de datos personales o información técnica se sujetará a las funciones que presta como proveedor tecnológico, a nuestro Aviso de Privacidad y, cuando corresponda, a sus propios avisos. Esta sección no limita los derechos del consumidor ni las responsabilidades que correspondan a Imperial Jewelry, Shopify o cualquier tercero conforme a la legislación aplicable.</span></p>\n<h2><span>Sección 10. Privacidad y datos personales</span></h2>\n<p><span>Los datos personales recabados a través de los Servicios serán tratados conforme a nuestro </span><a href=\"https://imperialjewelry.com.mx/policies/privacy-policy\"><span>Aviso de Privacidad</span></a><span>. Dicho aviso identifica al responsable del tratamiento, las finalidades, los datos tratados, los mecanismos para limitar su uso o divulgación y el procedimiento para ejercer los derechos de acceso, rectificación, cancelación y oposición.</span></p>\n<p><span>Para operar la tienda, procesar pagos, prevenir fraudes, gestionar pedidos, prestar soporte y realizar entregas, determinados datos podrán ser tratados por Shopify y otros proveedores de servicios, incluso desde otros países. Las transferencias y remisiones correspondientes se realizarán conforme a la legislación aplicable y a lo establecido en nuestro Aviso de Privacidad.</span></p>\n<p><span>Cuando la legislación exija consentimiento para un tratamiento específico, este se solicitará mediante un mecanismo separado y adecuado. La aceptación de estos Términos no sustituye el consentimiento que legalmente deba obtenerse para el tratamiento de datos personales.</span></p>\n<p><span>Puedes consultar el </span><a href=\"https://www.shopify.com/legal/privacy\"><span>Aviso de Privacidad de Shopify</span></a><span>.</span></p>\n<h2><span>Sección 11. Comentarios y contenido del usuario</span></h2>\n<p><span>Si envías, publicas o compartes reseñas, fotografías, sugerencias, ideas u otro contenido relacionado con los Servicios, conservarás los derechos que te correspondan sobre dicho contenido. Al compartirlo, nos otorgas una licencia no exclusiva, mundial, transferible a nuestros proveedores de servicios y libre de regalías para alojarlo, reproducirlo, adaptarlo, publicarlo y mostrarlo durante el tiempo necesario para operar, mejorar y promocionar los Servicios, salvo que acuerdes con nosotros algo diferente por escrito.</span></p>\n<p><span>Declaras que cuentas con los derechos y autorizaciones necesarios sobre el contenido que compartes; que dicho contenido es verdadero según tu leal saber y entender; y que revelarás cualquier compensación o incentivo recibido por publicarlo.</span></p>\n<p><span>No deberás publicar contenido ilícito, engañoso, discriminatorio, difamatorio, amenazante, obsceno, malicioso o que infrinja derechos de terceros. Tampoco deberás incluir código malicioso ni utilizar una identidad falsa.</span></p>\n<p><span>Podemos moderar o retirar contenido que incumpla estos Términos o la legislación aplicable. No estamos obligados a pagar por los comentarios ni a responderlos, salvo que exista un acuerdo previo por escrito o una obligación legal.</span></p>\n<h2><span>Sección 12. Errores, inexactitudes y omisiones</span></h2>\n<p><span>Aunque procuramos mantener la información actualizada, ocasionalmente pueden presentarse errores tipográficos, técnicos o de actualización relacionados con descripciones, disponibilidad, promociones, precios o plazos de entrega.</span></p>\n<p><span>Podemos corregir esos errores antes de aceptar un pedido. Si detectamos un error después de haberlo aceptado y este afecta de forma sustancial la operación, nos comunicaremos contigo para informarte y procederemos conforme a la legislación aplicable. No modificaremos unilateralmente el precio ni las características esenciales de un pedido aceptado.</span></p>\n<p><span>Si legalmente procediera cancelar la operación, devolveremos las cantidades pagadas mediante la misma forma de pago, salvo que aceptes expresamente otra alternativa.</span></p>\n<h2><span>Sección 13. Usos prohibidos</span></h2>\n<p><span>Solo podrás utilizar los Servicios para fines lícitos. Queda prohibido utilizarlos, directa o indirectamente, para:</span></p>\n<ul>\n<li>\n<p><span>Realizar actos ilegales, fraudulentos o maliciosos.</span></p>\n</li>\n<li>\n<p><span>Infringir leyes, reglamentos o disposiciones municipales, estatales, federales o internacionales aplicables.</span></p>\n</li>\n<li>\n<p><span>Vulnerar derechos de propiedad intelectual, privacidad u otros derechos de terceros.</span></p>\n</li>\n<li>\n<p><span>Acosar, amenazar, difamar, discriminar, engañar o causar daño a otras personas.</span></p>\n</li>\n<li>\n<p><span>Transmitir información falsa o deliberadamente engañosa.</span></p>\n</li>\n<li>\n<p><span>Distribuir virus, programas maliciosos o código que afecte el funcionamiento o la seguridad de los Servicios.</span></p>\n</li>\n<li>\n<p><span>Enviar mensajes masivos no solicitados, suplantar identidades o realizar prácticas de phishing, pharming o ingeniería social.</span></p>\n</li>\n<li>\n<p><span>Recopilar datos personales de terceros sin autorización o fundamento legal.</span></p>\n</li>\n<li>\n<p><span>Acceder, copiar, extraer o explotar contenidos mediante sistemas automatizados en contravención de estos Términos o de las medidas técnicas del sitio.</span></p>\n</li>\n<li>\n<p><span>Eludir mecanismos de seguridad, autenticación, control de acceso, límites de uso, CAPTCHA o instrucciones de exclusión de robots.</span></p>\n</li>\n<li>\n<p><span>Interferir con el funcionamiento de los Servicios o con el uso que otras personas hagan de ellos.</span></p>\n</li>\n</ul>\n<p><span>Podremos aplicar medidas razonables y proporcionales, incluyendo la restricción o suspensión de acceso, cuando existan indicios de una infracción a esta sección, de un riesgo de seguridad o de fraude.</span></p>\n<h2><span>Sección 14. Sistemas automatizados y agentes</span></h2>\n<p><span>Esta sección aplica cuando una persona utiliza software, herramientas de inteligencia artificial o servicios que realizan acciones de forma autónoma o semiautónoma en su nombre para acceder o interactuar con los Servicios, en conjunto denominados “Agentes”.</span></p>\n<p><span>Los Agentes deberán identificarse de forma clara y no deberán imitar fraudulentamente el comportamiento humano, ocultar su naturaleza automatizada, superar mecanismos CAPTCHA, eludir medidas de seguridad ni ignorar instrucciones técnicas destinadas a limitar el acceso automatizado.</span></p>\n<p><span>Podemos limitar o bloquear el acceso de un Agente cuando sea necesario para proteger la seguridad, disponibilidad, propiedad intelectual, datos personales o funcionamiento de los Servicios. El usuario será responsable del uso que autorice o realice mediante un Agente, sin perjuicio de las responsabilidades que correspondan al proveedor de dicho sistema conforme a la ley.</span></p>\n<h2><span>Sección 15. Suspensión y terminación</span></h2>\n<p><span>Puedes dejar de utilizar los Servicios en cualquier momento. También podrás solicitar el cierre de tu cuenta mediante </span><a href=\"mailto:contacto@imperialjewelry.com.mx\"><span>contacto@imperialjewelry.com.mx</span></a><span>, sujeto a la conservación de la información necesaria para cumplir obligaciones legales, fiscales, contractuales o de seguridad.</span></p>\n<p><span>Podemos suspender o terminar el acceso a una cuenta cuando exista un incumplimiento sustancial de estos Términos, actividad fraudulenta o ilícita, riesgo de seguridad o uso que cause daños a los Servicios o a terceros. Cuando sea razonablemente posible, te informaremos la causa y las medidas disponibles para aclarar la situación.</span></p>\n<p><span>La suspensión o terminación de una cuenta no afectará los pedidos previamente aceptados ni los derechos del consumidor, salvo cuando exista una causa legal que impida completar la operación. Las disposiciones que por su naturaleza deban continuar vigentes después de la terminación seguirán siendo aplicables, incluyendo propiedad intelectual, privacidad, responsabilidad, ley aplicable y solución de controversias.</span></p>\n<h2><span>Sección 16. Disponibilidad y derechos del consumidor</span></h2>\n<p><span>Hacemos esfuerzos razonables para mantener los Servicios disponibles, seguros y actualizados. No obstante, el sitio puede experimentar interrupciones temporales por mantenimiento, actualizaciones, fallas de terceros, causas de fuerza mayor o eventos fuera de nuestro control razonable.</span></p>\n<p><span>La información general del sitio no sustituye asesoría profesional especializada. Esta aclaración no aplica a las descripciones, especificaciones, precios, garantías u otras condiciones concretas ofrecidas para los productos, las cuales deberán respetarse conforme a la legislación aplicable.</span></p>\n<p><span>La política comercial de devolución de 30 días permite solicitar una devolución por cualquier motivo y es independiente de los derechos legales aplicables a productos defectuosos, dañados o incorrectos. Si un producto se ofrece con una garantía específica, su vigencia no será inferior a 90 días contados a partir de la entrega, conforme a la Ley Federal de Protección al Consumidor.</span></p>\n<p><span>Nada de lo establecido en estos Términos excluye los derechos del consumidor respecto de productos defectuosos, con vicios ocultos, que no correspondan a la calidad o especificaciones ofrecidas, o que incumplan las normas aplicables. En esos casos procederán los derechos y soluciones previstos por la Ley Federal de Protección al Consumidor.</span></p>\n<h2><span>Sección 17. Responsabilidad</span></h2>\n<p><span>Cada parte responderá por los daños que le sean legalmente imputables. En la máxima medida permitida por la legislación mexicana, no seremos responsables por daños indirectos o pérdidas que no sean consecuencia directa y previsible de un incumplimiento atribuible a nosotros.</span></p>\n<p><span>Nada de esta sección excluye ni limita la responsabilidad que legalmente no pueda excluirse, incluyendo la derivada de dolo, culpa grave, defectos o vicios ocultos, incumplimiento de obligaciones expresamente asumidas, daños directos al consumidor o violaciones a la legislación de protección al consumidor y de datos personales.</span></p>\n<p><span>Las limitaciones relacionadas con Shopify o con otros proveedores tecnológicos no afectan las obligaciones que legalmente correspondan a cada participante.</span></p>\n<h2><span>Sección 18. Responsabilidad por uso indebido</span></h2>\n<p><span>Serás responsable de los daños directos que causes mediante un uso ilícito, fraudulento o deliberadamente contrario a estos Términos, cuando así lo determine la legislación aplicable o una autoridad competente.</span></p>\n<p><span>Si un tercero presenta una reclamación derivada de contenido que hayas publicado o de un uso ilícito de los Servicios atribuible a ti, deberás colaborar razonablemente en su aclaración. Esta sección no aplica al uso normal de los Servicios, no limita el derecho a presentar reclamaciones de consumo y no te obliga a asumir responsabilidades que legalmente correspondan a Imperial Jewelry, Shopify o terceros.</span></p>\n<h2><span>Sección 19. Divisibilidad</span></h2>\n<p><span>Si alguna disposición de estos Términos fuera declarada ilegal, nula o inaplicable por una autoridad competente, dicha disposición se interpretará o ajustará en la medida mínima necesaria para hacerla válida. Si esto no fuera posible, se tendrá por separada, sin afectar la validez y aplicabilidad de las demás disposiciones.</span></p>\n<h2><span>Sección 20. No renuncia y acuerdo completo</span></h2>\n<p><span>El hecho de que no ejerzamos de inmediato algún derecho previsto en estos Términos no implica que renunciemos a él.</span></p>\n<p><span>Estos Términos, junto con la confirmación del pedido, la información de la página del producto y las políticas expresamente incorporadas, constituyen el acuerdo aplicable a la relación correspondiente. Las condiciones específicas de un producto, pedido o promoción prevalecerán sobre las disposiciones generales cuando exista una contradicción, siempre que no reduzcan derechos irrenunciables del consumidor.</span></p>\n<h2><span>Sección 21. Cesión</span></h2>\n<p><span>No podrás transferir tu cuenta ni ceder los derechos u obligaciones derivados de estos Términos sin nuestro consentimiento previo por escrito, salvo que la legislación permita lo contrario.</span></p>\n<p><span>Podremos ceder nuestros derechos y obligaciones a una empresa afiliada, sucesora o adquirente de nuestro negocio, siempre que la cesión no reduzca tus derechos. Te notificaremos cuando la ley lo exija o cuando la cesión implique un cambio relevante en la identidad del proveedor o en el tratamiento de tus datos personales.</span></p>\n<h2><span>Sección 22. Ley aplicable y solución de controversias</span></h2>\n<p><span>Estos Términos y las operaciones celebradas mediante los Servicios se regirán por las leyes aplicables de los Estados Unidos Mexicanos, incluyendo la Ley Federal de Protección al Consumidor y la legislación de protección de datos personales.</span></p>\n<p><span>Si tienes una duda, aclaración o reclamación, puedes comunicarte con nosotros mediante los datos indicados en la sección 25. Procuraremos responder en un plazo máximo de tres días hábiles.</span></p>\n<p><span>El consumidor podrá acudir ante la Procuraduría Federal del Consumidor o ante cualquier otra autoridad competente para ejercer sus derechos. Cuando resulte necesaria la intervención de tribunales, serán competentes los que correspondan conforme a la legislación aplicable, sin obligar al consumidor a renunciar al domicilio o a la jurisdicción que legalmente le favorezca.</span></p>\n<h2><span>Sección 23. Encabezados</span></h2>\n<p><span>Los encabezados se incluyen únicamente para facilitar la lectura y no limitan ni modifican el contenido de estos Términos.</span></p>\n<h2><span>Sección 24. Cambios a los Términos del Servicio</span></h2>\n<p><span>La versión vigente de estos Términos estará disponible en esta página e indicará la fecha de su última actualización.</span></p>\n<p><span>Podemos modificar estos Términos para reflejar cambios legales, operativos, tecnológicos o en los Servicios. Cuando un cambio sea sustancial, lo comunicaremos por un medio razonable y entrará en vigor en la fecha indicada en el aviso.</span></p>\n<p><span>Los cambios se aplicarán de manera prospectiva y no modificarán las condiciones de pedidos ya aceptados, salvo que el cambio sea requerido por ley o resulte más favorable para el consumidor. El uso de los Servicios después de la entrada en vigor de los cambios implicará la aceptación de la nueva versión, en la medida permitida por la legislación aplicable.</span></p>\n<h2><span>Sección 25. Información de contacto</span></h2>\n<ul>\n<li>\n<p><strong><span>Nombre comercial:</span></strong><span> Imperial Jewelry</span></p>\n</li>\n<li>\n<p><strong><span>Razón social:</span></strong><span> Aurart</span></p>\n</li>\n<li>\n<p><strong><span>RFC:</span></strong><span> AUR0912109R7</span></p>\n</li>\n<li>\n<p><strong><span>Domicilio:</span></strong><span> Calle Protón 26, Parque Industrial Naucalpan, Naucalpan de Juárez, Estado de México, C.P. 53489</span></p>\n</li>\n<li>\n<p><strong><span>Correo electrónico:</span></strong><span> </span><a href=\"mailto:contacto@imperialjewelry.com.mx\"><span>contacto@imperialjewelry.com.mx</span></a></p>\n</li>\n<li>\n<p><strong><span>Teléfono y WhatsApp:</span></strong><span> </span><a href=\"https://wa.me/525513145814\"><span>+52 55 1314 5814</span></a></p>\n</li>\n<li>\n<p><strong><span>Sitio web:</span></strong><span> </span><a href=\"https://imperialjewelry.com.mx\"><span>imperialjewelry.com.mx</span></a></p>\n</li>\n<li>\n<p><strong><span>Días y horario de atención:</span></strong><span> lunes a viernes, de 9:00 a. m. a 5:00 p. m.</span></p>\n</li>\n<li>\n<p><strong><span>Plazo de respuesta:</span></strong><span> hasta tres días hábiles.</span></p>\n</li>\n</ul>\n<p><span>Las preguntas, aclaraciones o reclamaciones relacionadas con estos Términos o con una compra pueden enviarse a </span><a href=\"mailto:contacto@imperialjewelry.com.mx\"><span>contacto@imperialjewelry.com.mx</span></a><span> o mediante </span><a href=\"https://wa.me/525513145814\"><span>WhatsApp</span></a><span>.</span></p>\n<p>&nbsp;</p>"
+ },
+ "productos": [
+  {
+   "id": "gid://shopify/Product/8013524041914",
+   "title": "Arete De Plata Ley 925 Para Mujer Con Bola Diamantada"
+  },
+  {
+   "id": "gid://shopify/Product/8013524074682",
+   "title": "Pulso Torsal Hueco Oro Italiano 10k, Calibre 1.9mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013524172986",
+   "title": "Esclava Italiana Figaro 3x1 De 10 Quilates 3.5mm, 14cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013524467898",
+   "title": "Pulsera Italiana Cubana Hueca De 10 Quilates 3.5mm, 21.5 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013524664506",
+   "title": "Arracadas con tubos torcidos de Oro Amarillo y Blanco de 14K, 15 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013524992186",
+   "title": "Esclava Italiana Figaro 3x1 De Oro 10k 2.7mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013525254330",
+   "title": "Cadena De Oro De 10k Rolo De 55 Cm Calibre 0.7mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013525287098",
+   "title": "Cadena De Oro 10k Figaro 3x1 Italiana Unisex 3.5mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013525352634",
+   "title": "Dije De Cruz De Tubo Con Cristo Rodinado De Oro De 10k, 1.5 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013525549242",
+   "title": "Medalla De Virgen Italiana De Oro De 14k Dije De Oro Mujer"
+  },
+  {
+   "id": "gid://shopify/Product/8013525647546",
+   "title": "Pulsera Italiana Figaro Pave De 10 Quilates 3.2mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013525713082",
+   "title": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita, 2.7 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013525942458",
+   "title": "Medalla De Virgen Italiana De Oro De 10k, 40 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013526073530",
+   "title": "Arracada Bangle De Oro 10k Diamantado Domino, 1.2 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013526204602",
+   "title": "Cadena De Oro Hombre Italiano Torsal 10k Calibre 2.4mm 60 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013526335674",
+   "title": "Pulsera De Plata 925 Estilo Petatillo Para Mujer Con Medalla"
+  },
+  {
+   "id": "gid://shopify/Product/8013526401210",
+   "title": "Medalla De Bautizo Italiana De Oro De 14k"
+  },
+  {
+   "id": "gid://shopify/Product/8013526433978",
+   "title": "Rosario De Plata Ley 925 Con Bola Diamantada"
+  },
+  {
+   "id": "gid://shopify/Product/8013526565050",
+   "title": "Cadena De Plata 925 Con Dije De Cruz Collar Mujer Brillante"
+  },
+  {
+   "id": "gid://shopify/Product/8013526663354",
+   "title": "Arracada Diamantada Bangle De Oro 10k Estilo Panal, 15 X Dorado, 1.2 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013526892730",
+   "title": "Arete Arracada Diamantada De Plata Ley 925 Para Mujer Candy 55 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013527023802",
+   "title": "Pulsera De Oro 10k Para Hombre Estilo Torsal Italiano"
+  },
+  {
+   "id": "gid://shopify/Product/8013527056570",
+   "title": "Arete Arracada Lisa Para Mujer De Oro Puro De 14k, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013527318714",
+   "title": "Gargantilla Italiana 10k De Delfin Y Bolas Tricolor"
+  },
+  {
+   "id": "gid://shopify/Product/8013527384250",
+   "title": "Arete Arracada Torcida De Oro De 10 Quilates En Tres Colores"
+  },
+  {
+   "id": "gid://shopify/Product/8013527580858",
+   "title": "Dije De La Santa Muerte En Oro De 10k, 2.7 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013527613626",
+   "title": "Cadena De Oro 10k Grano De Café Tricolor (Blanco, Amarillo Y Rosa)"
+  },
+  {
+   "id": "gid://shopify/Product/8013527843002",
+   "title": "Dije De Santa Muerte De Plata 925, 2.7 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013527908538",
+   "title": "Esclava De Oro 10k Estilo Fígaro Serpentina Italiana"
+  },
+  {
+   "id": "gid://shopify/Product/8013528006842",
+   "title": "Gargantilla Italiana 10k De Tres Corazones Inflados Y Aros, 45 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013528301754",
+   "title": "Cadena De Plata 925 Italiana Torsal Calibre 1.9mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013528334522",
+   "title": "Arete Arracada Diamantada De Oro 10k Estilo Dominó, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013528498362",
+   "title": "Gargantilla Con Dije De Árbol De La Vida Plata 925 Plateado"
+  },
+  {
+   "id": "gid://shopify/Product/8013528531130",
+   "title": "Collar Viviana De Oro De 10k Con Bola 2.5mm, 45 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013528694970",
+   "title": "Rosario De Oro De 14 Quilates Con Bola 3 Tricolor 50cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013528858810",
+   "title": "Dije De Oro 10k La Santa Muerte Con Piedra Ónix, 3.1 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013528989882",
+   "title": "Pulsera De Oro Torsal Para Hombre Con Broche De Perico"
+  },
+  {
+   "id": "gid://shopify/Product/8013529055418",
+   "title": "Cadena Italiana De 14k, Estilo Cubana, Calibre 2mm, De 60cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013529120954",
+   "title": "Pulsera De Oro 10k Valentino Italiana, Amarilla O Tricolor"
+  },
+  {
+   "id": "gid://shopify/Product/8013529153722",
+   "title": "Gargantilla Italiana 10k De Elefante Y Bolas Tricolor"
+  },
+  {
+   "id": "gid://shopify/Product/8013529579706",
+   "title": "Arete Arracada Diamantada Ligera De Plata Ley 925 Para Mujer Estilo Domino, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013529809082",
+   "title": "Arete Arracada De Oro De 14k Diamantada Estilo Torsal, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013529841850",
+   "title": "Arete Arracada Ligera Para Mujer Lisa De Plata Ley 925, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013529907386",
+   "title": "Dije De Cruz Con Rostro De Cristo De Oro De 10k, 50 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013529940154",
+   "title": "Gargantilla Italiana 10k De Cruz Y Bolas Tricolor"
+  },
+  {
+   "id": "gid://shopify/Product/8013530071226",
+   "title": "Pulsera De Plata 925 Barbada 18cm Calibre 3.2mm Italiana"
+  },
+  {
+   "id": "gid://shopify/Product/8013530103994",
+   "title": "Cadena Torsal De Oro Italiano 10k, Calibre 2.1mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013530464442",
+   "title": "Arete Arracada De Plata Ley 925 Para Mujer con tubo Ovalado"
+  },
+  {
+   "id": "gid://shopify/Product/8013530595514",
+   "title": "Arracada De Oro De 10k Lisa, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013530726586",
+   "title": "Cadena Valentino De Oro Italiano 10k"
+  },
+  {
+   "id": "gid://shopify/Product/8013530857658",
+   "title": "Cadena De Plata 925 Estilo Barbada De Calibre 3.2mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013530955962",
+   "title": "Pulso Torsal De Oro Italiano 10k, Calibre 3.3mm, 16 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013531054266",
+   "title": "Dije De Cruz De Tubo De Oro De 10k, 1.5 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013531218106",
+   "title": "Arete Arracada Diamantada De Plata Ley 925 Para Mujer Confeti, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013531349178",
+   "title": "Cadena De Oro 10k Figaro 3x1 Hueca Unisex 2.0mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013531742394",
+   "title": "Pulsera de Oro 10K Estilo Torsal Italiano | Brazalete Elegante de Joyería Fina"
+  },
+  {
+   "id": "gid://shopify/Product/8013531775162",
+   "title": "Arete Arracada De Oro 10k Con Diamantado Cordon Blue, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013531971770",
+   "title": "Cadena Figaro Oro 10k 4.3mm 50cm Dorado Clásica Diseño Italiano"
+  },
+  {
+   "id": "gid://shopify/Product/8013532070074",
+   "title": "Gargantilla Italiana 14k De Corazón Inflado Y Bolas Tricolor, 45 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013532102842",
+   "title": "Cadena De Oro 14k Figaro 3x1 Hueca Unisex 2.6mm, 40 a 60 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013532397754",
+   "title": "Pulsera Esclava Italiana Figaro Pave Pulso 14k 2.6mm 16cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013532463290",
+   "title": "Collar Con Medalla De Virgen Italiana De Oro De 14k"
+  },
+  {
+   "id": "gid://shopify/Product/8013532856506",
+   "title": "Anillo De Compromiso De Oro 10k Con Piedras Zirconia"
+  },
+  {
+   "id": "gid://shopify/Product/8013532889274",
+   "title": "Anillo De Oro 10k Con Corazón Rodinado"
+  },
+  {
+   "id": "gid://shopify/Product/8013533085882",
+   "title": "Arracada Diamantada Bangle De Oro 10k Estilo Panal, 12 X 6mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013533118650",
+   "title": "Arete Arracada De Oro De 10k Diamantada Estilo Torsal, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013533315258",
+   "title": "Arete De Plata 925 Extra Ligero Para Mujer Con Diamantado Cordon Blue, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013533348026",
+   "title": "Medalla De Bautizo Italiana De Oro De 10k"
+  },
+  {
+   "id": "gid://shopify/Product/8013533675706",
+   "title": "Arete De Plata 925 Para Mujer Con Diamantado Torsal, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013533806778",
+   "title": "Cadena Italiana Figaro Solida De 10 Quilates 5.3 Mm, 55 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013533905082",
+   "title": "Medalla Laser De Oro De 10k Con Sagrado Corazón De Jesús"
+  },
+  {
+   "id": "gid://shopify/Product/8013534036154",
+   "title": "Dije De Plata 925 Figura San Judas 7.8 Cm Para Collar Hombre"
+  },
+  {
+   "id": "gid://shopify/Product/8013534101690",
+   "title": "Dije De Oro 14k Medalla Religiosa Sagrado Cáliz 12mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013534199994",
+   "title": "Cadena Torsal Hueca De Oro Italiano 10k, Calibre 3.2mm, 55 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013534265530",
+   "title": "Arracada Bangle De Oro 10k Diamantado De Rombo, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013534396602",
+   "title": "Cadena De Oro Mujer Italiana 10k Gargantilla Aros Tricolor, 45 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013534494906",
+   "title": "Esclava Viviana De Oro 10k Con Bola Tricolor 2.5mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013534855354",
+   "title": "Cadena De Oro 14k Figaro 3x1 Italiana 2.0mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013534888122",
+   "title": "Pulsera De Oro 14k Para Mujer Estilo Torsal Italiano"
+  },
+  {
+   "id": "gid://shopify/Product/8013535019194",
+   "title": "Cadena De Oro 10k Figaro 3x1 Hueca Ligera 2.6mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013535609018",
+   "title": "Arete Arracada De Oro 14k Con Diamantado Estilo Panal, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013535740090",
+   "title": "Cadena De Oro 10k Figaro 3x1 Italiana 2.6mm, 50 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013535903930",
+   "title": "Arracada Bangle De Oro 14k Lisa de Ancho, 0.15"
+  },
+  {
+   "id": "gid://shopify/Product/8013536198842",
+   "title": "Cadena De Oro Italiano 14k Torsal Calibre Hombre 2.1mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013536493754",
+   "title": "Gargantilla Italiana 14k De Elefante Y Bolas Tricolor"
+  },
+  {
+   "id": "gid://shopify/Product/8013536526522",
+   "title": "Arracada Bangle De Oro De 10k Lisa de Ancho, 15 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013536592058",
+   "title": "Pulsera Italiana Figaro Hueca De 10 Quilates 2.0mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013536657594",
+   "title": "Cadena De Oro 14k Grano De Café Tricolor 1mm, 40 a 55 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013536755898",
+   "title": "Cadena De Oro Italiano 10k, Estilo Grano De Café"
+  },
+  {
+   "id": "gid://shopify/Product/8013536821434",
+   "title": "Arete Arracada Con Diamantado Estilo Panal De Oro 10k, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013537050810",
+   "title": "Dije De San Judas De Plata 925 Con Zirconita 5.5cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013537181882",
+   "title": "Cadena De Oro Italiano 10k Figaro 3x1 Pave 50 Cm 2.3mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013537247418",
+   "title": "Arracada Bangle Para Mujer De Plata 925 Lisa 4 mm de Ancho"
+  },
+  {
+   "id": "gid://shopify/Product/8013537280186",
+   "title": "Dije De Oro 10k Medalla Religiosa Sagrado Cáliz 12mm, 40 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8013537345722",
+   "title": "Pulsera De Oro Figaro Hueca 10k Calibre 2.6 Mm Hombre"
+  },
+  {
+   "id": "gid://shopify/Product/8013537542330",
+   "title": "Cadena De Oro Hombre Italiana Figaro 14k Calibre 2.6 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/8013537575098",
+   "title": "Collar De Cruz De Tubo Y Cristo Rodinado De Oro De 10k"
+  },
+  {
+   "id": "gid://shopify/Product/8114661458106",
+   "title": "Collar De Corazon Inflado De Plata 925 Con Bola De 45 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8114661556410",
+   "title": "Dije De Oro De 10k De Estrella De David, 45 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8114662244538",
+   "title": "Pulsera De Oro 14k Figaro Solida De 18.5 Cm Calibre 2mm"
+  },
+  {
+   "id": "gid://shopify/Product/8114662834362",
+   "title": "Arete Arracada Lisa Con Malla De Plata 925, 15 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/8114663227578",
+   "title": "Cadena De Plata 925 Estilo Torsal Calibre 3.3 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/8114663358650",
+   "title": "Collar De Corazon De Plata 925 Con Bola Diamantada De 45 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8114663588026",
+   "title": "Arracada Oro 10k Bangle Diamantada Rombo, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8114665291962",
+   "title": "Dije De Oro De 10k De La Madona Dorado, 45 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8114665324730",
+   "title": "Dije De Oro De 10k De Cruz, 45 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8114665849018",
+   "title": "Collar De Cruz De Plata 925 Con Bola Diamantada De 45 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8114665980090",
+   "title": "Arete De Plata Ovalado De Tubo Cuadrado Diamantado De 25mm"
+  },
+  {
+   "id": "gid://shopify/Product/8114666504378",
+   "title": "Arete De Tubo Triangular Diamantado De Plata 925 De 12mm"
+  },
+  {
+   "id": "gid://shopify/Product/8114666766522",
+   "title": "Arete Ovalado De Tubo Cuadrado De Plata 925 Liso De 20 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/8167453491386",
+   "title": "Anillo De Compromiso Promesa De Plata Con Moissanita"
+  },
+  {
+   "id": "gid://shopify/Product/8311719100602",
+   "title": "Dije De Oro 10k Cruz De Tubo 1.5 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/8311720181946",
+   "title": "Medalla Del Caliz Italiana De Oro De 14k Para Mujer"
+  },
+  {
+   "id": "gid://shopify/Product/8311720280250",
+   "title": "Cadena De Plata 925 Figaro 3x1 de 50 Cm Calibre 2.5 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/8311720476858",
+   "title": "Gargantilla Italiana 10k De Corazón Inflado Y Bolas Tricolor"
+  },
+  {
+   "id": "gid://shopify/Product/8454281986234",
+   "title": "Cadena De Plata 925 Torsal Calibre 3.2 Mm, Color Oro"
+  },
+  {
+   "id": "gid://shopify/Product/8454282641594",
+   "title": "Cadena Italiana Figaro Solida De 10 Quilates 2mm"
+  },
+  {
+   "id": "gid://shopify/Product/8454286704826",
+   "title": "Cadena Valentino De Oro Italiano 14k, Calibre 2.6 Mm, 55cm"
+  },
+  {
+   "id": "gid://shopify/Product/8454290211002",
+   "title": "Arete De Plata 925 Para Mujer Con Diamantado Panal De 12mm"
+  },
+  {
+   "id": "gid://shopify/Product/8454292897978",
+   "title": "Pulsera Serpentina 3x1 Diamantada Oro 10k"
+  },
+  {
+   "id": "gid://shopify/Product/8454292930746",
+   "title": "Cadena De Oro 10k Grano De Café 2.3mm"
+  },
+  {
+   "id": "gid://shopify/Product/8465657790650",
+   "title": "Pulsera De Oro 10k Para Mujer Estilo Torsal Italiano"
+  },
+  {
+   "id": "gid://shopify/Product/8465664704698",
+   "title": "Arete Arracada Diamantada con tubos torcidos De Plata Ley 925 Para Mujer"
+  },
+  {
+   "id": "gid://shopify/Product/8465668964538",
+   "title": "Arete De Plata 925 Extra ligero Para Mujer Con Diamantado Torsal, 15 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8465669554362",
+   "title": "Arete Arracada De Plata 925 Diamantada Panal Para Mujer, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8465671127226",
+   "title": "Arete Arracada Diamantada De Plata Ley 925 Para Mujer Estilo Domino, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8465675550906",
+   "title": "Cadena De Oro 14k Valentino Italiana"
+  },
+  {
+   "id": "gid://shopify/Product/8465678729402",
+   "title": "Dije De Cruz Con Cristo Arenado En Oro 10k 1.4 Grm"
+  },
+  {
+   "id": "gid://shopify/Product/8465679188154",
+   "title": "Collar De Estrella De Plata 925 Con Bola Diamantada De 45 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8465679319226",
+   "title": "Dije Turco De Plata 925 De Cruz Rectangular Con Zirconia"
+  },
+  {
+   "id": "gid://shopify/Product/8465679515834",
+   "title": "Collar De La Virgen De Plata 925 Con Bola Facetada De 45cm"
+  },
+  {
+   "id": "gid://shopify/Product/8465680335034",
+   "title": "Pulsera De Plata 925 Con Medalla De San Benito Y Bola 18 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8465680597178",
+   "title": "Collar Para Mujer De Oro De 10k De Cruz, 45 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8465680990394",
+   "title": "Pulsera De Plata 925 Armado A Mano Estilo Petatillo 18 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8465681678522",
+   "title": "Dije En Figura De Ancla, En Oro De 10k 1.7 Grm"
+  },
+  {
+   "id": "gid://shopify/Product/8465682694330",
+   "title": "Collar De Libelula De Plata 925 Con Bola Diamantada De 45 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8465682956474",
+   "title": "Dije De Plata Ley 925 De La Torre Eiffel Pulido"
+  },
+  {
+   "id": "gid://shopify/Product/8465683087546",
+   "title": "Cadena Singapur De Oro Italiano 10k 2mm"
+  },
+  {
+   "id": "gid://shopify/Product/8465683185850",
+   "title": "Dije De Mariposa Con Zirconia En Oro De 10k 1.7 Grm"
+  },
+  {
+   "id": "gid://shopify/Product/8465683349690",
+   "title": "Pulsera Esclava De Plata Ley 925 Para Niña"
+  },
+  {
+   "id": "gid://shopify/Product/8465684005050",
+   "title": "Pulsera De Plata 925 Armado A Mano De Triangulo 18cm De .8mm"
+  },
+  {
+   "id": "gid://shopify/Product/8465685217466",
+   "title": "Dije En Figura De Cruz En Oro 10k 0.9 Grm"
+  },
+  {
+   "id": "gid://shopify/Product/8465685545146",
+   "title": "Collar De La Virgen De Plata 925 Con Bola Diamantada De 45cm"
+  },
+  {
+   "id": "gid://shopify/Product/8465685676218",
+   "title": "Dije De Delfin Con Aletas De Zirconia En Oro 10k 1.4 Gr"
+  },
+  {
+   "id": "gid://shopify/Product/8465685905594",
+   "title": "Dije Turco De Plata Ley 925 De Cruz Gresa Con Zirconia"
+  },
+  {
+   "id": "gid://shopify/Product/8465686134970",
+   "title": "Pulsera De Plata 925 Con Cruz Y Bola Diamantada 18 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8465686233274",
+   "title": "Esclava Turca De Plata 925 Barbada Con Zirconia De 19.5 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8465686528186",
+   "title": "Pulsera De Plata 925 Bizantino 20cm Calibre 2.6 Mm Italiana"
+  },
+  {
+   "id": "gid://shopify/Product/8465686921402",
+   "title": "Collar De Luna De Plata 925 Con Bola Diamantada De 45 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8465687216314",
+   "title": "Pulsera De Plata 925 De Mano De Fatima Con Zirconia"
+  },
+  {
+   "id": "gid://shopify/Product/8465687675066",
+   "title": "Dije Cruz De Caravaca Slim En Plata .925 Taxco Gro Color Blanco"
+  },
+  {
+   "id": "gid://shopify/Product/8465688330426",
+   "title": "Arete Para Mujer Inflado De Plata Ley 925 Pulido De 15 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/8465688625338",
+   "title": "Arracada Bangle De Oro 10k Diamantado Diagonal De 20x, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/8465689247930",
+   "title": "Pulsera De Plata 925 Con Estrella Y Bola Diamantada 18 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8465689313466",
+   "title": "Arracada De Oro Italiana De 14k Torcida, 1.5 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8465689804986",
+   "title": "Collar De Madona De Plata 925 Con Bola Diamantada De 45 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/8465690886330",
+   "title": "Dije De Llave En Forma De Corazón En Oro 10k 1.3 Grm"
+  },
+  {
+   "id": "gid://shopify/Product/8465695998138",
+   "title": "Dije En Figura De Cruz Con Zirconia En Oro 10k 0.9 Gr"
+  },
+  {
+   "id": "gid://shopify/Product/8465704419514",
+   "title": "Dije De Elefante Con Zirconia En Oro De 10k 1.5 Grm"
+  },
+  {
+   "id": "gid://shopify/Product/8465706647738",
+   "title": "Dije De Cruz Con Forma De Ancla De Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/8465706713274",
+   "title": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita 6.2cm"
+  },
+  {
+   "id": "gid://shopify/Product/8465707368634",
+   "title": "Dije De Cruz Con Forma De Ancla De Plata 925, Grande"
+  },
+  {
+   "id": "gid://shopify/Product/8465708482746",
+   "title": "Dije de Cruz Caravaca Plata 925 de 3 cm de alto"
+  },
+  {
+   "id": "gid://shopify/Product/8465709662394",
+   "title": "Cadena De Plata 925 Barbada Diamantada"
+  },
+  {
+   "id": "gid://shopify/Product/8475580268730",
+   "title": "Arracada Bangle De Oro 10k Diamantado Domino, 12 X, 1.2 cm"
+  },
+  {
+   "id": "gid://shopify/Product/8475580465338",
+   "title": "Arete Arracada Diamantada De Plata Ley 925 Para Mujer 25 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/8475580530874",
+   "title": "Arete Arracada Diamantada De Plata Ley 925 Para Mujer 30 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/8475580629178",
+   "title": "Arete Arracada Lisa De Plata Ley 925 Para Mujer De 15 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/8475580661946",
+   "title": "Arete Arracada De Mujer Lisa De Plata 925 20mm"
+  },
+  {
+   "id": "gid://shopify/Product/8475580694714",
+   "title": "Arete De Plata 925 Para Mujer Lisa De 25mm"
+  },
+  {
+   "id": "gid://shopify/Product/8475580727482",
+   "title": "Arete Arracada Para Mujer Lisa De Plata Ley 925 30 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/8475582890170",
+   "title": "Arete Arracada De Oro 10k Lisa, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10410115367098",
+   "title": "Gargantilla Italiana 14k De Delfin Y Bolas Tricolor"
+  },
+  {
+   "id": "gid://shopify/Product/10410115465402",
+   "title": "Gargantilla Italiana 14k De Cruz Y Bolas Tricolor"
+  },
+  {
+   "id": "gid://shopify/Product/10410887053498",
+   "title": "Pulsera Italiana 3x1 Serpentina De 10 Quilates 2.6mm, 21.5cm"
+  },
+  {
+   "id": "gid://shopify/Product/10419178897594",
+   "title": "Arracada Diamantada Bangle De Oro 10k Estilo Panal, 15mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432394199226",
+   "title": "Cadena Italiana De 10k, Estilo Cubana, Calibre 2mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432394428602",
+   "title": "Arete Arracada Diamantada De Oro 14k Estilo Dominó 12mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432394854586",
+   "title": "Arete Arracada Diamantada De Plata 925 Para Mujer 20 Mm Cb"
+  },
+  {
+   "id": "gid://shopify/Product/10432395083962",
+   "title": "Arete Arracada Diamantada Para Mujer De Plata 925 30mm Panal"
+  },
+  {
+   "id": "gid://shopify/Product/10432395313338",
+   "title": "Arete De Plata 925 Para Mujer Con Diamantado Panal De 20mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432395575482",
+   "title": "Arete De Plata 925 Para Mujer Con Diamantado Panal De 25mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432397377722",
+   "title": "Anillo Solitario Para Mujer De Plata 925, Medida 7"
+  },
+  {
+   "id": "gid://shopify/Product/10432397672634",
+   "title": "Anillo Solitario Para Mujer De Plata 925, Medida 7"
+  },
+  {
+   "id": "gid://shopify/Product/10432398557370",
+   "title": "Anillo De Zirnocias Para Mujer De Plata 925, Medida 7"
+  },
+  {
+   "id": "gid://shopify/Product/10432399147194",
+   "title": "Collar De Mariposa Para Mujer De Plata 925, Medida 45 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/10432400523450",
+   "title": "Collar De Osito De Peluche De Zirconia Para Mujer Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432401047738",
+   "title": "Collar 3d Circulo De Maya Para Mujer De Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432401342650",
+   "title": "Collar De Cruz Con Zirconias Unisex De Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432401899706",
+   "title": "Collar De Corazón Chico Con Zirconias Para Mujer Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432402227386",
+   "title": "Aretes 3d Redondos De Maya Para Mujer De Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432402849978",
+   "title": "Collar De Estrella Mitad De Zirconias Para Mujer Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432403243194",
+   "title": "Collar De Corazones Entrelazados Para Mujer De Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432403833018",
+   "title": "Collar De Corazon Grande Con Zirconias Para Mujer Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432404652218",
+   "title": "Anillo Infinito De Zirconias Para Mujer De Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432404979898",
+   "title": "Anillo De Corazón Con Zirconias Para Mujer De Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432405438650",
+   "title": "Aretes Mariposa Con Zirconias Para Mujer De Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432406192314",
+   "title": "Pulsera Clip Para Mujer De Plata 925, Medida 18 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/10432407765178",
+   "title": "Collar De Gatito Con Corazón, Para Mujer De Plata 925 Plateado"
+  },
+  {
+   "id": "gid://shopify/Product/10432407994554",
+   "title": "Anillo De Infinito De Oro De 14k Para Mujer Con Brillantes"
+  },
+  {
+   "id": "gid://shopify/Product/10432409764026",
+   "title": "Cadena De Oro 10k Technigold Milano Figaro Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432409960634",
+   "title": "Cadena Italiana Figaro Solida De 10 Quilates 4.3 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432410386618",
+   "title": "Cadena De Oro 10k Technigold Milano Figaro Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432410550458",
+   "title": "Cadena De Oro 10k Technigold Milano Figaro 40cm Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432410845370",
+   "title": "Cadena De Oro 10k Technigold Milano Figaro Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432411697338",
+   "title": "Cadena De Oro De 10k Valentino Calibre 3.5mm Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432411926714",
+   "title": "Cadena De Oro De 10k Valentino Calibre 3.5mm Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432412123322",
+   "title": "Cadena Italiana Figaro Solida De 10 Quilates 4.9 Mm, 55 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/10432412352698",
+   "title": "Cadena De Oro Italiano 10k Grano De Café Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432412582074",
+   "title": "Cadena De Oro Italiano 10k Grano De Café Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432413630650",
+   "title": "Pulsera Oro 10k Figaro Italiana Filk 4.4mm 18.5cm Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432413892794",
+   "title": "Cadena De Oro Italiano 10k Figaro 3x1 Pave 50 Cm 2.6mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432415236282",
+   "title": "Pulsera Oro 10k Figaro Italiana Filk 7.1mm Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432416186554",
+   "title": "Cadena Oro Hombre Italiano Torsal Diamantada 10k 3.4mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432416481466",
+   "title": "Pulsera Valentino De Oro Italiano 10k, Calibre 2mm, 18.5 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/10432416743610",
+   "title": "Cadena De Oro De 10k Valentino Calibre 2mm Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432417038522",
+   "title": "Cadena Italiana Figaro Hueca De 10k Calibre 5.3mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432417661114",
+   "title": "Cadena De Oro Italiano 10k, Figaro 3x1 Hueca, 4.4mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432418021562",
+   "title": "Arete Arracada Bangle Diamantada Plata 925 Panal 20x4mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432418054330",
+   "title": "Cadena Valentino De Oro Italiano 10k, Calibre 2.3 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432418087098",
+   "title": "Cadena De Oro De 10k Valentino Calibre 4.3mm Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432418152634",
+   "title": "Pulsera De Oro Barbada Hueca 10k Calibre 7.3 Mm 22cm Hombre"
+  },
+  {
+   "id": "gid://shopify/Product/10432418250938",
+   "title": "Cadena De Oro Italiano 10k Figaro 3x1 Pave 1.9mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432418349242",
+   "title": "Cadena Italiana Figaro Solida De 10 Quilates 5.3 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432418709690",
+   "title": "Pulsera Italiana Figaro Solida De 10 Quilates 6.8mm, 21.5 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/10432418971834",
+   "title": "Pulsera De Oro Figaro Hueca 10k Calibre 3.5 Mm 21.5cm Hombre"
+  },
+  {
+   "id": "gid://shopify/Product/10432419037370",
+   "title": "Cadena Italiana Figaro Solida De 10 Quilates 4.1 Mm, 55 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/10432419168442",
+   "title": "Pulsera Italiana Grano De Cafe 10k 1.1mm 18.5cm Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432419332282",
+   "title": "Arete Arracada Bangle Diamantada Plata 925 Panal 15x6mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432419365050",
+   "title": "Cadena Italiana Figaro Hueca De 10k Calibre 6.7mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432419463354",
+   "title": "Cadena Italiana Torsal 3x1 Figaro 14k, 55cm, Calibre 1.9mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432419692730",
+   "title": "Pulsera Oro 10k Figaro Italiana Filk 3.5mm Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432419758266",
+   "title": "Cadena Italiana Figaro Solida De 10 Quilates 6.8 Mm, 60 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/10432419823802",
+   "title": "Cadena De Oro Italiano 10k, Figaro 3x1 Hueca, 2.6mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432419954874",
+   "title": "Cadena De Oro De 10k Rolo De 40 Cm Calibre 0.9mm Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432420053178",
+   "title": "Cadena Italiana Figaro Solida De 10 Quilates 3.5 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432420380858",
+   "title": "Pulsera Italiana Grano De Cafe 10k 0.3mm 19cm Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10432420577466",
+   "title": "Pulsera Valentino Oro Italiano 10k 2.3mm 18.5cm"
+  },
+  {
+   "id": "gid://shopify/Product/10432420610234",
+   "title": "Cadena Italiana Figaro Hueca De 10 Quilates 4.4mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432420806842",
+   "title": "Arete Arracada Diamantada De Oro 14k Estilo Dominó, 15mm"
+  },
+  {
+   "id": "gid://shopify/Product/10432420937914",
+   "title": "Anillo 2 Infinitos Con Zirconia Para Mujer De Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432421134522",
+   "title": "Collar Dual De Corazones Con Zirconia Para Mujer Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432421167290",
+   "title": "Collar De Silueta De Cruz Con Zirconias, Unisex De Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432421265594",
+   "title": "Anillo Con Circulo De Zirconias Para Hombre De Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432421396666",
+   "title": "Anillo De Circulos Con Zirconias Para Mujer De Plata 925"
+  },
+  {
+   "id": "gid://shopify/Product/10432421560506",
+   "title": "Anillo Churumbela De Oro De 14k Para Mujer Con Brillantes"
+  },
+  {
+   "id": "gid://shopify/Product/10432421658810",
+   "title": "Anillo De Corazón En Oro De 14k Para Mujer Con Diamantes"
+  },
+  {
+   "id": "gid://shopify/Product/10432421789882",
+   "title": "Anillo De Infinito De Oro De 14k Para Mujer Con Diamantes"
+  },
+  {
+   "id": "gid://shopify/Product/10432421855418",
+   "title": "Dije De Plata 925 Para Hombre De Cruz De Caravaca De 2.3 Mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444417007802",
+   "title": "Arracadas con tubos torcidos de Oro Amarillo y Blanco de 14K, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444417204410",
+   "title": "Arracadas con tubos torcidos de Oro Amarillo y Blanco de 14K, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444417368250",
+   "title": "Cadena De Oro De 10k Rolo De 55 Cm Calibre 0.7mm Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10444417794234",
+   "title": "Dije De Cruz De Tubo Con Cristo Rodinado De Oro De 10k, 2 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444417925306",
+   "title": "Dije De Cruz De Tubo Con Cristo Rodinado De Oro De 10k, 3.5 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444418023610",
+   "title": "Pulsera Italiana Figaro Pave De 10 Quilates 3.2mm, 18.5 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444418547898",
+   "title": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita, 4.2 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444418711738",
+   "title": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita, 5.2 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444419006650",
+   "title": "Dije De Virgen De Guadalupe De Plata 925 Con Zirconita, 6.2 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444419072186",
+   "title": "Medalla De Virgen Italiana De Oro De 10k"
+  },
+  {
+   "id": "gid://shopify/Product/10444419662010",
+   "title": "Arracada Bangle De Oro 10k Diamantado Domino, 1.5 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444419924154",
+   "title": "Arracada Bangle De Oro 10k Diamantado Domino, 2 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444420251834",
+   "title": "Rosario De Plata Ley 925 Con Bola Diamantada De 45 Cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444420579514",
+   "title": "Rosario De Plata Ley 925 Con Bola Diamantada"
+  },
+  {
+   "id": "gid://shopify/Product/10444420972730",
+   "title": "Arracada Diamantada Bangle De Oro 10k Estilo Panal, 15 X Dorado, 1.5 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444421103802",
+   "title": "Arracada Diamantada Bangle De Oro 10k Estilo Panal, 15 X Dorado, 2 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444421562554",
+   "title": "Arete Arracada Lisa Para Mujer De Oro Puro De 14k, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444421726394",
+   "title": "Arete Arracada Lisa Para Mujer De Oro Puro De 14k, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444422086842",
+   "title": "Dije De La Santa Muerte En Oro De 10k, 3.5 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444422676666",
+   "title": "Dije De La Santa Muerte En Oro De 10k, 4.4 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444424839354",
+   "title": "Dije De Santa Muerte De Plata 925, 4.6 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444425199802",
+   "title": "Dije De Santa Muerte De Plata 925, 6.2 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444425330874",
+   "title": "Gargantilla Italiana 14k De Tres Corazones Inflados Y Aros, 45 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444425461946",
+   "title": "Cadena De Plata 925 Italiana Torsal Calibre 1.9mm, Color Negro"
+  },
+  {
+   "id": "gid://shopify/Product/10444426051770",
+   "title": "Cadena De Plata 925 Italiana Torsal Calibre 1.9mm, Color Oro Rosa"
+  },
+  {
+   "id": "gid://shopify/Product/10444426346682",
+   "title": "Cadena De Plata 925 Italiana Torsal Calibre 1.9mm, Color Oro"
+  },
+  {
+   "id": "gid://shopify/Product/10444426477754",
+   "title": "Cadena De Plata 925 Italiana Torsal Calibre 1.9mm, Color Gris"
+  },
+  {
+   "id": "gid://shopify/Product/10444426641594",
+   "title": "Arete Arracada Diamantada De Oro 10k Estilo Dominó, 15 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444426936506",
+   "title": "Arete Arracada Diamantada De Oro 10k Estilo Dominó, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444427559098",
+   "title": "Arete Arracada Diamantada De Oro 10k Estilo Dominó, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444427624634",
+   "title": "Arete Arracada Diamantada De Oro 10k Estilo Dominó, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444427952314",
+   "title": "Arete Arracada Diamantada De Oro 14k Estilo Dominó, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444428247226",
+   "title": "Arete Arracada Diamantada De Oro 14k Estilo Dominó, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444428411066",
+   "title": "Arete Arracada Diamantada De Oro 14k Estilo Dominó, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444429230266",
+   "title": "Collar Viviana De Oro De 10k Con Bola 2.5mm, 50 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444429459642",
+   "title": "Dije De Oro 10k La Santa Muerte Con Piedra Ónix, 4 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444429557946",
+   "title": "Pulsera De Oro Torsal Para Hombre Con Broche De Perico, 21.5 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444429623482",
+   "title": "Arete Arracada Diamantada Ligera De Plata Ley 925 Para Mujer Estilo Domino, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444430573754",
+   "title": "Arete Arracada De Oro De 14k Diamantada Estilo Torsal, 15 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444430803130",
+   "title": "Arete Arracada De Oro De 14k Diamantada Estilo Torsal, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444430934202",
+   "title": "Arete Arracada De Oro De 14k Diamantada Estilo Torsal, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444431392954",
+   "title": "Arete Arracada De Oro De 14k Diamantada Estilo Torsal, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444431425722",
+   "title": "Arete Arracada Ligera Para Mujer Lisa De Plata Ley 925, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444431786170",
+   "title": "Arete Arracada Ligera Para Mujer Lisa De Plata Ley 925, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444432048314",
+   "title": "Arete Arracada Ligera Para Mujer Lisa De Plata Ley 925, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444432343226",
+   "title": "Dije De Cruz Con Rostro De Cristo De Oro De 10k"
+  },
+  {
+   "id": "gid://shopify/Product/10444432900282",
+   "title": "Arracada De Oro De 10k Lisa, 15 mm (1.3 g)"
+  },
+  {
+   "id": "gid://shopify/Product/10444433359034",
+   "title": "Arracada De Oro De 10k Lisa, 15 mm (0.9 g)"
+  },
+  {
+   "id": "gid://shopify/Product/10444433555642",
+   "title": "Arracada De Oro De 10k Lisa, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444433719482",
+   "title": "Cadena Valentino De Oro Italiano 10k, 60 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444433850554",
+   "title": "Cadena De Plata 925 Estilo Barbada De Calibre 3.2mm, 60 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444434014394",
+   "title": "Cadena De Plata 925 Estilo Barbada De Calibre 3.2mm, Color Oro"
+  },
+  {
+   "id": "gid://shopify/Product/10444435161274",
+   "title": "Cadena De Plata 925 Estilo Barbada De Calibre 3.2mm, Color Oro Rosa"
+  },
+  {
+   "id": "gid://shopify/Product/10444435456186",
+   "title": "Cadena De Plata 925 Estilo Barbada De Calibre 3.2mm, Color Gris"
+  },
+  {
+   "id": "gid://shopify/Product/10444436046010",
+   "title": "Cadena De Plata 925 Estilo Barbada De Calibre 3.2mm, Color Negro"
+  },
+  {
+   "id": "gid://shopify/Product/10444436471994",
+   "title": "Dije De Cruz De Tubo De Oro De 14k, 1.5 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444437225658",
+   "title": "Dije De Cruz De Tubo De Oro De 10k, 40 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444437323962",
+   "title": "Arete Arracada Diamantada De Plata Ley 925 Para Mujer Confeti, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444437651642",
+   "title": "Arete Arracada Diamantada De Plata Ley 925 Para Mujer Confeti, 35 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444437684410",
+   "title": "Arete Arracada De Oro 10k Con Diamantado Cordon Blue, 15 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444437913786",
+   "title": "Arete Arracada De Oro 10k Con Diamantado Cordon Blue, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444438044858",
+   "title": "Arete Arracada De Oro 10k Con Diamantado Cordon Blue, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444438143162",
+   "title": "Arete Arracada De Oro 10k Con Diamantado Cordon Blue, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444438405306",
+   "title": "Arete Arracada De Oro 14k Con Diamantado Cordon Blue, 12 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444438438074",
+   "title": "Arete Arracada De Oro 14k Con Diamantado Cordon Blue, 15 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444438536378",
+   "title": "Arete Arracada De Oro 14k Con Diamantado Cordon Blue, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444438601914",
+   "title": "Arete Arracada De Oro 14k Con Diamantado Cordon Blue, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444438700218",
+   "title": "Arete Arracada De Oro 14k Con Diamantado Cordon Blue, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444438864058",
+   "title": "Gargantilla Italiana 10k De Corazón Inflado Y Bolas Tricolor, 45 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444439224506",
+   "title": "Anillo De Oro 14k Con Corazón Rodinado"
+  },
+  {
+   "id": "gid://shopify/Product/10444439388346",
+   "title": "Arete Arracada De Oro De 10k Diamantada Estilo Torsal, 15 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444439519418",
+   "title": "Arete Arracada De Oro De 10k Diamantada Estilo Torsal, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444439584954",
+   "title": "Arete Arracada De Oro De 10k Diamantada Estilo Torsal, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444439814330",
+   "title": "Arete Arracada De Oro De 10k Diamantada Estilo Torsal, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444439847098",
+   "title": "Arete De Plata 925 Extra Ligero Para Mujer Con Diamantado Cordon Blue, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444439945402",
+   "title": "Arete De Plata 925 Para Mujer Con Diamantado Torsal, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444440142010",
+   "title": "Cadena Torsal Hueca De Oro Italiano 10k, Calibre 3.2mm, 60 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444440436922",
+   "title": "Arracada Bangle De Oro 10k Diamantado De Rombo, 15 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444441092282",
+   "title": "Arracada Bangle De Oro 10k Diamantado De Rombo, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444441223354",
+   "title": "Cadena De Oro Mujer Italiana 14k Gargantilla Aros Tricolor, 45 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444442697914",
+   "title": "Arete Arracada De Oro 14k Con Diamantado Estilo Panal, 15 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444443189434",
+   "title": "Arete Arracada De Oro 14k Con Diamantado Estilo Panal, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444443418810",
+   "title": "Arete Arracada De Oro 14k Con Diamantado Estilo Panal, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444443484346",
+   "title": "Arete Arracada De Oro 14k Con Diamantado Estilo Panal, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444443582650",
+   "title": "Arracada Bangle De Oro 10k Lisa de Ancho, 0.2"
+  },
+  {
+   "id": "gid://shopify/Product/10444444729530",
+   "title": "Arracada Bangle De Oro De 10k Lisa de Ancho, 18 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444445155514",
+   "title": "Cadena De Oro Italiano 14k, Estilo Grano De Café"
+  },
+  {
+   "id": "gid://shopify/Product/10444445319354",
+   "title": "Cadena De Oro Italiano 10k, Estilo Grano De Café"
+  },
+  {
+   "id": "gid://shopify/Product/10444445581498",
+   "title": "Arete Arracada Con Diamantado Estilo Panal De Oro 10k, 15 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444445778106",
+   "title": "Arete Arracada Con Diamantado Estilo Panal De Oro 10k, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444445843642",
+   "title": "Arete Arracada Con Diamantado Estilo Panal De Oro 10k, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444446073018",
+   "title": "Arete Arracada Con Diamantado Estilo Panal De Oro 10k, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444446499002",
+   "title": "Dije De Oro 10k Medalla Religiosa Sagrado Cáliz 12mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444446531770",
+   "title": "Pulsera De Oro Figaro Hueca 14k Calibre 2.6 Mm Hombre"
+  },
+  {
+   "id": "gid://shopify/Product/10444446662842",
+   "title": "Dije De Oro De 10k De Estrella De David"
+  },
+  {
+   "id": "gid://shopify/Product/10444446793914",
+   "title": "Cadena De Plata 925 Estilo Torsal Calibre 3.3 Mm, Color Oro Rosa"
+  },
+  {
+   "id": "gid://shopify/Product/10444446990522",
+   "title": "Cadena De Plata 925 Estilo Torsal Calibre 3.3 Mm, Color Gris"
+  },
+  {
+   "id": "gid://shopify/Product/10444447318202",
+   "title": "Cadena De Plata 925 Estilo Torsal Calibre 3.3 Mm, Color Negro"
+  },
+  {
+   "id": "gid://shopify/Product/10444447580346",
+   "title": "Arracada Oro 10k Bangle Diamantada Rombo, 15 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444447776954",
+   "title": "Dije De Oro De 10k De La Madona Dorado"
+  },
+  {
+   "id": "gid://shopify/Product/10444447973562",
+   "title": "Dije De Oro De 10k De Cruz"
+  },
+  {
+   "id": "gid://shopify/Product/10444448334010",
+   "title": "Cadena De Oro 10k Grano De Café 2.3mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444448399546",
+   "title": "Arete De Plata 925 Extra ligero Para Mujer Con Diamantado Torsal, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444448628922",
+   "title": "Arete Arracada De Plata 925 Diamantada Panal Para Mujer, 15 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444448759994",
+   "title": "Arete Arracada De Plata 925 Diamantada Panal Para Mujer, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444448956602",
+   "title": "Arete Arracada De Plata 925 Diamantada Panal Para Mujer, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444449054906",
+   "title": "Arete Arracada De Plata 925 Diamantada Panal Para Mujer, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444449120442",
+   "title": "Arete Arracada De Plata 925 Diamantada Panal Para Mujer, 35 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444449251514",
+   "title": "Arete Arracada Diamantada De Plata Ley 925 Para Mujer Estilo Domino, 15 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444449415354",
+   "title": "Arete Arracada Diamantada De Plata Ley 925 Para Mujer Estilo Domino, 25 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444449710266",
+   "title": "Arete Arracada Diamantada De Plata Ley 925 Para Mujer Estilo Domino, 30 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444449972410",
+   "title": "Collar Para Mujer De Oro De 10k De Cruz"
+  },
+  {
+   "id": "gid://shopify/Product/10444450234554",
+   "title": "Arracada Bangle De Oro 10k Diamantado Diagonal De 20x, 20 mm"
+  },
+  {
+   "id": "gid://shopify/Product/10444450496698",
+   "title": "Arracada De Oro Italiana De 14k Torcida, 2 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444450693306",
+   "title": "Arracada De Oro Italiana De 14k Torcida, 2.5 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444450988218",
+   "title": "Arracada De Oro Italiana De 14k Torcida, 3 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444451283130",
+   "title": "Arracada Bangle De Oro 10k Diamantado Domino, 12 X, 1.5 cm"
+  },
+  {
+   "id": "gid://shopify/Product/10444453314746",
+   "title": "Arete Arracada De Oro 10k Lisa, 25 mm"
+  }
+ ]
+}
