@@ -200,7 +200,8 @@ Respaldo previo completo en `admin-audit/respaldo-2026-11-24.json`.
 - **Colecciones**: "Oro" (oro-nuevo) → "Novedades en oro"; "Plata nuevo" → "Novedades en plata". Las direcciones no cambian.
 - **Menú del pie**: "Envíos" y "Cambios y devoluciones" ahora llevan a las páginas diseñadas; mayúsculas corregidas ("Términos y condiciones", "Política de privacidad").
 - **Envíos al extranjero**: confirmado en la configuración de envíos (EE. UU., Canadá, Europa, Asia, Sudamérica); la página "Envíos" es correcta.
-- **No se pudo hacer (permisos de la conexión)**: ocultar "Sets Oro" y "Sets Plata" de la tienda en línea, y cambiar "gastos de envío" → "costos de envío" en Aviso legal y Términos. Textos corregidos listos en `admin-audit/politica-*.nueva.html`.
+- **Hecho a mano por el comerciante**: "Sets Oro" y "Sets Plata" ocultas de la tienda en línea (verificado); "gastos" → "costos de envío" en Términos del servicio (verificado: única diferencia con el original).
+- **Pendiente opcional**: el Aviso legal conserva "gastos de envío" (1 vez). No aparece en la lista de políticas del admin y la conexión no tiene permiso para editarlo. Texto corregido listo en `admin-audit/politica-LEGAL_NOTICE.nueva.html`.
 
 ## 6. Pendientes que están fuera del tema (ajustes de la tienda, no del código)
 
