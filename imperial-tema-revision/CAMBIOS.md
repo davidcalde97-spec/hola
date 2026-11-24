@@ -192,6 +192,16 @@ El tema publicado pasó a ser **"Imperial - carrito y ficha (prueba)"**, que no 
 - Si cambia la política de envío ($99 / gratis desde $1,999 / 3 a 5 días), se edita en Tienda online → Temas → Editar idioma, sin tocar código. El umbral del cálculo sigue en Ajustes del tema.
 - El inglés quedó despublicado a nivel tienda.
 
+## 5e. Contenido del admin (24 nov 2026)
+
+Respaldo previo completo en `admin-audit/respaldo-2026-11-24.json`.
+
+- **Nombres de producto**: 363 de 367 normalizados con `scripts/titulos_es_mx.py` (palabras de enlace en minúscula, 10K/14K, cm/mm, "Plata .925"). Verificados uno por uno contra la tienda: 363/363 exactos, 0 cambios no planeados. Antes → después en `admin-audit/titulos-cambios.csv`. Para revertir: `admin-audit/lotes-revertir/`.
+- **Colecciones**: "Oro" (oro-nuevo) → "Novedades en oro"; "Plata nuevo" → "Novedades en plata". Las direcciones no cambian.
+- **Menú del pie**: "Envíos" y "Cambios y devoluciones" ahora llevan a las páginas diseñadas; mayúsculas corregidas ("Términos y condiciones", "Política de privacidad").
+- **Envíos al extranjero**: confirmado en la configuración de envíos (EE. UU., Canadá, Europa, Asia, Sudamérica); la página "Envíos" es correcta.
+- **No se pudo hacer (permisos de la conexión)**: ocultar "Sets Oro" y "Sets Plata" de la tienda en línea, y cambiar "gastos de envío" → "costos de envío" en Aviso legal y Términos. Textos corregidos listos en `admin-audit/politica-*.nueva.html`.
+
 ## 6. Pendientes que están fuera del tema (ajustes de la tienda, no del código)
 
 - **La tienda tiene el idioma "Inglés" publicado** a nivel tienda (Configuración → Idiomas). El tema ya no tiene inglés, así que las URLs `/en` mostrarán español; para eliminarlo del todo, **despublica el inglés en el admin**.
