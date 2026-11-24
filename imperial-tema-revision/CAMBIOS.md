@@ -184,6 +184,14 @@ El tema publicado pasó a ser **"Imperial - carrito y ficha (prueba)"**, que no 
 - Se agregó la clave de noviembre `shopify.checkout.marketing.unsubscribe.description` al locale.
 - Varias correcciones de agosto ya las habías aplicado tú en noviembre; el script lo detectó y no las duplicó.
 
+## 5d. Tema final (24 nov 2026)
+
+"Imperial - carrito con plazo de entrega (prueba)" era idéntico al publicado salvo `snippets/cart-shipping-summary.liquid`. Su versión con plazo de entrega se integró a la copia es-MX, renombrada **"Imperial - FINAL ES-MX (para publicar)"** (ID 161930182842).
+
+- Textos de noviembre (resumen del carrito y aviso de envío de la ficha) revisados: correctos en es-MX. Se movieron del código a 11 claves de idioma (`cart.summary.*`, `product.general.shipping_note`) sin cambiar su redacción.
+- Si cambia la política de envío ($99 / gratis desde $1,999 / 3 a 5 días), se edita en Tienda online → Temas → Editar idioma, sin tocar código. El umbral del cálculo sigue en Ajustes del tema.
+- El inglés quedó despublicado a nivel tienda.
+
 ## 6. Pendientes que están fuera del tema (ajustes de la tienda, no del código)
 
 - **La tienda tiene el idioma "Inglés" publicado** a nivel tienda (Configuración → Idiomas). El tema ya no tiene inglés, así que las URLs `/en` mostrarán español; para eliminarlo del todo, **despublica el inglés en el admin**.
