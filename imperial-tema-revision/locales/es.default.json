@@ -429,7 +429,8 @@
       "free": "Gratis",
       "estimated_delivery": "Entrega estimada",
       "delivery_time": "3 a 5 días hábiles",
-      "estimated_total": "Total estimado"
+      "estimated_total": "Total estimado",
+      "msi_note": "¿Quieres pagar a meses sin intereses? Al pagar, elige pago con tarjeta y escribe los datos de tu tarjeta de crédito. No aplica con Apple Pay."
     }
   },
   "404": {

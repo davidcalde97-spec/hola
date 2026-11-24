@@ -1,0 +1,521 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "inventory_UJXgfJ": {
+          "type": "inventory",
+          "settings": {
+            "show_in_stock_quantity": true,
+            "low_inventory_threshold": 10,
+            "show_progress_bar": false,
+            "progress_bar_max_value": 50
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "judge_me_reviews_preview_badge_iMje6R": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "liquid_giACzq": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- assign p = product.selected_or_first_available_variant.price -%}\n{%- if p >= 399900 -%}{%- assign m = 12 -%}{%- elsif p >= 299900 -%}{%- assign m = 9 -%}{%- elsif p >= 249900 -%}{%- assign m = 6 -%}{%- elsif p >= 199900 -%}{%- assign m = 3 -%}{%- else -%}{%- assign m = 0 -%}{%- endif -%}\n{%- if m > 0 -%}\n<p style=\"margin:4px 0 0;font-size:15px;letter-spacing:.02em;\">o <strong>{{ m }} meses sin intereses</strong> de <strong>{{ p | divided_by: m | money }}</strong> con tarjeta de crédito participante</p>\n<p style=\"margin:2px 0 0;font-size:13px;line-height:1.4;opacity:.8;\">Para pagar a meses, elige pago con tarjeta y escribe tus datos. No aplica con Apple Pay.</p>\n{%- endif -%}"
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": true
+          }
+        },
+        "accordion_BQ43Jc": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": true,
+            "icon": "none",
+            "title": "Información adicional",
+            "content": "{{ product.metafields.imperialjewelry.preguntas | metafield_tag }}",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": true,
+            "selector_style": "block",
+            "swatch_selector_style": "block_swatch",
+            "variant_image_options": "",
+            "variant_image_show_underline": false,
+            "size_chart_page": "guia-de-tallas"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "liquid_MnCkp8": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "{% assign faq_metafield = product.metafields['imperialjewelry']['preguntas'] %}\n\n{% if faq_metafield != blank %}\n  <div id=\"faq-block\">\n    <button id=\"faq-toggle\" aria-expanded=\"false\" aria-controls=\"faq-content\">\n      Dudas del producto\n      <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\">\n        <polyline points=\"6 9 12 15 18 9\"></polyline>\n      </svg>\n    </button>\n\n    <div id=\"faq-content\" hidden>\n      {{ faq_metafield | metafield_tag }}\n    </div>\n  </div>\n\n  <style>\n    #faq-block { margin: 1rem 0; }\n    #faq-toggle {\n      display: flex;\n      align-items: center;\n      gap: 8px;\n      background: none;\n      border: none;\n      font-size: 1rem;\n      font-weight: 600;\n      cursor: pointer;\n      padding: 0;\n    }\n    #faq-toggle svg { transition: transform 0.2s; }\n    #faq-toggle[aria-expanded=\"true\"] svg { transform: rotate(180deg); }\n    #faq-content { margin-top: 12px; }\n  </style>\n\n  <script>\n    document.getElementById('faq-toggle').addEventListener('click', function () {\n      var expanded = this.getAttribute('aria-expanded') === 'true';\n      var content = document.getElementById('faq-content');\n      this.setAttribute('aria-expanded', String(!expanded));\n      content.hidden = expanded;\n    });\n  </script>\n{% endif %}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#2a3871",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "#2a3871",
+            "payment_button_text_color": "#d9bf55"
+          }
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "disabled": true,
+          "settings": {
+            "title": "Combina bien con",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
+        },
+        "mercado_pago_banner_tooltips_credits_EtyArA": {
+          "type": "shopify://apps/mercado-pago-banner/blocks/tooltips_credits/3f05369b-cc5d-42f7-86b9-0bdc7b2d0f95",
+          "disabled": true,
+          "settings": {
+            "background": "transparent",
+            "content": "option1"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "judge_me_reviews_preview_badge_iMje6R",
+        "price",
+        "liquid_giACzq",
+        "payment_terms",
+        "separator",
+        "description",
+        "accordion_BQ43Jc",
+        "variant_picker",
+        "inventory_UJXgfJ",
+        "quantity_selector",
+        "liquid_MnCkp8",
+        "buy_buttons",
+        "complementary_products",
+        "mercado_pago_banner_tooltips_credits_EtyArA"
+      ],
+      "settings": {
+        "color_scheme": "scheme-845c1987-e02f-481a-a2f6-374bb7250aff",
+        "allow_transparent_header": false,
+        "transparent_header_use_primary_colors": false,
+        "container_size": "lg",
+        "product_info_size": 60,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": true,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 1
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-845c1987-e02f-481a-a2f6-374bb7250aff",
+        "separate_section_with_border": false,
+        "hide_product_information": true,
+        "stack_products": false,
+        "recommendations_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.2,
+        "vertical_spacing_factor": 0.2,
+        "subheading": "",
+        "title": "Productos similares",
+        "heading_style": "h2",
+        "content": ""
+      }
+    },
+    "text_with_icons_tfkGiw": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_cEmkWD": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Envío seguro",
+            "content": "<p>Empaque protegido y asegurado</p>"
+          }
+        },
+        "item_tgUUBG": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Facturación disponible",
+            "content": "<p>Solicítala después de tu compra.</p>"
+          }
+        },
+        "item_nctFj8": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Compra protegida",
+            "content": "<p>Métodos de pago confiables.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_cEmkWD",
+        "item_tgUUBG",
+        "item_nctFj8"
+      ],
+      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
+    "related_products_km8Qzy": {
+      "type": "related-products",
+      "name": "t:sections.related_products.presets.related_products.name",
+      "settings": {
+        "color_scheme": "scheme-845c1987-e02f-481a-a2f6-374bb7250aff",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1.2,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Completa tu colección",
+        "heading_style": "h2",
+        "content": ""
+      }
+    },
+    "image_with_text_overlay_znDqdp": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_pGTKxN": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Más de 40 años en la industria joyera</strong>",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_Dz6Y8W": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>En Imperial Jewelry seleccionamos piezas elaboradas con materiales auténticos y diseños atemporales para acompañarte en momentos importantes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pGTKxN",
+        "richtext_Dz6Y8W"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "scheme-bccf5a9c-3212-45a7-a88e-739fd0fda227",
+        "image_size": "sm",
+        "image": "shopify://shop_images/Rollo_de_cadena.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#1c1c1c",
+        "overlay_opacity": 44
+      }
+    },
+    "testimonials_PKy66h": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_ejR3kg": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Comparte aquí la opinión de un cliente sobre sus piezas, la atención o los envíos.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_cxeKix": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Comparte aquí la opinión de un cliente sobre sus piezas, la atención o los envíos.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_8hibdb": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Comparte aquí la opinión de un cliente sobre sus piezas, la atención o los envíos.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_BFTntF": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Comparte aquí la opinión de un cliente sobre sus piezas, la atención o los envíos.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_ejR3kg",
+        "testimonial_cxeKix",
+        "testimonial_8hibdb",
+        "testimonial_BFTntF"
+      ],
+      "disabled": true,
+      "name": "t:sections.testimonials.presets.testimonials.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "",
+        "title": "",
+        "heading_style": "h2",
+        "content": ""
+      }
+    },
+    "rich_text_47jWqe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EgiHmV": {
+          "type": "heading",
+          "settings": {
+            "text": "TAMBIÉN DE VENTA EN",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EgiHmV"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-bccf5a9c-3212-45a7-a88e-739fd0fda227",
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "text_with_icons_GnWR9Q": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_pg8MBq": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/mercado-libre-logo-0233EC77C6-seeklogo.com_97455e87-891b-48e0-ae29-3b212098d040.png",
+            "icon_width": 64,
+            "mobile_icon_width": 64,
+            "title": "<a href=\"https://www.mercadolibre.com.mx/tienda/imperial-jewelry\" target=\"_blank\" title=\"https://www.mercadolibre.com.mx/tienda/imperial-jewelry\">Mercado Libre</a>",
+            "content": ""
+          }
+        },
+        "item_rMrNXD": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/amazon-logo-0.png",
+            "icon_width": 64,
+            "mobile_icon_width": 64,
+            "title": "<a href=\"https://www.amazon.com.mx/stores/page/D0BB344E-AEF4-4C1E-91CE-80D42BD68DEF\" title=\"https://www.amazon.com.mx/stores/page/D0BB344E-AEF4-4C1E-91CE-80D42BD68DEF\">Amazon</a>",
+            "content": ""
+          }
+        },
+        "item_RUAje4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/COPPEL_Mesa_de_trabajo_1.jpg",
+            "icon_width": 64,
+            "mobile_icon_width": 64,
+            "title": "<a href=\"https://www.coppel.com/sd/imperial%20jewelry\" title=\"https://www.coppel.com/sd/imperial%20jewelry\">Coppel</a>",
+            "content": ""
+          }
+        },
+        "item_CKHrXi": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/WALMART_Mesa_de_trabajo_1.jpg",
+            "icon_width": 64,
+            "mobile_icon_width": 64,
+            "title": "<a href=\"https://www.walmart.com.mx/search?q=Imperial+Jewelry&facet=brand:Imperial+Jewelry\" title=\"https://www.walmart.com.mx/search?q=Imperial+Jewelry&facet=brand:Imperial+Jewelry\">Walmart</a>",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_pg8MBq",
+        "item_rMrNXD",
+        "item_RUAje4",
+        "item_CKHrXi"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-845c1987-e02f-481a-a2f6-374bb7250aff",
+        "separate_section_with_border": true,
+        "stack_on_mobile": true,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
+    "faq_yixKrp": {
+      "type": "faq",
+      "blocks": {
+        "question_dcCmBd": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>¿Cuánto tarda en llegar mi pedido?</strong>",
+            "answer": "<p>Dentro de México, el envío estándar tarda de 3 a 5 días hábiles y es gratis en compras desde $1,999, después de descuentos. En pedidos menores a $1,999 cuesta $99. En pedidos de hasta $999 también puedes elegir envío Express ($200), que tarda de 2 a 3 días hábiles. En zonas rurales o de difícil acceso puede tardar hasta 7 días hábiles.</p><p>En cuanto sale tu pedido te enviamos por correo tu número de guía para rastrearlo.</p>"
+          }
+        },
+        "question_hQKryn": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>¿Los productos tienen garantía?</strong>",
+            "answer": "<p>Todos nuestros productos cuentan con garantía por daño o ruptura atribuibles al proceso de fabricación. </p><p>Si detectas algún problema, contáctanos para ayudarte a resolverlo.</p>"
+          }
+        },
+        "question_QMxFtj": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>¿Puedo devolver mi compra?</strong>",
+            "answer": "<p>Sí. Tienes 30 días naturales a partir de que recibes tu pedido para solicitar una devolución, siempre que la pieza esté sin usar y en su empaque original. Consulta las condiciones completas en <a href=\"/pages/return-policy\" title=\"Cambios y devoluciones\">Cambios y devoluciones</a>.</p>"
+          }
+        },
+        "question_gnx3qG": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>¿Ofrecen ventas al mayoreo?</strong>",
+            "answer": "<p>Si estás interesado en compras al mayoreo, contáctanos y te proporcionaremos la información correspondiente.</p>"
+          }
+        },
+        "question_y4EXUA": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>¿Expiden factura fiscal?</strong>",
+            "answer": "<p>Sí, expedimos factura fiscal. Envíanos tus datos después de tu compra.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_dcCmBd",
+        "question_hQKryn",
+        "question_QMxFtj",
+        "question_gnx3qG",
+        "question_y4EXUA"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "scheme-0f2f7d5f-221b-4631-9028-031159bf318e",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "¿Necesitas ayuda?",
+        "title": "Preguntas frecuentes",
+        "heading_style": "h2",
+        "content": ""
+      }
+    },
+    "17931397294c04620b": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_kdxgCb": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_kdxgCb"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "text_with_icons_tfkGiw",
+    "related_products_km8Qzy",
+    "image_with_text_overlay_znDqdp",
+    "testimonials_PKy66h",
+    "rich_text_47jWqe",
+    "text_with_icons_GnWR9Q",
+    "faq_yixKrp",
+    "17931397294c04620b"
+  ]
+}
